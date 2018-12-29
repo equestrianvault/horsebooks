@@ -9,20 +9,24 @@ export class HorseBooksService {
 }
 
 export class Book{
-	title : String;
-	img : String = "";
+	id : number;
+	title : string;
+	edition : string;
+	img : string = "";
+	cover : string = "";
+	dateAdded : string = null;
 	authors : Author[] = null;
 	links : BookLink[] = null;
-	tags : String[] = null;
-	rating : String = null;
+	tags : string[] = null;
+	rating : string = null;
 }
 
 export class BookLink{
-	title : String;
-	url : String = null;
+	title : string;
+	url : string = null;
 }
 
 export class Author{
-	name : String;
-	url : String = null;
+	name : string;
+	url : string = null;
 }

@@ -2,6 +2,26 @@ div{
 	margin: 0;
 	padding: 0;
 }
+table, th, td{
+	/*border: 1px solid black;*/
+	border-collapse: collapse;
+}
+table{
+	width: 100%;
+	column-span: 2;
+	empty-cells: show;
+}
+th{
+	width: 85px;
+	text-align: right;
+	vertical-align: top;
+}
+td{
+	/*width: 50px;*/
+	text-align: left;
+}
+
+
 .book{
 	display: list-item;
 	float: left;
@@ -10,13 +30,14 @@ div{
 	margin-right: 10px;
 	padding: 5px 10px;
 	align-content: center;
-	width: 200px;
+	width: 250px;
 }
+
 .bookTitle{
 	text-align: center;
 	border-bottom: 2px;
-	
 }
+
 .bookImage{
 	width: 100%;
 	padding: 0;
@@ -27,35 +48,47 @@ div{
 	padding: 0;
 	margin: 0;
 }
+
 .bookTitle{
 	font-weight: bold;
 	font-size: 1.5em;
 }
+
 .rating{
-	display: inline-block;
-	/*margin: 0;*/
-	margin-top: 0;
-	margin-bottom: 0;
+}
+
+.tags{
+
+}
+.tags td ul{
+	list-style: none;
+	padding: 0;
 }
 .tag{
-	display: inline-block;
 	background-color: beige;
-	margin-right: .25em;
-	padding: 0 .25em;
+	padding: 0 5px;
 	list-style: none;
+	margin-bottom: 2px;
 }
+.tag:hover{
+	background-color: lightgrey;
+}
+
 .authors ul{
 	list-style: none;
 	padding: 0;
 	display: block;
 }
-
 .authors ul li{
-	display: list-item;
+	display: inline-block;
 	float: left;
 	padding: 0 .25em;
 	margin-right: .25em;
 	background-color: beige;
+	margin-bottom: 2px;
+}
+.authors ul li:hover{
+	background-color: lightgrey;
 }
 
 .links ul{
@@ -63,11 +96,13 @@ div{
 	padding: 0;
 	display: block;
 }
-
 .links ul li{
 	display: list-item;
 	float: left;
 	padding: 0 .25em;
 	margin-right: .25em;
 	background-color: beige;
+}
+.links ul li:hover{
+	background-color: lightgrey;
 }

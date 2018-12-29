@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HorseBooksService, Book } from '../../services/books.service';
+import { SearchPipe } from '../../search.pipe';
 
 @Component({
   selector: 'horse-books-listing',
@@ -9,6 +10,9 @@ import { HorseBooksService, Book } from '../../services/books.service';
 })
 export class HorseBooksListing{
 	books: Book[] = null;
+	searchVal: string = "";
+	searchValPlaceholder: string = "Search Terms";
+
 	constructor(private bookService: HorseBooksService){
 		this.books = bookService.getBooks();
 	}

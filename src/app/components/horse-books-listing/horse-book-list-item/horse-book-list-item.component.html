@@ -1,32 +1,58 @@
-<li style="background-image: url({{book.img}})" class="book">
+<li class="book">
 	<div class="bookTitle">{{ book.title }}</div>
 	<div class="bookImage"><img src="{{ book.img }}"/></div>
-	<div class="rating">
-		Rating: {{ book.rating }}
-	</div>
-	<div class="authors" *ngIf = "book.authors.length > 0">
-		Authors: 
-		<ul *ngFor = "let author of book.authors">
-			<li *ngIf = "author.url != undefined && author.url != null && author.url != ''">
-				<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>
-			</li>
-			<li *ngIf = "author.url == undefined || author.url == null || author.url == ''">
-				{{ author.name }}
-			</li>
-		</ul>
-		<br style="clear: both;"/>
-	</div>
-	<div class="links">
-		Links:
-		<ul *ngFor = "let link of book.links">
-			<li *ngIf = "link.url != undefined && link.url != null && link.url != ''">
-				<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
-			</li>
-			<li *ngIf = "link.url == undefined || link.url == null || link.url == ''">
-				{{ link.title }}
-			</li>
-		</ul>
-		<br style="clear: both;"/>
-	</div>
-	<div>Tags: <ul *ngFor = "let tag of book.tags" class='tag'><li>{{ tag }}</li></ul></div>
+	<table>
+		<tbody>
+			<tr class="authors">
+				<th>Authors</th>
+				<td>
+					<ul *ngFor = "let author of book.authors">
+						<li *ngIf = "author.url != undefined && author.url != null && author.url != ''">
+							<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>
+						</li>
+						<li *ngIf = "author.url == undefined || author.url == null || author.url == ''">
+							{{ author.name }}
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr class="rating">
+				<th>Rating</th><td>{{ book.rating }}</td>
+			</tr>
+			<tr class="edition">
+				<th>Edition</th><td>{{ book.edition }}</td>
+			</tr>
+			<tr class="cover">
+				<th>Cover</th><td>{{ book.cover }}</td>
+			</tr>
+			<tr class="links">
+				<th>Links</th>
+				<td>
+					<ul *ngFor = "let link of book.links">
+						<li *ngIf = "link.url != undefined && link.url != null && link.url != ''">
+							<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+						</li>
+						<li *ngIf = "link.url == undefined || link.url == null || link.url == ''">
+							{{ link.title }}
+						</li>
+					</ul>
+				</td>
+			</tr>
+			
+			<tr class="tags">
+				<th>Tags</th>
+				<td>
+					<ul>
+						<li *ngFor = "let tag of book.tags" class='tag'>{{ tag }}</li>
+					</ul>
+				</td>
+			</tr>
+			<tr class="dateAdded">
+				<th>Date Added</th><td>{{ book.dateAdded }}</td>
+			</tr>
+			<tr>
+				<th>ID</th><td>{{ book.id }}</td>
+			</tr>
+		</tbody>
+	</table>
 </li>

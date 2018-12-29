@@ -2,9 +2,13 @@ import { Book } from './services/books.service';
 
 export const BOOKS : Book[] = [
 	{
+		"id": 1,
 		"title": "Twilight's List",
+		"edition": "3rd",
 		"img": "https://cdn-img.fimfiction.net/story/p0ne-1432429218-21583-full",
 		"rating": "T",
+		"cover": "Hardcover with Dust Jacket",
+		"dateAdded": "2018/12/28",
 		"authors": [
 			{
 				"name" : "Kittyhawk Contrail / kits",
@@ -22,13 +26,17 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"ongoing", "unconfirmed"
+			"ongoing", "unconfirmed", "fimfic"
 		]
 	}
 	,{
+		"id": 2,
 		"title": "Inner Glory",
+		"edition": "6th",
 		"img": "https://cdn-img.fimfiction.net/story/51kf-1432425685-15353-full",
 		"rating": "T",
+		"cover": "Hardcover",
+		"dateAdded": "2018/12/28",
 		"authors":[
 			{
 				"name": "Erindor / Kirk Hamilton",
@@ -46,9 +54,13 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
+		"id": 3,
 		"title": "I'll Always Be Here For You",
+		"edition": "?",
 		"img": "https://cdn-img.fimfiction.net/story/l15z-1468382491-146025-full",
+		"cover": "Hardcover with Dust Cover",
 		"rating": "T",
+		"dateAdded": "2018/12/28",
 		"authors":[
 			{
 				"name": "The Abyss",
@@ -70,9 +82,13 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
+		"id": 4,
 		"title": "Doctor Whoof: The Complete Series - The Director's Cut",
+		"edition": "?",
 		"img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/9a93f0ce-01ce-4762-bab8-b613b255da2a/d3wpiri-6976f42e-94a9-4b1f-91dd-e3bd00d8820b.jpg/v1/fill/w_900,h_815,q_70,strp/doctor_whoof__director_s_cut_by_thegoldencrowbar_d3wpiri-fullview.jpg",
+		"cover": "Hardcover",
 		"rating": "?",
+		"dateAdded": "2018/12/28",
 		"authors":[
 			{
 				"name": "Jonathan Lopez / The Golden Crowbar",
@@ -90,13 +106,17 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"on demand", "unconfirmed", "da"
+			"print on demand", "unconfirmed", "da"
 		]
 	}
 	,{
+		"id": 5,
 		"title": "My Little Dashie",
+		"edition": "?",
 		"img": "https://cdn-img.fimfiction.net/story/hx62-1432420758-1888-full",
+		"cover": "Saddle-Stitched Paperback",
 		"rating": "E",
+		"dateAdded": "2018/12/28",
 		"authors":[
 			{
 				"name": "ROBCakeran53",
@@ -115,9 +135,13 @@ export const BOOKS : Book[] = [
 	}
 	/* THIS IS  A SAMPLE TO BORROW FROM
 	,{
+		"id": ###,
 		"title": "",
+		"edition": "",
 		"img": "",
+		"cover": "",
 		"rating": "",
+		"dateAdded": "YYYY/MM/DD"
 		"authors":[
 			{
 				"name": "",
@@ -131,7 +155,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"Some Tag"
+			"Some Tag", "anotherTag"
 		]
 	}
 	*/
