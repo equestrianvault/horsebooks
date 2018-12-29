@@ -1,5 +1,13 @@
 # Horsebooks
 
+## License
+This project is [unlicensed](LICENSE.md), and is only for use on it's intended host. Please reach out to the author if you wish to use all or part of the code in your project.
+
+## Contributing
+Check out [CONTRIBUTING](CONTRIBUTING.md) if you're interested in helping maintain or add to the project.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
 ## Development server
