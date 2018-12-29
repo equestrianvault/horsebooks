@@ -7,7 +7,6 @@ import { Book } from './services/books.service';
 })
 export class SearchPipe implements PipeTransform{
 	transform(books : Book[], searchString : string) : Book[]{
-		console.log("searchString: '" + searchString + "'");
 		let lowerSearchString = searchString.toLowerCase();
 		if(lowerSearchString === ""){
 			return books;
