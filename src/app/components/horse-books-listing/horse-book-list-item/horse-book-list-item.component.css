@@ -3,7 +3,6 @@ div{
 	padding: 0;
 }
 table, th, td{
-	/*border: 1px solid black;*/
 	border-collapse: collapse;
 }
 table{
@@ -11,14 +10,31 @@ table{
 	column-span: 2;
 	empty-cells: show;
 }
-th{
-	width: 85px;
+table tbody th{
+	width: 65px;
 	text-align: right;
 	vertical-align: top;
 }
-td{
-	/*width: 50px;*/
+table tbody td{
+	width: 135px;
 	text-align: left;
+}
+
+table tbody td li{
+	display: inline;
+	float: left;
+	padding: 0 .25em;
+	margin-right: .25em;
+	background-color: beige;
+	margin-bottom: 2px;
+
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+	/*white-space: nowrap;*/
+}
+
+table tbody td li:hover{
+	background-color: lightgrey;
 }
 
 
@@ -32,20 +48,31 @@ td{
 	padding: 5px 10px;
 	align-content: center;
 	width: 250px;
+	height: 500px;
 }
 
 .bookTitle{
 	text-align: center;
 	border-bottom: 2px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bookTitle:hover{
+	text-overflow: none;
+	white-space: pre-wrap;
 }
 
 .bookImage{
-	width: 100%;
+	text-align: center;
+	max-height: 250px;
 	padding: 0;
 	margin: 0;
 }
 .bookImage img{
-	width: 100%;
+	text-align: center;
+	height: 250px;
+	max-width: 250px;
 	padding: 0;
 	margin: 0;
 }
@@ -54,7 +81,11 @@ td{
 	font-weight: bold;
 	font-size: 1.5em;
 }
-
+.cover td{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
 .rating{
 }
 
@@ -63,12 +94,15 @@ td{
 }
 .tags td ul{
 	list-style: none;
+	display: list-item;
 	padding: 0;
 }
 .tag{
+	display: list-item;
+	float: left;
+	padding: 0 .25em;
+	margin-right: .25em;
 	background-color: beige;
-	padding: 0 5px;
-	list-style: none;
 	margin-bottom: 2px;
 }
 .tag:hover{
@@ -81,15 +115,9 @@ td{
 	display: block;
 }
 .authors ul li{
-	display: inline-block;
-	float: left;
-	padding: 0 .25em;
-	margin-right: .25em;
-	background-color: beige;
-	margin-bottom: 2px;
+
 }
 .authors ul li:hover{
-	background-color: lightgrey;
 }
 
 .links ul{
@@ -98,12 +126,6 @@ td{
 	display: block;
 }
 .links ul li{
-	display: list-item;
-	float: left;
-	padding: 0 .25em;
-	margin-right: .25em;
-	background-color: beige;
 }
 .links ul li:hover{
-	background-color: lightgrey;
 }

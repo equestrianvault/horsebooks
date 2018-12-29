@@ -1,5 +1,15 @@
 ul {
 	list-style-type: none;
 	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
+	padding-left: 10px;
+	text-align: center;
+	width: 865px;
+	min-height: 500px;
+}
+div{ 
+	text-align: center; 
+	margin-bottom: 10px;
 }
