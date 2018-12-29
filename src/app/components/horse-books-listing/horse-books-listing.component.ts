@@ -11,7 +11,7 @@ import { SearchPipe } from '../../search.pipe';
 export class HorseBooksListing{
 	books: Book[] = null;
 	searchVal: string = "";
-	searchValPlaceholder: string = "Search Terms";
+	searchValPlaceholder: string = "[WIP] Search";
 
 	constructor(private bookService: HorseBooksService){
 		this.books = bookService.getBooks();

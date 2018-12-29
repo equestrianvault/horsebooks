@@ -49,6 +49,7 @@ table tbody td li:hover{
 	align-content: center;
 	width: 250px;
 	height: 500px;
+	overflow-y: hidden;
 }
 
 .bookTitle{
