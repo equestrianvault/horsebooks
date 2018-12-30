@@ -28,12 +28,6 @@ export class SearchPipe implements PipeTransform{
 					book => book.tags.filter(tag => tag.toLowerCase().match(lowerSearchString)).length > 0
 				)
 			)
-			.concat(
-				// search cover types
-				books.filter(
-					book => book.cover.toLowerCase().includes(lowerSearchString)
-				)
-			)
 			;
 
 		return Array.from(new Set(Array.from(newBooks)))

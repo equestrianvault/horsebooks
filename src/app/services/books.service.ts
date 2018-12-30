@@ -13,7 +13,6 @@ export class Book{
 	title : string;
 	edition : string;
 	img : string = "";
-	cover : string = "";
 	dateAdded : string = null;
 	authors : Author[] = null;
 	links : BookLink[] = null;
