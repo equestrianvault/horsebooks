@@ -116,7 +116,7 @@ export const BOOKS : Book[] = [
 		"img": "https://cdn-img.fimfiction.net/story/hx62-1432420758-1888-full",
 		"rating": "E",
 		"dateAdded": "2018/12/28",
-		"expiry": "2018/12/28",
+		"expiry": null,
 		"authors":[
 			{
 				"name": "ROBCakeran53",
@@ -127,10 +127,14 @@ export const BOOKS : Book[] = [
 			{
 				"url": "http://www.fimfiction.net/story/1888/my-little-dashie",
 				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.thebookpatch.com/BookStore/my-little-dashie/9da85c66-b5a3-4186-9cf1-88f349068ce3",
+				"title": "Perfect-Bound Paperback"
 			}
 		],
 		"tags": [
-			"on demand", "unconfirmed", "fimfic", "paperback"
+			"fimfic", "paperback"
 		]
 	}
 	,{
@@ -193,7 +197,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "on demand", "hardcover", "paperback"
+			"fimfic", "on demand", "hardcover", "dust cover", "paperback"
 		]
 	}
 	,{
@@ -354,6 +358,482 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "on demand", "paperback"
+		]
+	}
+	,{
+		"id":14,
+		"title": "The Celestia Code",
+		"edition": "2nd",
+		"img": "https://cdn-img.fimfiction.net/story/pzq1-1432512521-141549-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "iisaw",
+				"url": "https://www.fimfiction.net/user/33084/iisaw"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/141549/the-celestia-code",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765383.html",
+				"title": "Hardcover with Dust Cover"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765393.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 15,
+		"title": "The Luna Cypher",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/5ver-1432555680-175385-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "iisaw",
+				"url": "https://www.fimfiction.net/user/33084/iisaw"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/175385/the-luna-cypher",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790267.html",
+				"title": "Hardcover with Dust Cover"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790291.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 16,
+		"title": "The Twilight Enigma",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/ckwi-1432614757-264005-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "iisaw",
+				"url": "https://www.fimfiction.net/user/33084/iisaw"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/264005/the-twilight-enigma",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800704.html",
+				"title": "Hardcover with Dust Cover"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800738.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 17,
+		"title": "Change of Life",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/qemv-1432512464-141487-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Bernard Doove / Goldfur",
+				"url": "https://www.fimfiction.net/user/84240/Goldfur"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/141487/change-of-life",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.amazon.com/Change-Life-Bernard-Doove/dp/149482177X/",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 18,
+		"title": "Growing Up Dandy",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/wpwe-1432528424-163295-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Bernard Doove / Goldfur",
+				"url": "https://www.fimfiction.net/user/84240/Goldfur"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/163295/growing-up-dandy",
+				"title": "Fimfic"
+			},
+			{
+				"url": "https://www.amazon.com/Growing-Up-Dandy-Bernard-Doove/dp/1499388470/",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 19,
+		"title": "Growing Up Dandy",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/ku63-1432567814-192085-full",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Bernard Doove / Goldfur",
+				"url": "https://www.fimfiction.net/user/84240/Goldfur"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/192085/conversations-in-a-canterlot-caf",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.amazon.com/Conversations-In-A-Canterlot-Cafe/dp/1505411041/",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 20,
+		"title": "A Different Perspective",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/mmqe-1432603448-246414-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Bernard Doove / Goldfur",
+				"url": "https://www.fimfiction.net/user/84240/Goldfur"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/246414/a-different-perspective",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.amazon.com/Different-Perspective-Bernard-Doove/dp/1519185537/",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 21,
+		"title": "The Growing Years",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/lova-1483240287-296939-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Bernard Doove / Goldfur",
+				"url": "https://www.fimfiction.net/user/84240/Goldfur"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/296939/the-growing-years",
+				"title": "Fimfic"
+			},
+			{
+				"url": "https://www.amazon.com/Growing-Years-Bernard-Doove/dp/1532898851/",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 22,
+		"title": "Daring Do and the Quest for the Sapphire Stone",
+		"edition": "A.K. Yearling Version",
+		"img": "https://imgix.ttcdn.co/i/product/original/0/111850-936f2a6211334b079df6ba8d4ba975bb.png?q=100&auto=format%2Ccompress&w=2000",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Craig Woodward / Almanac Pony",
+				"url": "https://www.fimfiction.net/user/186684/AlmanacP"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/191159/1/series-1-daring-do-and-the-alicorn-secret-saga/1-daring-do-and-the-quest-for-the-sapphire-stone",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-akyearling-version",
+				"title": "Hardcover"
+			},
+			{
+				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-ak-yearling-dust-jacket-bw",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dustcover"
+		]
+	}
+	,{
+		"id": 23,
+		"title": "Daring Do and the Quest for the Sapphire Stone",
+		"edition": "Almanac Version",
+		"img": "https://imgix.ttcdn.co/i/product/original/0/111850-73febbb277b647c7b24630f2bcd0d056.png?q=100&auto=format%2Ccompress&w=2000",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Craig Woodward / Almanac Pony",
+				"url": "https://www.fimfiction.net/user/186684/AlmanacP"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/191159/1/series-1-daring-do-and-the-alicorn-secret-saga/1-daring-do-and-the-quest-for-the-sapphire-stone",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-almanac-version",
+				"title": "Hardcover"
+			},
+			{
+				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-sapphire-stone-dust-jacket-bw",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dustcover"
+		]
+	}
+	,{
+		"id": 24,
+		"title": "Daring Do and the Griffon's Goblet",
+		"edition": "A.K. Yearling Version",
+		"img": "https://imgix.ttcdn.co/i/product/original/0/111850-46fe0a6f92614a8d908caea50222beca.png?q=100&auto=format%2Ccompress&w=2000",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Craig Woodward / Almanac Pony",
+				"url": "https://www.fimfiction.net/user/186684/AlmanacP"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/191159/2/series-1-daring-do-and-the-alicorn-secret-saga/2-daring-do-and-the-griffons-goblet",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-akyearling-version",
+				"title": "Hardcover"
+			},
+			{
+				"url": "http://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-ak-yearling-dust-jacket-bw",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dustcover"
+		]
+	}
+	,{
+		"id": 25,
+		"title": "Past Sins",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/jmlf-1432441823-41596-full",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Pen Stroke",
+				"url": "https://www.fimfiction.net/user/3291/Pen+Stroke"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/41596/past-sins",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.thebookpatch.com/BookStore/past-sins/35b50398-956a-4890-8868-21ef8f58d904",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 26,
+		"title": "Over the Rainbow",
+		"edition": "?",
+		"img": null,
+		"rating": "?",
+		"dateAdded": "2018/12/29",
+		"expiry": "2018/12/28",
+		"authors":[
+			{
+				"name": "Tanishka & Shiela",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.blurb.com/b/6945252-over-the-rainbow",
+				"title": "DeadLink - Perfect-Bound Paperback"
+			},
+			{
+				"url": "http://www.blurb.com/b/6945252-over-the-rainbow",
+				"title": "DeadLink - Hardbound"
+			},
+			{
+				"url": "http://www.blurb.com/b/6945252-over-the-rainbow",
+				"title": "DeadLink - Hardbound with Dust Cover"
+			}
+		],
+		"tags": [
+			"paperback", "hardbound", "dust cover"
+		]
+	}
+	,{
+		"id": 27,
+		"title": "Torchwood: The New Equestria Files",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=16532790&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Jonathan Lopez / The Golden Crowbar",
+				"url": "https://www.deviantart.com/thegoldencrowbar"
+			}
+		],
+		"links": [
+			{
+				"url": "http://thegoldencrowbar.deviantart.com/gallery/?catpath=%2F&q=torchwood",
+				"title": "DeviantArt"
+			},
+			{
+				"url": "http://www.lulu.com/shop/jonathan-lopez/torchwood-the-new-equestria-files/paperback/product-16532790.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"da", "paperback"
+		]
+	}
+	,{
+		"id": 28,
+		"title": "Rainbow Factory",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/l8tn-1432421974-5381-full",
+		"rating": "M",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Aurora Dawn",
+				"url": "https://www.fimfiction.net/user/6949/AuroraDawn"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/5381/rainbow-factory",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/aurora-dawn/therainbowfactory/paperback/product-21796634.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 29,
+		"title": "Hail Mary",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/ubpl-1432504294-130470-full",
+		"rating": "M",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Ezrienel & Arby Works",
+				"url": "https://www.fimfiction.net/user/125075/Ezrienel"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/130470/hail-mary",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/arby-works-and-ezrienel/hail-mary/paperback/product-21378699.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
 		]
 	}
 	/* THIS IS  A SAMPLE TO BORROW FROM
