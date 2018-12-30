@@ -110,7 +110,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"print on demand", "unconfirmed", "da"
+			"on demand", "unconfirmed", "da"
 		]
 	}
 	,{
@@ -163,7 +163,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic"
+			"fimfic", "on demand"
 		]
 	}
 	,{
@@ -192,7 +192,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "matte"
+			"fimfic", "matte", "on demand"
 		]
 	}
 	,{
@@ -221,7 +221,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "glossy"
+			"fimfic", "glossy", "on demand"
 		]
 	}
 	,{
@@ -250,7 +250,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic"
+			"fimfic", "on demand"
 		]
 	}
 	,{
@@ -279,7 +279,144 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "anotherTag"
+			"fimfic", "on demand"
+		]
+	}
+	,{
+		"id": 11,
+		"title": "The Hope Called Night: Firstborn",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21584438&resolution=320",
+		"cover": "Hardcover",
+		"rating": "?",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Shaelyn Green",
+				"url": null
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/shaelyn-green/the-hope-called-night-firstborn/hardcover/product-21584438.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"on demand"
+		]
+	}
+	,{
+		"id": 12,
+		"title": "Arnold Odyssey: Fan-Friction Series 1",
+		"edition": "4th",
+		"img": null,
+		"cover": "Perfect-Bound Paperback",
+		"rating": "?",
+		"dateAdded": "2018/12/29",
+		"expiry": "2018/12/28",
+		"authors":[
+			{
+				"name": "Mike McDonald",
+				"url": null
+			}
+		],
+		"links": [
+			{
+				"url": "http://mikestoybox.net/fan-friction/",
+				"title": "Mikes Toy Box"
+			}
+		],
+		"tags": [
+			"missing", "unconfirmed"
+		]
+	}
+	,{
+		"id": 13,
+		"title": "Daring Do Adventures #1: Daring Do and the Quest for the Sapphire Stone",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22624966&resolution=320",
+		"cover": "Saddle-Stitched Paperback",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Jordan McCarty / lukjad",
+				"url": "https://www.fimfiction.net/user/12359/lukjad"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/9787/daring-do-adventures-1-daring-do-and-the-quest-for-the-sapphire-stone",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/jordyn-mccarty/my-paperback-book/paperback/product-22624966.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic", "on demand"
+		]
+	}
+	,{
+		"id": 14,
+		"title": "Memoirs of a Magic Earth Pony",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/idmb-1432610188-256252-full",
+		"cover": "Hardcover",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "The Lunar Samurai",
+				"url": "https://www.fimfiction.net/user/71066/The+Lunar+Samurai"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/256252/memoirs-of-a-magic-earth-pony",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/the-lunar-samurai/memiors-of-a-magic-earth-pony/hardcover/product-22722529.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic", "on demand"
+		]
+	}
+	,{
+		"id": 15,
+		"title": "Of Horses And Whorses",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/xwu5-1432496409-119631-full",
+		"cover": "Perfect-Bound Paperback",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "GeodesicDragon",
+				"url": "https://www.fimfiction.net/user/51028/GeodesicDragon"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/119631/of-horses-and-whorses",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/geodesicdragon/of-horses-and-whorses/paperback/product-22839346.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic", "on demand"
 		]
 	}
 	/* THIS IS  A SAMPLE TO BORROW FROM
