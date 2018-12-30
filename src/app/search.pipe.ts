@@ -11,12 +11,12 @@ export class SearchPipe implements PipeTransform{
 		if(lowerSearchString === ""){
 			return books;
 		}
-		return 
+		let newBooks = 
 			books.filter(
 				// search titles
 					book => book.title.toLowerCase().includes(lowerSearchString)
 			)
-/*			.concat(
+			.concat(
 				// search authors
 				books.filter(
 					book => book.authors.filter(author => author.name.toLowerCase().includes(lowerSearchString)).length > 0
@@ -27,7 +27,25 @@ export class SearchPipe implements PipeTransform{
 				books.filter(
 					book => book.tags.filter(tag => tag.toLowerCase().match(lowerSearchString)).length > 0
 				)
-			)*/
+			)
+			.concat(
+				// search cover types
+				books.filter(
+					book => book.cover.toLowerCase().includes(lowerSearchString)
+				)
+			)
 			;
+
+		return Array.from(new Set(Array.from(newBooks)))
+			// Sort by Id
+			.sort( (booka, bookb) => {
+				if(booka.id > bookb.id){
+					return 1;
+				}else if (booka.id < bookb.id){
+					return -1;
+				}else{
+					return 0
+				}
+			});
 	}
 }

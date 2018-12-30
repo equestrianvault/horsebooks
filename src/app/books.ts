@@ -7,7 +7,7 @@ export const BOOKS : Book[] = [
 		"edition": "3rd",
 		"img": "https://cdn-img.fimfiction.net/story/p0ne-1432429218-21583-full",
 		"rating": "T",
-		"cover": "Hardcover with Dust Jacket",
+		"cover": "Hardcover with Dust Cover",
 		"dateAdded": "2018/12/28",
 		"authors": [
 			{
