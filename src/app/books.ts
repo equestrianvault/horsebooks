@@ -625,7 +625,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dustcover"
+			"fimfic", "hardcover", "dustcover", "Daring Do and the Alicorn Secret Saga"
 		]
 	}
 	,{
@@ -657,7 +657,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dustcover"
+			"fimfic", "hardcover", "dustcover", "Daring Do and the Alicorn Secret Saga"
 		]
 	}
 	,{
@@ -689,7 +689,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dustcover"
+			"fimfic", "hardcover", "dustcover", "Daring Do and the Alicorn Secret Saga"
 		]
 	}
 	,{
