@@ -9,9 +9,10 @@ import { SearchPipe } from '../../search.pipe';
   providers: [HorseBooksService]
 })
 export class HorseBooksListing{
-	books: Book[] = null;
-	searchVal: string = "";
-	searchValPlaceholder: string = "Search";
+	books : Book[] = null;
+	searchVal : string = "";
+	searchValPlaceholder : string = "Search";
+	showExpired : Boolean = true;
 
 	constructor(private bookService: HorseBooksService){
 		this.books = bookService.getBooks();

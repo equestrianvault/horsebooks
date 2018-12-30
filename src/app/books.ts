@@ -9,6 +9,7 @@ export const BOOKS : Book[] = [
 		"rating": "T",
 		"cover": "Hardcover with Dust Cover",
 		"dateAdded": "2018/12/28",
+		"expiry": "2016/06/31",
 		"authors": [
 			{
 				"name" : "Kittyhawk Contrail / kits",
@@ -37,6 +38,7 @@ export const BOOKS : Book[] = [
 		"rating": "T",
 		"cover": "Hardcover",
 		"dateAdded": "2018/12/28",
+		"expiry": "2018/12/28",
 		"authors":[
 			{
 				"name": "Erindor / Kirk Hamilton",
@@ -61,6 +63,7 @@ export const BOOKS : Book[] = [
 		"cover": "Hardcover with Dust Cover",
 		"rating": "T",
 		"dateAdded": "2018/12/28",
+		"expiry": "2016/09/14",
 		"authors":[
 			{
 				"name": "The Abyss",
@@ -89,6 +92,7 @@ export const BOOKS : Book[] = [
 		"cover": "Hardcover",
 		"rating": "?",
 		"dateAdded": "2018/12/28",
+		"expiry": null,
 		"authors":[
 			{
 				"name": "Jonathan Lopez / The Golden Crowbar",
@@ -117,6 +121,7 @@ export const BOOKS : Book[] = [
 		"cover": "Saddle-Stitched Paperback",
 		"rating": "E",
 		"dateAdded": "2018/12/28",
+		"expiry": "2018/12/28",
 		"authors":[
 			{
 				"name": "ROBCakeran53",
@@ -133,6 +138,150 @@ export const BOOKS : Book[] = [
 			"on demand", "unconfirmed", "fimfic"
 		]
 	}
+	,{
+		"id": 6,
+		"title": "The Story of My Life",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/p9j5-1432434906-30494-full",
+		"cover": "Perfect-Bound Paperback",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Xupla Mindblower",
+				"url": "https://www.fimfiction.net/user/708/Mindblower"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/30494/the-story-of-my-life",
+				"title": "Fimfic"
+			},{
+				"url": "http://www.lulu.com/shop/xupla-mindblower/the-story-of-my-life/paperback/product-20404756.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic"
+		]
+	}
+	,{
+		"id": 7,
+		"title": "The Stranger and Her Friend",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/o50s-1432428591-20514-full",
+		"cover": "Hardcover with Dust Cover",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Tyler J. Barton / The Urban Moose",
+				"url": "https://www.fimfiction.net/user/17188/TheUrbanMoose"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/20514/the-stranger-and-her-friend",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/tyler-j-barton/the-stranger-and-her-friend/hardcover/product-21422889.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic", "matte"
+		]
+	}
+	,{
+		"id": 8,
+		"title": "The Stranger and Her Friend",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/o50s-1432428591-20514-full",
+		"cover": "Hardcover with Dust Cover",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Tyler J. Barton / The Urban Moose",
+				"url": "https://www.fimfiction.net/user/17188/TheUrbanMoose"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/20514/the-stranger-and-her-friend",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/tyler-barton/the-stranger-and-her-friend/hardcover/product-21422926.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic", "glossy"
+		]
+	}
+	,{
+		"id": 9,
+		"title": "The Stranger and Her Friend",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/o50s-1432428591-20514-full",
+		"cover": "Perfect-Bound Paperback",
+		"rating": "T",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Tyler J. Barton / The Urban Moose",
+				"url": "https://www.fimfiction.net/user/17188/TheUrbanMoose"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/20514/the-stranger-and-her-friend",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/tyler-barton/the-stranger-and-her-friend/paperback/product-21422895.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic"
+		]
+	}
+	,{
+		"id": 10,
+		"title": "The Tale of Saving Grace",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/7mbf-1432461341-71498-full",
+		"cover": "Perfect-Bound Paperback",
+		"rating": "E",
+		"dateAdded": "2018/12/29",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Tyler Weiss / Cold Spike",
+				"url": "https://www.fimfiction.net/user/63659/Cold+Spike"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.fimfiction.net/story/71498/the-tale-of-saving-grace",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/tyler-weiss/the-tale-of-saving-grace/paperback/product-21251555.html",
+				"title": "Ordering"
+			}
+		],
+		"tags": [
+			"fimfic", "anotherTag"
+		]
+	}
 	/* THIS IS  A SAMPLE TO BORROW FROM
 	,{
 		"id": ###,
@@ -141,7 +290,8 @@ export const BOOKS : Book[] = [
 		"img": "",
 		"cover": "",
 		"rating": "",
-		"dateAdded": "YYYY/MM/DD"
+		"dateAdded": "YYYY/MM/DD",
+		"expiry": "YYYY/MM/DD",
 		"authors":[
 			{
 				"name": "",

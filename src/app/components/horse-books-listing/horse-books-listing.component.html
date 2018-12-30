@@ -1,6 +1,5 @@
-<div><input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' /></div>
-<ul *ngIf = "( books | search : searchVal ) != undefined && ( books | search : searchVal ).length > 0">
-	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal )" [book]=book></horse-book-list-item>
+<div><input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' /><input type="checkbox" name="expired" id="expired" [(ngModel)]="showExpired" /><label for="expired">Show Expired</label></div>
+<ul>
+	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired )" [book]=book></horse-book-list-item>
 </ul>
-<ul *ngIf = "( books | search : searchVal ) === undefined || ( books | search : searchVal ).length === 0"></ul>
 <br style="clear:both;"/>

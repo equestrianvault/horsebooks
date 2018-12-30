@@ -19,6 +19,7 @@ export class Book{
 	links : BookLink[] = null;
 	tags : string[] = null;
 	rating : string = null;
+	expiry : string = null;
 }
 
 export class BookLink{
