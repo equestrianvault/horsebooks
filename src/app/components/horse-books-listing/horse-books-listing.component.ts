@@ -12,7 +12,7 @@ export class HorseBooksListing{
 	books : Book[] = null;
 	searchVal : string = "";
 	searchValPlaceholder : string = "Search";
-	showExpired : Boolean = true;
+	showExpired : Boolean = false;
 
 	constructor(private bookService: HorseBooksService){
 		this.books = bookService.getBooks();
