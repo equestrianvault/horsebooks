@@ -1385,7 +1385,34 @@ export const BOOKS : Book[] = [
 			"fimfic", "preorder"
 		]
 	}
-	// http://book.fallout-equestria.com/
+	,{
+		"id": 48,
+		"title": "Long Road to Friendship",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/27gh-1465629116-144198-full",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "The Albinocorn",
+				"url": "https://www.fimfiction.net/user/49989/The+Albinocorn"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/144198/long-road-to-friendship",
+				"title": "Fimfic"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/long-road-to-friendship",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
