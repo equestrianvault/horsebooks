@@ -1353,6 +1353,39 @@ export const BOOKS : Book[] = [
 			"paperback", "on demand", "comic", "signed"
 		]
 	}
+	,{
+		"id": 47,
+		"title": "Fallout: Equestria",
+		"edition": "4th",
+		"img": "https://cdn-img.fimfiction.net/story/fuca-1432496101-119190-full",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": "2019/01/11",
+		"authors":[
+			{
+				"name": "kkat",
+				"url": "https://www.fimfiction.net/user/10369/Kkat"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/119190/fallout-equestria",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://book.fallout-equestria.com/forum/viewtopic.php?t=502&sid=78a342cf1e313e52226f99defecb9403",
+				"title": "Information"
+			},
+			{
+				"url": "https://goo.gl/WqLp2P",
+				"title": "Preorder Signups (Ends 2019/01/10)"
+			}
+		],
+		"tags": [
+			"fimfic", "preorder"
+		]
+	}
+	// http://book.fallout-equestria.com/
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
