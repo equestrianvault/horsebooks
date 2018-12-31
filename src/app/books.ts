@@ -1413,6 +1413,258 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover"
 		]
 	}
+	,{
+		"id": 49,
+		"title": "Austraeoh",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/z2ob-1475481445-25966-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/25966/austraeoh",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/austraeoh/hardcover/product-23207117.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 50,
+		"title": "Eljunbyro",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/relc-1475481490-57450-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/57450/eljunbyro",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/eljunbyro/hardcover/product-23212174.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 51,
+		"title": "Innavedr",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/mvlg-1475481515-88713-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/88713/innavedr",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/innavedr-vol-1/hardcover/product-23205794.html",
+				"title": "Hardcover - Volume 1"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/innavedr-vol-2/hardcover/product-23205798.html",
+				"title": "Hardcover - Volume 2"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 52,
+		"title": "Odrsjot",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/2er9-1475481603-126689-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/126689/odrsjot",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/odrsjot-vol-1/hardcover/product-23205803.html",
+				"title": "Hardcover - Volume 1"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/odrsjot-vol-2/hardcover/product-23226423.html",
+				"title": "Hardcover - Volume 2"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 53,
+		"title": "Urohringr",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/4ojh-1475481700-171718-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/171718/urohringr",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/urohringr-vol-1/hardcover/product-23210180.html",
+				"title": "Hardcover - Volume 1"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/urohringr-vol-2/hardcover/product-23210183.html",
+				"title": "Hardcover - Volume 2"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 54,
+		"title": "Yaerfaerda",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/1742-1475481733-213020-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/213020/yaerfaerda",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-1/hardcover/product-23210188.html",
+				"title": "Hardcover - Volume 1"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-2/hardcover/product-23210194.html",
+				"title": "Hardcover - Volume 2"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 55,
+		"title": "Ynanhluutr",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/mfit-1475481758-254555-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/254555/ynanhluutr",
+				"title": "Fimfic"
+			}/*,
+			{
+				"url": "",
+				"title": "Hardcover"
+			}*/
+		],
+		"tags": [
+			"fimfic", /*"hardcover",*/ "austraeoh"
+		]
+	}
+	,{
+		"id": 56,
+		"title": "Utaan",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/xw4c-1475481789-290208-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Imploding Colon",
+				"url": "https://www.fimfiction.net/user/32973/Imploding+Colon"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/290208/utaan",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-1/hardcover/product-23285190.html",
+				"title": "Hardcover - Volume 1"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-2/hardcover/product-23285193.html",
+				"title": "Hardcover - Volume 2"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-3/hardcover/product-23285196.html",
+				"title": "Hardcover - Volume 3"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-4/hardcover/product-23285198.html",
+				"title": "Hardcover - Volume 4"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "austraeoh"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
