@@ -836,7 +836,524 @@ export const BOOKS : Book[] = [
 			"fimfic", "paperback"
 		]
 	}
-	/* THIS IS  A SAMPLE TO BORROW FROM
+	,{
+		"id": 30,
+		"title": "The Lost Element",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/jc9u-1432445686-47607-full",
+		"rating": "M",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Humanity",
+				"url": "https://www.fimfiction.net/user/57410/Humanity"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/47607/the-lost-element",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-1/paperback/product-22857031.html",
+				"title": "Perfect-Bound Paperback (Part 1)"
+			},
+			{
+				"url": "http://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-2/paperback/product-22857036.html",
+				"title": "Perfect-Bound Paperback (Part 2)"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback", "on demand"
+		]
+	}
+	,{
+		"id": 31,
+		"title": "Silly Lyra: The Comic Series #1-15",
+		"edition": "?",
+		"img": "https://i.etsystatic.com/11531913/r/il/a2f707/911315317/il_fullxfull.911315317_lsem.jpg",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Dori-to Pony",
+				"url": "https://www.deviantart.com/dori-to"
+			}
+		],
+		"links": [
+			{
+				"url": "http://dori-to.deviantart.com/gallery/",
+				"title": "DeviantArt"
+			},
+			{
+				"url": "https://www.etsy.com/listing/244060226/silly-lyra-comic-book-1-15",
+				"title": "Saddle-Stitched Paperback (Etsy)"
+			},
+			{
+				"url": "http://tacohatstudios.com/",
+				"title": "Saddle-Stitched Paperback (TacoHatStudios)"
+			},
+			{
+				"url": "https://www.etsy.com/listing/244060226/silly-lyra-comic-book-1-15",
+				"title": "Saddle-Stitched Paperback (Etsy)"
+			}
+		],
+		"tags": [
+			"da", "comic", "paperback"
+		]
+	}
+	,{
+		"id": 32,
+		"title": "Bound Together",
+		"edition": "?",
+		"img": "http://i.imgur.com/0kc8cMn.jpg",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{ 
+				"name": "KefkaFloyd",
+				"url": null
+			},
+			{ 
+				"name": "Adlynh",
+				"url": null
+			},
+			{ 
+				"name": "Bakertoons",
+				"url": null
+			},
+			{ 
+				"name": "Centchi",
+				"url": null
+			},
+			{ 
+				"name": "Emberwisp",
+				"url": null
+			},
+			{ 
+				"name": "fxcellent",
+				"url": null
+			},
+			{ 
+				"name": "Jowybean",
+				"url": null
+			},
+			{ 
+				"name": "Leekfish",
+				"url": null
+			},
+			{ 
+				"name": "Muffinshire",
+				"url": null
+			},
+			{ 
+				"name": "Pasteur",
+				"url": null
+			},
+			{ 
+				"name": "Ponywise",
+				"url": null
+			},
+			{ 
+				"name": "Sofas And Quills",
+				"url": null
+			},
+			{ 
+				"name": "Spectralunicorn",
+				"url": null
+			},
+			{ 
+				"name": "Starry Night",
+				"url": null
+			},
+			{ 
+				"name": "Steve Holt",
+				"url": null
+			}
+		],
+		"links": [
+			{
+				"url": "http://broniesforgood.org/bound-together/",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "artbook", "on demand"
+		]
+	}
+	// 
+	,{
+		"id": 33,
+		"title": "Book of Gaia: EQUESTRIA, Volume 1",
+		"edition": "?",
+		"img": "http://bookshow.blurb.com/bookshow/cache/P10411283/md/cover_2.jpeg?access_key=acd0fbe68a29ea7815af9e0575dabb3b",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Earthsong9405",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.blurb.com/bookstore/invited/5774309/c9e396a7a185ec31d3f6328cf3a7dc54a33f79e1",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback"
+		]
+	}
+	,{
+		"id": 34,
+		"title": "My Little Pony: Revenge of the Villains",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21038899&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Thomas Taylor",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/thomas-taylor/my-little-pony/paperback/product-21038899.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand"
+		]
+	}
+	,{
+		"id": 35,
+		"title": "Rainbow Light and Friends: A Coloring Book",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=20596075&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Sarah Sellers",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/sarah-sellers/rainbow-light-and-friends-a-coloring-book/paperback/product-20596075.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"coloring book", "on demand"
+		]
+	}
+	,{
+		"id": 36,
+		"title": "Mlp Comic",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21267574&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Polly Lewis",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/polly-lewis/mlp-comic/paperback/product-21267574.html",
+				"title": "Saddle-Stitched Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "comic"
+		]
+	}
+	,{
+		"id": 37,
+		"title": "Equestria",
+		"edition": "1st",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22147894&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Ryan Compton",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/ryan-compton/equestria/paperback/product-22147894.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "art", "drawing", "on demand"
+		]
+	}
+	,{
+		"id": 38,
+		"title": "Mi álbum",
+		"edition": "1st",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22759210&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "(Various)",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/mi-%C3%A1lbum/hardcover/product-22759210.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"on demand", "art", "hardcover"
+		]
+	}
+	,{
+		"id": 38,
+		"title": "Brony: The Unexpected Adult Fandom of \"My Little Pony, Friendship is Magic\"",
+		"edition": "1st",
+		"img": "http://bookshow.blurb.com/bookshow/cache/P6776240/md/cover_2.jpeg?access_key=ff14ccf932326520756ff32db2f8d6a2",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Sandra Davis",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.blurb.com/b/4234406-brony-the-unexpected-adult-fandom-of-my-little-pon",
+				"title": "Perfect-Bound Paperback"
+			},
+			{
+				"url": "http://www.blurb.com/b/4234406-brony-the-unexpected-adult-fandom-of-my-little-pon",
+				"title": "Hardcover"
+			},
+			{
+				"url": "http://www.blurb.com/b/4234406-brony-the-unexpected-adult-fandom-of-my-little-pon",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"art", "paperback", "hard cover", "dust cover"
+		]
+	}
+	,{
+		"id": 39,
+		"title": "Cutey Confidential 2015 - Standard Edition",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21954294&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/cutey-confidential-2015-standard-edition/calendar/product-21954294.html",
+				"title": "2015 Calendar"
+			}
+		],
+		"tags": [
+			"calendar", "on demand"
+		]
+	}
+	,{
+		"id": 40,
+		"title": "Cutey Confidential 2015 - Premium Edition",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21954275&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/cutey-confidential-2015-premium-edition/calendar/product-21954275.html",
+				"title": "2015 Calendar"
+			}
+		],
+		"tags": [
+			"calendar", "on demand"
+		]
+	}
+	,{
+		"id": 41,
+		"title": "My Little Sweetheart",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21966176&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart/paperback/product-21966176.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand", "art"
+		]
+	}
+	,{
+		"id": 42,
+		"title": "My Little Sweetheart Too!",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21966290&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-too/paperback/product-21966290.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand", "art"
+		]
+	}
+	,{
+		"id": 43,
+		"title": "My Little Sweetheart 3",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21774461&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-3/paperback/product-21774461.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand", "art"
+		]
+	}
+	,{
+		"id": 44,
+		"title": "My Little Sweetheart 4",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21928579&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-4/paperback/product-21928579.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand", "art"
+		]
+	}
+	,{
+		"id": 45,
+		"title": "My Little Sweetheart 5",
+		"edition": "?",
+		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22565505&resolution=320",
+		"rating": "?",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Iris Trismegistus",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+			}
+		],
+		"links": [
+			{
+				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-5/paperback/product-22565505.html",
+				"title": "Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand", "art"
+		]
+	}
+	,{
+		"id": 46,
+		"title": "All Aboard",
+		"edition": "?",
+		"img": "https://assets.bigcartel.com/product_images/194720581/comicsquare1.png?auto=format&fit=max&h=1000&w=1000",
+		"rating": "M",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Braeburned",
+				"url": ""
+			}
+		],
+		"links": [
+			{
+				"url": "https://braeburned.bigcartel.com/product/all-aboard",
+				"title": "Signed Perfect-Bound Paperback"
+			}
+		],
+		"tags": [
+			"paperback", "on demand", "comic", "signed"
+		]
+	}
+	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
 		"title": "",
