@@ -86,7 +86,7 @@ export const BOOKS : Book[] = [
 		"title": "Doctor Whoof: The Complete Series - The Director's Cut",
 		"edition": "?",
 		"img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/9a93f0ce-01ce-4762-bab8-b613b255da2a/d3wpiri-6976f42e-94a9-4b1f-91dd-e3bd00d8820b.jpg/v1/fill/w_900,h_815,q_70,strp/doctor_whoof__director_s_cut_by_thegoldencrowbar_d3wpiri-fullview.jpg",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/28",
 		"expiry": null,
 		"authors":[
@@ -250,30 +250,6 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"on demand", "hardcover"
-		]
-	}
-	,{
-		"id": 10,
-		"title": "Arnold Odyssey: Fan-Friction Series 1",
-		"edition": "4th",
-		"img": null,
-		"rating": "?",
-		"dateAdded": "2018/12/29",
-		"expiry": "2018/12/28",
-		"authors":[
-			{
-				"name": "Mike McDonald",
-				"url": null
-			}
-		],
-		"links": [
-			{
-				"url": "http://mikestoybox.net/fan-friction/",
-				"title": "Mikes Toy Box"
-			}
-		],
-		"tags": [
-			"missing", "unconfirmed"
 		]
 	}
 	,{
@@ -721,43 +697,11 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 26,
-		"title": "Over the Rainbow",
-		"edition": "?",
-		"img": null,
-		"rating": "?",
-		"dateAdded": "2018/12/29",
-		"expiry": "2018/12/28",
-		"authors":[
-			{
-				"name": "Tanishka & Shiela",
-				"url": ""
-			}
-		],
-		"links": [
-			{
-				"url": "http://www.blurb.com/b/6945252-over-the-rainbow",
-				"title": "DeadLink - Perfect-Bound Paperback"
-			},
-			{
-				"url": "http://www.blurb.com/b/6945252-over-the-rainbow",
-				"title": "DeadLink - Hardbound"
-			},
-			{
-				"url": "http://www.blurb.com/b/6945252-over-the-rainbow",
-				"title": "DeadLink - Hardbound with Dust Cover"
-			}
-		],
-		"tags": [
-			"paperback", "hardbound", "dust cover"
-		]
-	}
-	,{
 		"id": 27,
 		"title": "Torchwood: The New Equestria Files",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=16532790&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/29",
 		"expiry": null,
 		"authors":[
@@ -873,7 +817,7 @@ export const BOOKS : Book[] = [
 		"title": "Silly Lyra: The Comic Series #1-15",
 		"edition": "?",
 		"img": "https://i.etsystatic.com/11531913/r/il/a2f707/911315317/il_fullxfull.911315317_lsem.jpg",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -909,7 +853,7 @@ export const BOOKS : Book[] = [
 		"title": "Bound Together",
 		"edition": "?",
 		"img": "http://i.imgur.com/0kc8cMn.jpg",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -990,7 +934,7 @@ export const BOOKS : Book[] = [
 		"title": "Book of Gaia: EQUESTRIA, Volume 1",
 		"edition": "?",
 		"img": "http://bookshow.blurb.com/bookshow/cache/P10411283/md/cover_2.jpeg?access_key=acd0fbe68a29ea7815af9e0575dabb3b",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1014,7 +958,7 @@ export const BOOKS : Book[] = [
 		"title": "My Little Pony: Revenge of the Villains",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21038899&resolution=320",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1038,7 +982,7 @@ export const BOOKS : Book[] = [
 		"title": "Rainbow Light and Friends: A Coloring Book",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=20596075&resolution=320",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1062,7 +1006,7 @@ export const BOOKS : Book[] = [
 		"title": "Mlp Comic",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21267574&resolution=320",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1086,7 +1030,7 @@ export const BOOKS : Book[] = [
 		"title": "Equestria",
 		"edition": "1st",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22147894&resolution=320",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1110,7 +1054,7 @@ export const BOOKS : Book[] = [
 		"title": "Mi álbum",
 		"edition": "1st",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22759210&resolution=320",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1134,7 +1078,7 @@ export const BOOKS : Book[] = [
 		"title": "Brony: The Unexpected Adult Fandom of \"My Little Pony, Friendship is Magic\"",
 		"edition": "1st",
 		"img": "http://bookshow.blurb.com/bookshow/cache/P6776240/md/cover_2.jpeg?access_key=ff14ccf932326520756ff32db2f8d6a2",
-		"rating": "?",
+		"rating": "E",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1166,7 +1110,7 @@ export const BOOKS : Book[] = [
 		"title": "Cutey Confidential 2015 - Standard Edition",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21954294&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1190,7 +1134,7 @@ export const BOOKS : Book[] = [
 		"title": "Cutey Confidential 2015 - Premium Edition",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21954275&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1214,7 +1158,7 @@ export const BOOKS : Book[] = [
 		"title": "My Little Sweetheart",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21966176&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1238,7 +1182,7 @@ export const BOOKS : Book[] = [
 		"title": "My Little Sweetheart Too!",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21966290&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1262,7 +1206,7 @@ export const BOOKS : Book[] = [
 		"title": "My Little Sweetheart 3",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21774461&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1286,7 +1230,7 @@ export const BOOKS : Book[] = [
 		"title": "My Little Sweetheart 4",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=21928579&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1310,7 +1254,7 @@ export const BOOKS : Book[] = [
 		"title": "My Little Sweetheart 5",
 		"edition": "?",
 		"img": "http://static.lulu.com/browse/product_thumbnail.php?productId=22565505&resolution=320",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
@@ -1358,7 +1302,7 @@ export const BOOKS : Book[] = [
 		"title": "Fallout: Equestria",
 		"edition": "4th",
 		"img": "https://cdn-img.fimfiction.net/story/fuca-1432496101-119190-full",
-		"rating": "?",
+		"rating": "M",
 		"dateAdded": "2018/12/30",
 		"expiry": "2019/01/11",
 		"authors":[
@@ -1390,7 +1334,7 @@ export const BOOKS : Book[] = [
 		"title": "Long Road to Friendship",
 		"edition": "1st",
 		"img": "https://cdn-img.fimfiction.net/story/27gh-1465629116-144198-full",
-		"rating": "?",
+		"rating": "T",
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
