@@ -1615,14 +1615,18 @@ export const BOOKS : Book[] = [
 			{
 				"url": "https://www.fimfiction.net/story/254555/ynanhluutr",
 				"title": "Fimfic"
-			}/*,
+			},
 			{
-				"url": "",
-				"title": "Hardcover"
-			}*/
+				"url": "http://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-1/hardcover/product-23210196.html",
+				"title": "Hardcover - Volume 1"
+			},
+			{
+				"url": "http://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-2/hardcover/product-23210197.html",
+				"title": "Hardcover - Volume 2"
+			}
 		],
 		"tags": [
-			"fimfic", /*"hardcover",*/ "austraeoh"
+			"fimfic", "hardcover", "austraeoh"
 		]
 	}
 	,{
@@ -1663,6 +1667,154 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "hardcover", "austraeoh"
+		]
+	}
+	,{
+		"id": 57,
+		"title": "Crystal's Wishes",
+		"edition": "2nd",
+		"img": "https://cdn-img.fimfiction.net/story/e497-1491747873-230097-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Crystal Wishes",
+				"url": "https://www.fimfiction.net/user/181476/Crystal+Wishes"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/230097/crystals-wishes",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/crystal/crystals-wishes-once-upon-a-time/hardcover/product-23189113.html",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 58,
+		"title": "Memoirs of a Royal Guard",
+		"edition": "2nd",
+		"img": "https://cdn-img.fimfiction.net/story/arge-1461444387-230095-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Anzel",
+				"url": "https://www.fimfiction.net/user/210160/Anzel"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/230095/memoirs-of-a-royal-guard",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/anzel/memoirs-of-a-royal-guard-2nd-printing/hardcover/product-23047407.html",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 59,
+		"title": "Through the Well of Pirene",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/6ol8-1451584292-73404-full",
+		"rating": "E",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Ether Echoes",
+				"url": "https://www.fimfiction.net/user/19229/Ether+Echoes"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/73404/through-the-well-of-pirene",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/ether-echoes/through-the-well-of-pirene/hardcover/product-23231313.html",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 60,
+		"title": "Three Nights in Manehattan",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/unbt-1526056670-284980-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Ether Echoes",
+				"url": "https://www.fimfiction.net/user/19229/Ether+Echoes"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/284980/three-nights-in-manehattan",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/ether-echoes/three-nights-in-manehattan/hardcover/product-23517310.html",
+				"title": "Hardcover with Dust Cover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
+	,{
+		"id": 61,
+		"title": "Fractured Sunlight",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/xppy-1432596096-234937-full",
+		"rating": "T",
+		"dateAdded": "2018/12/30",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Oroboro",
+				"url": "https://www.fimfiction.net/user/163197/Oroboro"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/234937/fractured-sunlight",
+				"title": "Fimfic"
+			},
+			{
+				"url": "https://www.fimfiction.net/blog/822336/the-print-version-of-fractured-sunlight-is-now-available",
+				"title": "Information"
+			},
+			{
+				"url": "http://www.lulu.com/shop/oroboro/fractured-sunlight-bw/hardcover/product-23767180.html",
+				"title": "Hardcover with Dust Cover (B&W)"
+			},
+			{
+				"url": "http://www.lulu.com/shop/oroboro/fractured-sunlight-color/hardcover/product-23767215.html",
+				"title": "Hardcover with Dust Cover (Color)"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
