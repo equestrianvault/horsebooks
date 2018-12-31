@@ -805,7 +805,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "paperback"
+			"fimfic", "paperback", "on demand"
 		]
 	}
 	,{
@@ -833,7 +833,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "paperback"
+			"fimfic", "paperback", "on demand"
 		]
 	}
 	,{
@@ -1438,7 +1438,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1466,7 +1466,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1498,7 +1498,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1530,7 +1530,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1562,7 +1562,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1594,7 +1594,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1626,7 +1626,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
@@ -1666,7 +1666,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "austraeoh"
+			"fimfic", "hardcover", "austraeoh", "on demand"
 		]
 	}
 	,{
