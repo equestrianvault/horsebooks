@@ -1,15 +1,7 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-	padding-left: 10px;
-	text-align: center;
-	width: 865px;
-	min-height: 500px;
+.w3-row-padding, .w3-row-padding>.w3-half, .w3-row-padding>.w3-third, .w3-row-padding>.w3-twothird, .w3-row-padding>.w3-threequarter, .w3-row-padding>.w3-quarter, .w3-row-padding>.w3-col {
+	padding: 8px;
 }
-div{ 
-	text-align: center; 
-	margin-bottom: 10px;
+
+.search{
+	text-align: center;
 }

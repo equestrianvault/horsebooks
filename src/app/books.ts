@@ -832,16 +832,8 @@ export const BOOKS : Book[] = [
 				"title": "DeviantArt"
 			},
 			{
-				"url": "https://www.etsy.com/listing/244060226/silly-lyra-comic-book-1-15",
-				"title": "Saddle-Stitched Paperback (Etsy)"
-			},
-			{
 				"url": "http://tacohatstudios.com/",
 				"title": "Saddle-Stitched Paperback (TacoHatStudios)"
-			},
-			{
-				"url": "https://www.etsy.com/listing/244060226/silly-lyra-comic-book-1-15",
-				"title": "Saddle-Stitched Paperback (Etsy)"
 			}
 		],
 		"tags": [

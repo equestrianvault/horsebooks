@@ -1,5 +1,20 @@
-<div><input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' /><input type="checkbox" name="expired" id="expired" [(ngModel)]="showExpired" /><label for="expired">Show Expired</label></div>
-<ul>
-	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired )" [book]=book></horse-book-list-item>
-</ul>
-<br style="clear:both;"/>
+<div class="search">
+	<div class="w3-card">
+		<ul class="w3-ul">
+			<li>
+				<input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' />
+			</li>
+			<li class="w3-row-padding">
+				<div class="w3-half">
+					<input type="checkbox" name="expired" id="expired" [(ngModel)]="showExpired" /><label for="expired">Show Expired</label>
+				</div>
+				<div class="w3-half">
+					<input type="checkbox" name="mature" [(ngModel)]="showMature"/><label for="mature">Show Mature</label>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="w3-row-padding" >
+	<horse-book-list-item class="w3-third" *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature)" [book]=book></horse-book-list-item>
+</div>

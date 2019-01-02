@@ -1,132 +1,37 @@
-div{
-	margin: 0;
-	padding: 0;
+div.book-card{
+	height: 575px;
+	overflow: hidden;
 }
-table, th, td{
-	border-collapse: collapse;
-}
-table{
+div.title{
+	display: inline-block;
 	width: 100%;
-	column-span: 2;
-	empty-cells: show;
-}
-table tbody th{
-	width: 65px;
-	text-align: right;
-	vertical-align: top;
-}
-table tbody td{
-	width: 135px;
-	text-align: left;
-}
-
-table tbody td li{
-	display: inline;
-	float: left;
-	padding: 0 .25em;
-	margin-right: .25em;
-	background-color: beige;
-	margin-bottom: 2px;
-
-	/*overflow: hidden;*/
-	/*text-overflow: ellipsis;*/
-	/*white-space: nowrap;*/
-}
-
-table tbody td li:hover{
-	background-color: lightgrey;
-}
-
-
-.book{
-	display: list-item;
-	float: left;
-	border: 2px solid black;
-	margin: 0;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	padding: 5px 10px;
-	align-content: center;
-	width: 250px;
-	height: 600px;
-	overflow-y: hidden;
-}
-
-.bookTitle{
 	text-align: center;
-	border-bottom: 2px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+	height: 4.5em; 
+	vertical-align: middle;
+	margin-bottom: 8px;
 }
-.bookTitle:hover{
-	text-overflow: none;
-	white-space: pre-wrap;
-}
-
-.bookImage{
-	text-align: center;
-	max-height: 250px;
-	padding: 0;
-	margin: 0;
-}
-.bookImage img{
-	text-align: center;
-	height: 250px;
-	max-width: 250px;
-	padding: 0;
-	margin: 0;
+div.title span{
+	display: inline-block;
+	vertical-align: middle
 }
 
-.bookTitle{
-	font-weight: bold;
-	font-size: 1.5em;
-}
-.cover td{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-.rating{
+div.image{
+	 text-align: center;
+	 height: 150px
 }
 
-.tags{
-
-}
-.tags td ul{
-	list-style: none;
-	display: list-item;
-	padding: 0;
-}
-.tag{
-	display: list-item;
-	float: left;
-	padding: 0 .25em;
-	margin-right: .25em;
-	background-color: beige;
-	margin-bottom: 2px;
-}
-.tag:hover{
-	background-color: lightgrey;
+div.image img{
+	 max-height: 150px;
+	 max-width: 100%
 }
 
-.authors ul{
-	list-style: none;
-	padding: 0;
-	display: block;
-}
-.authors ul li{
-
-}
-.authors ul li:hover{
+.authors{
+	max-height: 5em;
 }
 
-.links ul{
-	list-style: none;
-	padding: 0;
-	display: block;
-}
-.links ul li{
-}
-.links ul li:hover{
+@media only screen and (max-width: 600px) {
+	div.book-card{
+		height: auto;
+		overflow: auto;
+	}
 }
