@@ -8,7 +8,7 @@ import { ShowMaturePipe } from './mature.pipe';
 import { ShowExpiredPipe } from './expired.pipe';
 import { AppComponent } from './app.component';
 import { Heading } from './components/heading/heading.component';
-import { Footer } from './components/footer/footer.component';
+import { Footing } from './components/footing/footing.component';
 import { AppBody } from './components/app-body/app-body.component';
 import { HorseBooksListing } from './components/horse-books-listing/horse-books-listing.component';
 import { HorseBookListItem } from './components/horse-books-listing/horse-book-list-item/horse-book-list-item.component';
@@ -17,7 +17,7 @@ import { HorseBookListItem } from './components/horse-books-listing/horse-book-l
   declarations: [
     AppComponent, 
     Heading,
-    Footer,
+    Footing,
     AppBody,
     HorseBooksListing,
     HorseBookListItem,
