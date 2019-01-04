@@ -1753,6 +1753,38 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "dust cover", "on demand"
 		]
 	}
+	,{
+		"id": 62,
+		"title": "Reflections",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/rwp0-1537448143-343647-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "RQK",
+				"url": "https://www.fimfiction.net/user/208413/RQK"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/343647/reflections",
+				"title": "Fimfic"
+			},
+			{
+				"url": "http://www.lulu.com/shop/erik-loyd/reflections/paperback/product-23935297.html",
+				"title": "Perfect-Bound Paperback"
+			},
+			{
+				"url": "https://www.dropbox.com/s/fmpy55j2y9gp3zs/Reflections.pdf?dl=1",
+				"title": "PDF"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
