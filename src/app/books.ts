@@ -1763,7 +1763,7 @@ export const BOOKS : Book[] = [
 		"expiry": null,
 		"authors":[
 			{
-				"name": "RQK",
+				"name": "Erik \"RQK\" Loyd",
 				"url": "https://www.fimfiction.net/user/208413/RQK"
 			}
 		],
