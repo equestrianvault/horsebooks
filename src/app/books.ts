@@ -1793,7 +1793,7 @@ export const BOOKS : Book[] = [
 		"img": "",
 		"rating": "",
 		"dateAdded": "YYYY/MM/DD",
-		"expiry": "YYYY/MM/DD",
+		"expiry": null,
 		"authors":[
 			{
 				"name": "",
