@@ -18,7 +18,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/21583/twilights-list",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "https://www.deviantart.com/kittyhawk-contrail/art/Twilight-s-List-Third-Edition-PDF-for-print-601163537",
@@ -46,7 +46,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/15353/inner-glory",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			}
 		],
 		"tags": [
@@ -70,7 +70,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/146025/ill-always-be-here-for-you",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.fimfiction.net/blog/673075/scoots-book-important-update",
@@ -126,7 +126,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/1888/my-little-dashie",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.thebookpatch.com/BookStore/my-little-dashie/9da85c66-b5a3-4186-9cf1-88f349068ce3",
@@ -154,7 +154,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/30494/the-story-of-my-life",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},{
 				"url": "http://www.lulu.com/shop/xupla-mindblower/the-story-of-my-life/paperback/product-20404756.html",
 				"title": "Perfect-Bound Paperback"
@@ -181,7 +181,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/20514/the-stranger-and-her-friend",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/tyler-j-barton/the-stranger-and-her-friend/hardcover/product-21422889.html",
@@ -217,7 +217,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/71498/the-tale-of-saving-grace",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/tyler-weiss/the-tale-of-saving-grace/paperback/product-21251555.html",
@@ -269,7 +269,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/9787/daring-do-adventures-1-daring-do-and-the-quest-for-the-sapphire-stone",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/jordyn-mccarty/my-paperback-book/paperback/product-22624966.html",
@@ -297,7 +297,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/256252/memoirs-of-a-magic-earth-pony",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/the-lunar-samurai/memiors-of-a-magic-earth-pony/hardcover/product-22722529.html",
@@ -325,7 +325,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/119631/of-horses-and-whorses",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/geodesicdragon/of-horses-and-whorses/paperback/product-22839346.html",
@@ -353,7 +353,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/141549/the-celestia-code",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765383.html",
@@ -365,7 +365,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dust cover", "on demand"
+			"fimfic", "hardcover", "dust cover", "on demand", "celestia code"
 		]
 	}
 	,{
@@ -385,7 +385,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/175385/the-luna-cypher",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790267.html",
@@ -397,7 +397,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dust cover", "on demand"
+			"fimfic", "hardcover", "dust cover", "on demand", "celestia code"
 		]
 	}
 	,{
@@ -417,7 +417,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/264005/the-twilight-enigma",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800704.html",
@@ -429,7 +429,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dust cover", "on demand"
+			"fimfic", "hardcover", "dust cover", "on demand", "celestia code"
 		]
 	}
 	,{
@@ -449,7 +449,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/141487/change-of-life",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.amazon.com/Change-Life-Bernard-Doove/dp/149482177X/",
@@ -477,7 +477,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/163295/growing-up-dandy",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "https://www.amazon.com/Growing-Up-Dandy-Bernard-Doove/dp/1499388470/",
@@ -505,7 +505,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/192085/conversations-in-a-canterlot-caf",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.amazon.com/Conversations-In-A-Canterlot-Cafe/dp/1505411041/",
@@ -533,7 +533,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/246414/a-different-perspective",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.amazon.com/Different-Perspective-Bernard-Doove/dp/1519185537/",
@@ -561,7 +561,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/296939/the-growing-years",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "https://www.amazon.com/Growing-Years-Bernard-Doove/dp/1532898851/",
@@ -589,7 +589,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/191159/1/series-1-daring-do-and-the-alicorn-secret-saga/1-daring-do-and-the-quest-for-the-sapphire-stone",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-akyearling-version",
@@ -621,7 +621,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/191159/1/series-1-daring-do-and-the-alicorn-secret-saga/1-daring-do-and-the-quest-for-the-sapphire-stone",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-almanac-version",
@@ -653,7 +653,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/191159/2/series-1-daring-do-and-the-alicorn-secret-saga/2-daring-do-and-the-griffons-goblet",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-akyearling-version",
@@ -685,7 +685,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/41596/past-sins",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.thebookpatch.com/BookStore/past-sins/35b50398-956a-4890-8868-21ef8f58d904",
@@ -741,7 +741,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/5381/rainbow-factory",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/aurora-dawn/therainbowfactory/paperback/product-21796634.html",
@@ -769,7 +769,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "http://www.fimfiction.net/story/130470/hail-mary",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/arby-works-and-ezrienel/hail-mary/paperback/product-21378699.html",
@@ -797,7 +797,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/47607/the-lost-element",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-1/paperback/product-22857031.html",
@@ -1306,7 +1306,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/119190/fallout-equestria",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://book.fallout-equestria.com/forum/viewtopic.php?t=502&sid=78a342cf1e313e52226f99defecb9403",
@@ -1318,7 +1318,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "preorder"
+			"fimfic", "preorder", "foe"
 		]
 	}
 	,{
@@ -1338,7 +1338,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/144198/long-road-to-friendship",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "https://www.ministryofimage.net/product-page/long-road-to-friendship",
@@ -1366,7 +1366,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/25966/austraeoh",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/austraeoh/hardcover/product-23207117.html",
@@ -1394,7 +1394,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/57450/eljunbyro",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/eljunbyro/hardcover/product-23212174.html",
@@ -1422,7 +1422,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/88713/innavedr",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/innavedr-vol-1/hardcover/product-23205794.html",
@@ -1454,7 +1454,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/126689/odrsjot",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/odrsjot-vol-1/hardcover/product-23205803.html",
@@ -1486,7 +1486,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/171718/urohringr",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/urohringr-vol-1/hardcover/product-23210180.html",
@@ -1518,7 +1518,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/213020/yaerfaerda",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-1/hardcover/product-23210188.html",
@@ -1550,7 +1550,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/254555/ynanhluutr",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-1/hardcover/product-23210196.html",
@@ -1582,7 +1582,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/290208/utaan",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-1/hardcover/product-23285190.html",
@@ -1622,7 +1622,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/230097/crystals-wishes",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/crystal/crystals-wishes-once-upon-a-time/hardcover/product-23189113.html",
@@ -1650,7 +1650,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/230095/memoirs-of-a-royal-guard",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/anzel/memoirs-of-a-royal-guard-2nd-printing/hardcover/product-23047407.html",
@@ -1678,7 +1678,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/73404/through-the-well-of-pirene",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/ether-echoes/through-the-well-of-pirene/hardcover/product-23231313.html",
@@ -1706,7 +1706,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/284980/three-nights-in-manehattan",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/ether-echoes/three-nights-in-manehattan/hardcover/product-23517310.html",
@@ -1734,7 +1734,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/234937/fractured-sunlight",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "https://www.fimfiction.net/blog/822336/the-print-version-of-fractured-sunlight-is-now-available",
@@ -1770,7 +1770,7 @@ export const BOOKS : Book[] = [
 		"links": [
 			{
 				"url": "https://www.fimfiction.net/story/343647/reflections",
-				"title": "Fimfic"
+				"title": "Fimfiction.net"
 			},
 			{
 				"url": "http://www.lulu.com/shop/erik-loyd/reflections/paperback/product-23935297.html",
@@ -1783,6 +1783,302 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 63,
+		"title": "Change",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/m5xt-1465493249-284555-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "tom117z",
+				"url": "https://www.fimfiction.net/user/242348/tom117z"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/284555/change",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/user/242348/tom117z",
+				"title": "PM the Author for a link"
+			}
+		],
+		"tags": [
+			"fimfic", "change"
+		]
+	}
+	,{
+		"id": 64,
+		"title": "Change: Queen of the Hive",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/sgg8-1478441715-319895-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "tom117z",
+				"url": "https://www.fimfiction.net/user/242348/tom117z"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/319895/change-queen-of-the-hive",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/user/242348/tom117z",
+				"title": "PM the Author for a link"
+			}
+		],
+		"tags": [
+			"fimfic", "change", "on demand"
+		]
+	}
+	,{
+		"id": 65,
+		"title": "Change: Avia",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/b1mx-1527163590-364897-full",
+		"rating": "E",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "tom117z",
+				"url": "https://www.fimfiction.net/user/242348/tom117z"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/364897/change-avia",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/user/242348/tom117z",
+				"title": "PM the Author for a link"
+			}
+		],
+		"tags": [
+			"fimfic", "change", "on demand"
+		]
+	}
+	,{
+		"id": 66,
+		"title": "The Skyla Pseudonym",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/v7qy-1484156641-360348-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "iisaw",
+				"url": "https://www.fimfiction.net/user/33084/iisaw"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/360348/the-skyla-pseudonym",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-skyla-pseudonym/hardcover/product-23467348.html",
+				"title": "Hardcover with Dust Cover"
+			},
+			{
+				"url": "http://www.lulu.com/shop/iisaw/the-skyla-pseudonym/hardcover/product-23467343.html",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "celestia code", "on demand"
+		]
+	}
+	,{
+		"id": 67,
+		"title": "The Monster Below",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/14cr-1432465397-76931-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Greenback",
+				"url": "https://www.fimfiction.net/user/88969/Greenback"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/76931/the-monster-below",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/user/88969/Greenback",
+				"title": "PM the Author for a link"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "paperback", "on demand"
+		]
+	}
+	,{
+		"id": 68,
+		"title": "Feedback",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/se2c-1463422628-248094-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Erik \"RQK\" Loyd",
+				"url": "https://www.fimfiction.net/user/208413/RQK"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/248094/feedback",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.dropbox.com/s/ggdua1myvokp2bu/Feedback.pdf?dl=1",
+				"title": "PDF"
+			},
+			{
+				"url": "http://www.lulu.com/shop/erik-loyd/feedback/paperback/product-23884649.html",
+				"title": "Perfect-bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "pdf", "on demand", "paperback", "crystal ball"
+		]
+	}
+	,{
+		"id": 69,
+		"title": "Substitute",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/efl6-1537489545-307431-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Erik \"RQK\" Loyd",
+				"url": "https://www.fimfiction.net/user/208413/RQK"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/307431/substitute",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.dropbox.com/s/18wbhbmyjqr82cr/Substitute.pdf?dl=1",
+				"title": "PDF"
+			},
+			{
+				"url": "http://www.lulu.com/shop/erik-loyd/substitute/paperback/product-23868667.html",
+				"title": "Perfect-bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "pdf", "on demand", "paperback", "crystal ball"
+		]
+	}
+	,{
+		"id": 70,
+		"title": "Divergence",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/tw53-1537490311-419204-full",
+		"rating": "T",
+		"dateAdded": "2019/01/03",
+		"expiry": "2019/01/02",
+		"authors":[
+			{
+				"name": "Erik \"RQK\" Loyd",
+				"url": "https://www.fimfiction.net/user/208413/RQK"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/419204/divergence",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "",
+				"title": "PDF"
+			},
+			{
+				"url": "",
+				"title": "Perfect-bound Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "pdf", "on demand", "paperback", "crystal ball", "incomplete"
+		]
+	}
+	,{
+		"id": 71,
+		"title": "Fallout Equestria: Mending Hearts",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/lw29-1459299921-253729-full",
+		"rating": "M",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "volrathxp",
+				"url": "https://www.fimfiction.net/user/15746/volrathxp"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/253729/fallout-equestria-mending-hearts",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.dropbox.com/s/z3y35nqigd90wjv/Fallout_%20Equestria%20-%20Mending%20He%20-%20volrathxp.pdf?dl=0",
+				"title": "PDF"
+			}
+		],
+		"tags": [
+			"fimfic", "pdf", "foe"
+		]
+	}
+	,{
+		"id": 71,
+		"title": "Fallout Equestria: Starlight",
+		"edition": "?",
+		"img": "https://cdn-img.fimfiction.net/story/mmx8-1434158089-17890-full",
+		"rating": "M",
+		"dateAdded": "2019/01/03",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "volrathxp",
+				"url": "https://www.fimfiction.net/user/15746/volrathxp"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/17890/fallout-equestria-starlight",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.dropbox.com/s/uczlmyxccw1e5zg/Fallout%20Equestria_%20Starlight%20-%20volrathxp.pdf?dl=0",
+				"title": "PDF"
+			}
+		],
+		"tags": [
+			"fimfic", "pdf", "foe"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
