@@ -17,7 +17,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/21583/twilights-list",
+				"url": "https://www.fimfiction.net/story/21583/twilights-list",
 				"title": "Fimfiction.net"
 			},
 			{
@@ -45,7 +45,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/15353/inner-glory",
+				"url": "https://www.fimfiction.net/story/15353/inner-glory",
 				"title": "Fimfiction.net"
 			}
 		],
@@ -69,11 +69,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/146025/ill-always-be-here-for-you",
+				"url": "https://www.fimfiction.net/story/146025/ill-always-be-here-for-you",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.fimfiction.net/blog/673075/scoots-book-important-update",
+				"url": "https://www.fimfiction.net/blog/673075/scoots-book-important-update",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -97,11 +97,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://thegoldencrowbar.deviantart.com/gallery/?q=doctor+whoof",
+				"url": "https://thegoldencrowbar.deviantart.com/gallery/?q=doctor+whoof",
 				"title": "DeviantArt"
 			},
 			{
-				"url": "http://www.lulu.com/shop/jonathan-lopez/doctor-whoof-the-complete-series-directors-cut/hardcover/product-16671951.html",
+				"url": "https://www.lulu.com/shop/jonathan-lopez/doctor-whoof-the-complete-series-directors-cut/hardcover/product-16671951.html",
 				"title": "Hardcover"
 			}
 		],
@@ -125,11 +125,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/1888/my-little-dashie",
+				"url": "https://www.fimfiction.net/story/1888/my-little-dashie",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.thebookpatch.com/BookStore/my-little-dashie/9da85c66-b5a3-4186-9cf1-88f349068ce3",
+				"url": "https://www.thebookpatch.com/BookStore/my-little-dashie/9da85c66-b5a3-4186-9cf1-88f349068ce3",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -153,10 +153,10 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/30494/the-story-of-my-life",
+				"url": "https://www.fimfiction.net/story/30494/the-story-of-my-life",
 				"title": "Fimfiction.net"
 			},{
-				"url": "http://www.lulu.com/shop/xupla-mindblower/the-story-of-my-life/paperback/product-20404756.html",
+				"url": "https://www.lulu.com/shop/xupla-mindblower/the-story-of-my-life/paperback/product-20404756.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -180,19 +180,19 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/20514/the-stranger-and-her-friend",
+				"url": "https://www.fimfiction.net/story/20514/the-stranger-and-her-friend",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/tyler-j-barton/the-stranger-and-her-friend/hardcover/product-21422889.html",
+				"url": "https://www.lulu.com/shop/tyler-j-barton/the-stranger-and-her-friend/hardcover/product-21422889.html",
 				"title": "Matte Hardcover with Dust Cover"
 			},
 			{
-				"url": "http://www.lulu.com/shop/tyler-barton/the-stranger-and-her-friend/hardcover/product-21422926.html",
+				"url": "https://www.lulu.com/shop/tyler-barton/the-stranger-and-her-friend/hardcover/product-21422926.html",
 				"title": "Glossy Hardcover with Dust Cover"
 			},
 			{
-				"url": "http://www.lulu.com/shop/tyler-barton/the-stranger-and-her-friend/paperback/product-21422895.html",
+				"url": "https://www.lulu.com/shop/tyler-barton/the-stranger-and-her-friend/paperback/product-21422895.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -216,11 +216,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/71498/the-tale-of-saving-grace",
+				"url": "https://www.fimfiction.net/story/71498/the-tale-of-saving-grace",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/tyler-weiss/the-tale-of-saving-grace/paperback/product-21251555.html",
+				"url": "https://www.lulu.com/shop/tyler-weiss/the-tale-of-saving-grace/paperback/product-21251555.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -244,7 +244,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/shaelyn-green/the-hope-called-night-firstborn/hardcover/product-21584438.html",
+				"url": "https://www.lulu.com/shop/shaelyn-green/the-hope-called-night-firstborn/hardcover/product-21584438.html",
 				"title": "Hardcover"
 			}
 		],
@@ -268,11 +268,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/9787/daring-do-adventures-1-daring-do-and-the-quest-for-the-sapphire-stone",
+				"url": "https://www.fimfiction.net/story/9787/daring-do-adventures-1-daring-do-and-the-quest-for-the-sapphire-stone",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/jordyn-mccarty/my-paperback-book/paperback/product-22624966.html",
+				"url": "https://www.lulu.com/shop/jordyn-mccarty/my-paperback-book/paperback/product-22624966.html",
 				"title": "Saddle-Stitched Paperback"
 			}
 		],
@@ -296,11 +296,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/256252/memoirs-of-a-magic-earth-pony",
+				"url": "https://www.fimfiction.net/story/256252/memoirs-of-a-magic-earth-pony",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/the-lunar-samurai/memiors-of-a-magic-earth-pony/hardcover/product-22722529.html",
+				"url": "https://www.lulu.com/shop/the-lunar-samurai/memiors-of-a-magic-earth-pony/hardcover/product-22722529.html",
 				"title": "Hardcover"
 			}
 		],
@@ -324,11 +324,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/119631/of-horses-and-whorses",
+				"url": "https://www.fimfiction.net/story/119631/of-horses-and-whorses",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/geodesicdragon/of-horses-and-whorses/paperback/product-22839346.html",
+				"url": "https://www.lulu.com/shop/geodesicdragon/of-horses-and-whorses/paperback/product-22839346.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -356,11 +356,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765383.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765383.html",
 				"title": "Hardcover with Dust Cover"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765393.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-celestia-code/hardcover/product-22765393.html",
 				"title": "Hardcover"
 			}
 		],
@@ -384,15 +384,15 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/175385/the-luna-cypher",
+				"url": "https://www.fimfiction.net/story/175385/the-luna-cypher",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790267.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790267.html",
 				"title": "Hardcover with Dust Cover"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790291.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-luna-cypher/hardcover/product-22790291.html",
 				"title": "Hardcover"
 			}
 		],
@@ -420,11 +420,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800704.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800704.html",
 				"title": "Hardcover with Dust Cover"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800738.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-twilight-enigma/hardcover/product-22800738.html",
 				"title": "Hardcover"
 			}
 		],
@@ -448,11 +448,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/141487/change-of-life",
+				"url": "https://www.fimfiction.net/story/141487/change-of-life",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.amazon.com/Change-Life-Bernard-Doove/dp/149482177X/",
+				"url": "https://www.amazon.com/Change-Life-Bernard-Doove/dp/149482177X/",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -476,7 +476,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/163295/growing-up-dandy",
+				"url": "https://www.fimfiction.net/story/163295/growing-up-dandy",
 				"title": "Fimfiction.net"
 			},
 			{
@@ -504,11 +504,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/192085/conversations-in-a-canterlot-caf",
+				"url": "https://www.fimfiction.net/story/192085/conversations-in-a-canterlot-caf",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.amazon.com/Conversations-In-A-Canterlot-Cafe/dp/1505411041/",
+				"url": "https://www.amazon.com/Conversations-In-A-Canterlot-Cafe/dp/1505411041/",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -536,7 +536,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.amazon.com/Different-Perspective-Bernard-Doove/dp/1519185537/",
+				"url": "https://www.amazon.com/Different-Perspective-Bernard-Doove/dp/1519185537/",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -592,11 +592,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-akyearling-version",
+				"url": "https://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-akyearling-version",
 				"title": "Hardcover"
 			},
 			{
-				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-ak-yearling-dust-jacket-bw",
+				"url": "https://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-ak-yearling-dust-jacket-bw",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -624,11 +624,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-almanac-version",
+				"url": "https://almanacpony.tictail.com/product/daring-do-and-the-quest-for-the-sapphire-stone-almanac-version",
 				"title": "Hardcover"
 			},
 			{
-				"url": "http://almanacpony.tictail.com/product/daring-do-and-the-sapphire-stone-dust-jacket-bw",
+				"url": "https://almanacpony.tictail.com/product/daring-do-and-the-sapphire-stone-dust-jacket-bw",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -656,11 +656,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-akyearling-version",
+				"url": "https://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-akyearling-version",
 				"title": "Hardcover"
 			},
 			{
-				"url": "http://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-ak-yearling-dust-jacket-bw",
+				"url": "https://almanacpony.tictail.com/product/preorder-daring-do-and-the-griffons-goblet-ak-yearling-dust-jacket-bw",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -684,11 +684,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/41596/past-sins",
+				"url": "https://www.fimfiction.net/story/41596/past-sins",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.thebookpatch.com/BookStore/past-sins/35b50398-956a-4890-8868-21ef8f58d904",
+				"url": "https://www.thebookpatch.com/BookStore/past-sins/35b50398-956a-4890-8868-21ef8f58d904",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -712,11 +712,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://thegoldencrowbar.deviantart.com/gallery/?catpath=%2F&q=torchwood",
+				"url": "https://thegoldencrowbar.deviantart.com/gallery/?catpath=%2F&q=torchwood",
 				"title": "DeviantArt"
 			},
 			{
-				"url": "http://www.lulu.com/shop/jonathan-lopez/torchwood-the-new-equestria-files/paperback/product-16532790.html",
+				"url": "https://www.lulu.com/shop/jonathan-lopez/torchwood-the-new-equestria-files/paperback/product-16532790.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -740,11 +740,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/5381/rainbow-factory",
+				"url": "https://www.fimfiction.net/story/5381/rainbow-factory",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/aurora-dawn/therainbowfactory/paperback/product-21796634.html",
+				"url": "https://www.lulu.com/shop/aurora-dawn/therainbowfactory/paperback/product-21796634.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -768,11 +768,11 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.fimfiction.net/story/130470/hail-mary",
+				"url": "https://www.fimfiction.net/story/130470/hail-mary",
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/arby-works-and-ezrienel/hail-mary/paperback/product-21378699.html",
+				"url": "https://www.lulu.com/shop/arby-works-and-ezrienel/hail-mary/paperback/product-21378699.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -800,11 +800,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-1/paperback/product-22857031.html",
+				"url": "https://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-1/paperback/product-22857031.html",
 				"title": "Perfect-Bound Paperback (Part 1)"
 			},
 			{
-				"url": "http://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-2/paperback/product-22857036.html",
+				"url": "https://www.lulu.com/shop/ashton-crimson/the-lost-element-vol-1-a-newcomer-in-equestria-part-2/paperback/product-22857036.html",
 				"title": "Perfect-Bound Paperback (Part 2)"
 			}
 		],
@@ -828,7 +828,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://dori-to.deviantart.com/gallery/",
+				"url": "https://dori-to.deviantart.com/gallery/",
 				"title": "DeviantArt"
 			},
 			{
@@ -961,7 +961,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/thomas-taylor/my-little-pony/paperback/product-21038899.html",
+				"url": "https://www.lulu.com/shop/thomas-taylor/my-little-pony/paperback/product-21038899.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -985,7 +985,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/sarah-sellers/rainbow-light-and-friends-a-coloring-book/paperback/product-20596075.html",
+				"url": "https://www.lulu.com/shop/sarah-sellers/rainbow-light-and-friends-a-coloring-book/paperback/product-20596075.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1009,7 +1009,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/polly-lewis/mlp-comic/paperback/product-21267574.html",
+				"url": "https://www.lulu.com/shop/polly-lewis/mlp-comic/paperback/product-21267574.html",
 				"title": "Saddle-Stitched Paperback"
 			}
 		],
@@ -1033,7 +1033,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/ryan-compton/equestria/paperback/product-22147894.html",
+				"url": "https://www.lulu.com/shop/ryan-compton/equestria/paperback/product-22147894.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1057,7 +1057,7 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/mi-%C3%A1lbum/hardcover/product-22759210.html",
+				"url": "https://www.lulu.com/shop/mi-%C3%A1lbum/hardcover/product-22759210.html",
 				"title": "Hardcover"
 			}
 		],
@@ -1108,12 +1108,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/cutey-confidential-2015-standard-edition/calendar/product-21954294.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/cutey-confidential-2015-standard-edition/calendar/product-21954294.html",
 				"title": "2015 Calendar"
 			}
 		],
@@ -1132,12 +1132,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/cutey-confidential-2015-premium-edition/calendar/product-21954275.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/cutey-confidential-2015-premium-edition/calendar/product-21954275.html",
 				"title": "2015 Calendar"
 			}
 		],
@@ -1156,12 +1156,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart/paperback/product-21966176.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart/paperback/product-21966176.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1180,12 +1180,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-too/paperback/product-21966290.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-too/paperback/product-21966290.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1204,12 +1204,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-3/paperback/product-21774461.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-3/paperback/product-21774461.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1228,12 +1228,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-4/paperback/product-21928579.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-4/paperback/product-21928579.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1252,12 +1252,12 @@ export const BOOKS : Book[] = [
 		"authors":[
 			{
 				"name": "Iris Trismegistus",
-				"url": "http://www.lulu.com/shop/search.ep?contributorId=1299801"
+				"url": "https://www.lulu.com/shop/search.ep?contributorId=1299801"
 			}
 		],
 		"links": [
 			{
-				"url": "http://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-5/paperback/product-22565505.html",
+				"url": "https://www.lulu.com/shop/iris-trismegistus/my-little-sweetheart-5/paperback/product-22565505.html",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
@@ -1309,7 +1309,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://book.fallout-equestria.com/forum/viewtopic.php?t=502&sid=78a342cf1e313e52226f99defecb9403",
+				"url": "https://book.fallout-equestria.com/forum/viewtopic.php?t=502&sid=78a342cf1e313e52226f99defecb9403",
 				"title": "Information"
 			},
 			{
@@ -1369,7 +1369,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/austraeoh/hardcover/product-23207117.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/austraeoh/hardcover/product-23207117.html",
 				"title": "Hardcover"
 			}
 		],
@@ -1397,7 +1397,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/eljunbyro/hardcover/product-23212174.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/eljunbyro/hardcover/product-23212174.html",
 				"title": "Hardcover"
 			}
 		],
@@ -1425,11 +1425,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/innavedr-vol-1/hardcover/product-23205794.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/innavedr-vol-1/hardcover/product-23205794.html",
 				"title": "Hardcover - Volume 1"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/innavedr-vol-2/hardcover/product-23205798.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/innavedr-vol-2/hardcover/product-23205798.html",
 				"title": "Hardcover - Volume 2"
 			}
 		],
@@ -1457,11 +1457,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/odrsjot-vol-1/hardcover/product-23205803.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/odrsjot-vol-1/hardcover/product-23205803.html",
 				"title": "Hardcover - Volume 1"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/odrsjot-vol-2/hardcover/product-23226423.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/odrsjot-vol-2/hardcover/product-23226423.html",
 				"title": "Hardcover - Volume 2"
 			}
 		],
@@ -1489,11 +1489,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/urohringr-vol-1/hardcover/product-23210180.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/urohringr-vol-1/hardcover/product-23210180.html",
 				"title": "Hardcover - Volume 1"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/urohringr-vol-2/hardcover/product-23210183.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/urohringr-vol-2/hardcover/product-23210183.html",
 				"title": "Hardcover - Volume 2"
 			}
 		],
@@ -1521,11 +1521,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-1/hardcover/product-23210188.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-1/hardcover/product-23210188.html",
 				"title": "Hardcover - Volume 1"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-2/hardcover/product-23210194.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/yaerfaerda-vol-2/hardcover/product-23210194.html",
 				"title": "Hardcover - Volume 2"
 			}
 		],
@@ -1553,11 +1553,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-1/hardcover/product-23210196.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-1/hardcover/product-23210196.html",
 				"title": "Hardcover - Volume 1"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-2/hardcover/product-23210197.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/ynanhluutr-vol-2/hardcover/product-23210197.html",
 				"title": "Hardcover - Volume 2"
 			}
 		],
@@ -1585,19 +1585,19 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-1/hardcover/product-23285190.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/utaan-vol-1/hardcover/product-23285190.html",
 				"title": "Hardcover - Volume 1"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-2/hardcover/product-23285193.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/utaan-vol-2/hardcover/product-23285193.html",
 				"title": "Hardcover - Volume 2"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-3/hardcover/product-23285196.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/utaan-vol-3/hardcover/product-23285196.html",
 				"title": "Hardcover - Volume 3"
 			},
 			{
-				"url": "http://www.lulu.com/shop/imploding-colon/utaan-vol-4/hardcover/product-23285198.html",
+				"url": "https://www.lulu.com/shop/imploding-colon/utaan-vol-4/hardcover/product-23285198.html",
 				"title": "Hardcover - Volume 4"
 			}
 		],
@@ -1625,7 +1625,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/crystal/crystals-wishes-once-upon-a-time/hardcover/product-23189113.html",
+				"url": "https://www.lulu.com/shop/crystal/crystals-wishes-once-upon-a-time/hardcover/product-23189113.html",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -1653,7 +1653,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/anzel/memoirs-of-a-royal-guard-2nd-printing/hardcover/product-23047407.html",
+				"url": "https://www.lulu.com/shop/anzel/memoirs-of-a-royal-guard-2nd-printing/hardcover/product-23047407.html",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -1681,7 +1681,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/ether-echoes/through-the-well-of-pirene/hardcover/product-23231313.html",
+				"url": "https://www.lulu.com/shop/ether-echoes/through-the-well-of-pirene/hardcover/product-23231313.html",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -1709,7 +1709,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/ether-echoes/three-nights-in-manehattan/hardcover/product-23517310.html",
+				"url": "https://www.lulu.com/shop/ether-echoes/three-nights-in-manehattan/hardcover/product-23517310.html",
 				"title": "Hardcover with Dust Cover"
 			}
 		],
@@ -1741,11 +1741,11 @@ export const BOOKS : Book[] = [
 				"title": "Information"
 			},
 			{
-				"url": "http://www.lulu.com/shop/oroboro/fractured-sunlight-bw/hardcover/product-23767180.html",
+				"url": "https://www.lulu.com/shop/oroboro/fractured-sunlight-bw/hardcover/product-23767180.html",
 				"title": "Hardcover with Dust Cover (B&W)"
 			},
 			{
-				"url": "http://www.lulu.com/shop/oroboro/fractured-sunlight-color/hardcover/product-23767215.html",
+				"url": "https://www.lulu.com/shop/oroboro/fractured-sunlight-color/hardcover/product-23767215.html",
 				"title": "Hardcover with Dust Cover (Color)"
 			}
 		],
@@ -1773,7 +1773,7 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/erik-loyd/reflections/paperback/product-23935297.html",
+				"url": "https://www.lulu.com/shop/erik-loyd/reflections/paperback/product-23935297.html",
 				"title": "Perfect-Bound Paperback"
 			},
 			{
@@ -1889,11 +1889,11 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-skyla-pseudonym/hardcover/product-23467348.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-skyla-pseudonym/hardcover/product-23467348.html",
 				"title": "Hardcover with Dust Cover"
 			},
 			{
-				"url": "http://www.lulu.com/shop/iisaw/the-skyla-pseudonym/hardcover/product-23467343.html",
+				"url": "https://www.lulu.com/shop/iisaw/the-skyla-pseudonym/hardcover/product-23467343.html",
 				"title": "Hardcover"
 			}
 		],
@@ -1953,7 +1953,7 @@ export const BOOKS : Book[] = [
 				"title": "PDF"
 			},
 			{
-				"url": "http://www.lulu.com/shop/erik-loyd/feedback/paperback/product-23884649.html",
+				"url": "https://www.lulu.com/shop/erik-loyd/feedback/paperback/product-23884649.html",
 				"title": "Perfect-bound Paperback"
 			}
 		],
@@ -1985,7 +1985,7 @@ export const BOOKS : Book[] = [
 				"title": "PDF"
 			},
 			{
-				"url": "http://www.lulu.com/shop/erik-loyd/substitute/paperback/product-23868667.html",
+				"url": "https://www.lulu.com/shop/erik-loyd/substitute/paperback/product-23868667.html",
 				"title": "Perfect-bound Paperback"
 			}
 		],
