@@ -2081,6 +2081,42 @@ export const BOOKS : Book[] = [
 			"fimfic", "pdf", "foe"
 		]
 	}
+	,{
+		"id": 72,
+		"title": "Looking Glass",
+		"edition": "",
+		"img": "https://cdn-img.fimfiction.net/story/gl1a-1525349794-350494-full",
+		"rating": "T",
+		"dateAdded": "2019/01/05",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Krickis",
+				"url": "https://www.fimfiction.net/user/220433/Krickis"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/350494/looking-glass",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/blog/841015/looking-glass-book-now-available",
+				"title": "Information"
+			},
+			{
+				"url": "",
+				"title": "Hardcover with Dust Cover (Color)"
+			},
+			{
+				"url": "http://www.lulu.com/shop/krickis/looking-glass/hardcover/product-23909647.html",
+				"title": "Hardcover with Dust Cover (B&W)"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "dust cover", "on demand"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
