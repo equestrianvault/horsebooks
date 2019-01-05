@@ -2105,6 +2105,10 @@ export const BOOKS : Book[] = [
 				"title": "Information"
 			},
 			{
+				"url": "https://drive.google.com/drive/folders/1Y_fLwDQRp1bGlPQvOgVD7APIxS9h_PPR?usp=sharing",
+				"title": "Audiobook"
+			},
+			{
 				"url": "",
 				"title": "Hardcover with Dust Cover (Color)"
 			},
@@ -2114,7 +2118,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "dust cover", "on demand"
+			"fimfic", "hardcover", "dust cover", "on demand", "who we become"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
