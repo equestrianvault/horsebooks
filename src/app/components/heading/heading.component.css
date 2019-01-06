@@ -1,0 +1,25 @@
+#links, #mobilelinks{
+	height: 50px;
+	overflow-y: hidden;
+}
+
+#links a, #mobilelinks a{
+	height: 100%;
+	vertical-align: middle;
+}
+
+#links a img, #mobilelinks a img{
+	height: 100%;
+}
+
+@media screen and (min-width: 601px){
+	.mobile-only{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.desktop-only{
+		display: none;
+	}
+}

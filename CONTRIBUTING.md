@@ -1,3 +1,4 @@
 This project used the [Github flow](https://guides.github.com/introduction/flow/) method of contributing and must pass all unit tests before it will be accepted.
 
-When submitting your update for final review, make sure to have run `ng build --prod` so that the finalized app includes your changes. The app serves data from the `dist/` folder on Heroku.
+For questions, check out the [Discord server](https://discord.gg/4Bh49Y8).
+Feel free to check out the list of issues [here](https://github.com/tsitra/horsebooks/issues).
