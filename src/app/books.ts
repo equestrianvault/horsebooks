@@ -2109,7 +2109,7 @@ export const BOOKS : Book[] = [
 				"title": "Audiobook"
 			},
 			{
-				"url": "",
+				"url": "http://www.lulu.com/shop/krickis/looking-glass/hardcover/product-23909632.html",
 				"title": "Hardcover with Dust Cover (Color)"
 			},
 			{
