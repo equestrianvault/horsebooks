@@ -2141,6 +2141,10 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
+				"url": "https://www.fimfiction.net/story/4656/anthropology",
+				"title": "Fimfiction.net"
+			},
+			{
 				"url": "https://www.ministryofimage.net/product-page/anthropology",
 				"title": "Hardcover"
 			}
@@ -2165,6 +2169,10 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
+				"url": "https://www.fimfiction.net/story/19198/background-pony",
+				"title": "Fimfiction.net"
+			},
+			{
 				"url": "https://www.ministryofimage.net/product-page/background-pony",
 				"title": "Hardcover"
 			}
@@ -2188,6 +2196,10 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/931/fallout-equestria-pink-eyes",
+				"title": "Fimfiction.net"
+			},
 			{
 				"url": "https://www.ministryofimage.net/product-page/pink-eyes",
 				"title": "Hardcover"
@@ -2221,6 +2233,18 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
+				"url": "https://www.fimfiction.net/story/31474/accidental-harmony",
+				"title": "Fimfiction.net (Accidental Harmony)"
+			},
+			{
+				"url": "https://www.fimfiction.net/story/2365/allegrezza",
+				"title": "Fimfiction.net (Allegrezza)"
+			},
+			{
+				"url": "https://www.fimfiction.net/story/36388/my-roommate-is-a-vampire",
+				"title": "Fimfiction.net (My Roommate is a Vampire)"
+			},
+			{
 				"url": "https://www.ministryofimage.net/product-page/two-sides-of-melody",
 				"title": "Hardcover"
 			}
@@ -2246,8 +2270,12 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "",
-				"title": ""
+				"url": "Fimfiction Story Link",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "Storefront Link",
+				"title": "Type of Book (Hardcover / Hardcover with Dust Cover / PDF / Perfect-Bound Paperback)"
 			}
 		],
 		"tags": [
