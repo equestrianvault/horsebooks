@@ -688,12 +688,16 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
+				"url": "https://www.ministryofimage.net/product-page/past-sins",
+				"title": "Hardcover"
+			},
+			{
 				"url": "https://www.thebookpatch.com/BookStore/past-sins/35b50398-956a-4890-8868-21ef8f58d904",
 				"title": "Perfect-Bound Paperback"
 			}
 		],
 		"tags": [
-			"fimfic", "paperback"
+			"fimfic", "paperback", "hardcover"
 		]
 	}
 	,{
@@ -2121,6 +2125,134 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "dust cover", "on demand", "who we become"
 		]
 	}
+	,{
+		"id": 73,
+		"title": "Anthropology",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/jged-1432421699-4656-full",
+		"rating": "E",
+		"dateAdded": "2019/01/06",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "JasonTheHuman",
+				"url": "https://www.fimfiction.net/user/5727/JasonTheHuman"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/4656/anthropology",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/anthropology",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover"
+		]
+	}
+	,{
+		"id": 74,
+		"title": "Background Pony",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/zhml-1432427782-19198-full",
+		"rating": "T",
+		"dateAdded": "2019/01/06",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "shortskirtsandexplosions",
+				"url": "https://www.fimfiction.net/user/1491/shortskirtsandexplosions"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/19198/background-pony",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/background-pony",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover"
+		]
+	}
+	,{
+		"id": 75,
+		"title": "Fallout Equestria: Pink Eyes",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/l9td-1432420232-931-full",
+		"rating": "T",
+		"dateAdded": "2019/01/06",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "mimezinga",
+				"url": "https://www.fimfiction.net/user/724/mimezinga"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/931/fallout-equestria-pink-eyes",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/pink-eyes",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover"
+		]
+	}
+	,{
+		"id": 76,
+		"title": "Two Sides of Melody",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/xql3-1432435522-31474-full",
+		"rating": "T",
+		"dateAdded": "2019/01/06",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "errant",
+				"url": "https://www.fimfiction.net/user/12443/errant"
+			},
+			{
+				"name": "Avensis Astari",
+				"url": "https://www.fimfiction.net/user/2168/Avensis+Astari"
+			},
+			{
+				"name": "Dennis the Menace",
+				"url": "https://www.fimfiction.net/user/6405/Dennis+the+Menace"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/31474/accidental-harmony",
+				"title": "Fimfiction.net (Accidental Harmony)"
+			},
+			{
+				"url": "https://www.fimfiction.net/story/2365/allegrezza",
+				"title": "Fimfiction.net (Allegrezza)"
+			},
+			{
+				"url": "https://www.fimfiction.net/story/36388/my-roommate-is-a-vampire",
+				"title": "Fimfiction.net (My Roommate is a Vampire)"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/two-sides-of-melody",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "Accidental Harmony", "Allegrezza", "My Roommate is a Vampire"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
@@ -2138,8 +2270,12 @@ export const BOOKS : Book[] = [
 		],
 		"links": [
 			{
-				"url": "",
-				"title": ""
+				"url": "Fimfiction Story Link",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "Storefront Link",
+				"title": "Type of Book (Hardcover / Hardcover with Dust Cover / PDF / Perfect-Bound Paperback)"
 			}
 		],
 		"tags": [
