@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./heading.component.css']
 })
 export class Heading {
-  title = 'Horse Books';
+  title = 'Crystal Archives';
 }
