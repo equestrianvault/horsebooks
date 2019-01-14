@@ -11,26 +11,31 @@ export class SearchPipe implements PipeTransform{
 		if(lowerSearchString === ""){
 			return books;
 		}
-		let newBooks = 
-			books.filter(
-				// search titles
-					book => book.title.toLowerCase().includes(lowerSearchString)
-			)
-			.concat(
-				// search authors
-				books.filter(
-					book => book.authors.filter(author => author.name.toLowerCase().includes(lowerSearchString)).length > 0
-				)
-			)
-			.concat(
-				// search tags
-				books.filter(
-					book => book.tags.filter(tag => tag.toLowerCase().match(lowerSearchString)).length > 0
-				)
-			)
-			;
+		let newBooks:Array<Book> = new Array(0);
 
-		return Array.from(new Set(Array.from(newBooks)))
+		let searchBooks = books;
+
+		for(let searchTerm of lowerSearchString.split(" ")){
+			searchBooks = searchBooks.filter(
+				// search titles
+					book => book.title.toLowerCase().includes(searchTerm)
+				)
+				.concat(
+					// search authors
+					searchBooks.filter(
+						book => book.authors.filter(author => author.name.toLowerCase().includes(searchTerm)).length > 0
+					)
+				)
+				.concat(
+					// search tags
+					searchBooks.filter(
+						book => book.tags.filter(tag => tag.toLowerCase().match(searchTerm)).length > 0
+					)
+				);
+		}
+			
+
+		return Array.from(new Set(Array.from(searchBooks)))
 			// Sort by Id
 			.sort( (booka, bookb) => {
 				if(booka.id > bookb.id){
