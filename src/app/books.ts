@@ -2206,7 +2206,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover"
+			"fimfic", "hardcover", "foe"
 		]
 	}
 	,{
@@ -2251,6 +2251,34 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "hardcover", "Accidental Harmony", "Allegrezza", "My Roommate is a Vampire"
+		]
+	}
+	,{
+		"id": 77,
+		"title": "Fallout Equestria - Dead Tree",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/n0js-1522006881-393681-full",
+		"rating": "M",
+		"dateAdded": "2019/01/13",
+		"expiry": "2019/02/01",
+		"authors":[
+			{
+				"name": "Fiaura",
+				"url": "https://www.fimfiction.net/user/304873/Fiaura"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/393681/fallout-equestria-dead-tree",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://rena-miller.squarespace.com/shop/fallout-equestria-dead-tree-volume-1",
+				"title": "Hardcover (Volume 1)"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "foe"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
