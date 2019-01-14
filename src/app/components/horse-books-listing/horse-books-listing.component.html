@@ -16,5 +16,5 @@
 	</div>
 </div>
 <div class="w3-row-padding" >
-	<horse-book-list-item class="w3-third" *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature)" [book]=book></horse-book-list-item>
+	<horse-book-list-item class="w3-third" *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [book]=book></horse-book-list-item>
 </div>

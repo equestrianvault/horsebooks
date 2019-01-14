@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { SearchPipe } from './search.pipe';
 import { ShowMaturePipe } from './mature.pipe';
 import { ShowExpiredPipe } from './expired.pipe';
+import { OrderBooksPipe } from './orderbooks.pipe';
 import { AppComponent } from './app.component';
 import { Heading } from './components/heading/heading.component';
 import { Footing } from './components/footing/footing.component';
@@ -23,7 +24,8 @@ import { HorseBookListItem } from './components/horse-books-listing/horse-book-l
     HorseBookListItem,
     SearchPipe,
     ShowExpiredPipe,
-    ShowMaturePipe
+    ShowMaturePipe,
+    OrderBooksPipe
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { HorseBookListItem } from './components/horse-books-listing/horse-book-l
   exports: [
     SearchPipe,
     ShowExpiredPipe,
-    ShowMaturePipe
+    ShowMaturePipe,
+    OrderBooksPipe
   ],
   providers: [],
   bootstrap: [AppComponent]

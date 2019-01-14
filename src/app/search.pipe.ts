@@ -35,16 +35,6 @@ export class SearchPipe implements PipeTransform{
 		}
 			
 
-		return Array.from(new Set(Array.from(searchBooks)))
-			// Sort by Id
-			.sort( (booka, bookb) => {
-				if(booka.id > bookb.id){
-					return 1;
-				}else if (booka.id < bookb.id){
-					return -1;
-				}else{
-					return 0
-				}
-			});
+		return Array.from(new Set(Array.from(searchBooks)));
 	}
 }
