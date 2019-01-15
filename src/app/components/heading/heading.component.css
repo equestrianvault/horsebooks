@@ -1,15 +1,39 @@
 #links, #mobilelinks{
-	height: 50px;
+	height: 40px;
 	overflow-y: hidden;
+	text-align: middle;
+	vertical-align: middle;
 }
 
 #links a, #mobilelinks a{
 	height: 100%;
-	vertical-align: middle;
+	font-size: 20px;
+	padding: 0 5px;
+}
+#links a i, #mobilelinks a i{
+	font-size: 25px;
+	text-align: 5px;
+	padding-top: 5px;
 }
 
 #links a img, #mobilelinks a img{
-	height: 100%;
+	margin: 0;
+}
+
+#github, #discord{
+	padding: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#discord img{
+	height: 40px;
+}
+
+#github img{
+	height: 32px;
+	text-align: middle;
+	padding-top: 5px;
 }
 
 @media screen and (min-width: 601px){
