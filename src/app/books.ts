@@ -2274,11 +2274,43 @@ export const BOOKS : Book[] = [
 			},
 			{
 				"url": "https://rena-miller.squarespace.com/shop/fallout-equestria-dead-tree-volume-1",
-				"title": "Hardcover (Volume 1)"
+				"title": "Hardcover (Volume 1, Preorder)"
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "foe"
+			"fimfic", "hardcover", "foe", "preorder"
+		]
+	}
+	,{
+		"id": 78,
+		"title": "Fallout Equestria: Project Horizons",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/0xm9-1441146045-208056-medium",
+		"rating": "M",
+		"dateAdded": "2019/01/29",
+		"expiry": "2019/04/01",
+		"authors":[
+			{
+				"name": "Somber",
+				"url": "https://www.fimfiction.net/user/17398/Somber"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/208056/fallout-equestria-project-horizons",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/fallout-equestria-project-horizons-vol-1",
+				"title": "Hardcover (Volume 1 Preorder)"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/fallout-equestria-project-horizons-vol-2",
+				"title": "Hardcover (Volume 2 Preorder)"
+			}
+		],
+		"tags": [
+			"fimfic", "foe", "hardcover", "preorder"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
