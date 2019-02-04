@@ -2097,6 +2097,10 @@ export const BOOKS : Book[] = [
 			{
 				"name": "Krickis",
 				"url": "https://www.fimfiction.net/user/220433/Krickis"
+			},
+			{
+				"name": "Ko-fi for Krickis",
+				"url": "https://ko-fi.com/krickis"
 			}
 		],
 		"links": [
