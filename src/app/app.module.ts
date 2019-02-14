@@ -11,8 +11,10 @@ import { AppComponent } from './app.component';
 import { Heading } from './components/heading/heading.component';
 import { Footing } from './components/footing/footing.component';
 import { AppBody } from './components/app-body/app-body.component';
+import { BookDetail } from './components/book-detail/book-detail.component';
 import { HorseBooksListing } from './components/horse-books-listing/horse-books-listing.component';
 import { HorseBookListItem } from './components/horse-books-listing/horse-book-list-item/horse-book-list-item.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { HorseBookListItem } from './components/horse-books-listing/horse-book-l
     Heading,
     Footing,
     AppBody,
+    BookDetail,
     HorseBooksListing,
     HorseBookListItem,
     SearchPipe,
@@ -30,7 +33,8 @@ import { HorseBookListItem } from './components/horse-books-listing/horse-book-l
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   exports: [
     SearchPipe,
