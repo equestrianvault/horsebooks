@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3921466-cfc3-4402-8b5f-a0fc364eede0/deploy-status)](https://app.netlify.com/sites/crystal-archives/deploys)
 # Horsebooks
 
 ## Contributing
