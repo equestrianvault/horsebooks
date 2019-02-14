@@ -853,63 +853,63 @@ export const BOOKS : Book[] = [
 		"dateAdded": "2018/12/30",
 		"expiry": null,
 		"authors":[
-			{ 
+			{
 				"name": "KefkaFloyd",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Adlynh",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Bakertoons",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Centchi",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Emberwisp",
 				"url": null
 			},
-			{ 
+			{
 				"name": "fxcellent",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Jowybean",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Leekfish",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Muffinshire",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Pasteur",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Ponywise",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Sofas And Quills",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Spectralunicorn",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Starry Night",
 				"url": null
 			},
-			{ 
+			{
 				"name": "Steve Holt",
 				"url": null
 			}
@@ -924,7 +924,7 @@ export const BOOKS : Book[] = [
 			"paperback", "artbook", "on demand"
 		]
 	}
-	// 
+	//
 	,{
 		"id": 33,
 		"title": "Book of Gaia: EQUESTRIA, Volume 1",
@@ -2264,7 +2264,7 @@ export const BOOKS : Book[] = [
 		"img": "https://cdn-img.fimfiction.net/story/n0js-1522006881-393681-medium",
 		"rating": "M",
 		"dateAdded": "2019/01/13",
-		"expiry": "2019/02/01",
+		"expiry": "2019/03/06",
 		"authors":[
 			{
 				"name": "Fiaura",
@@ -2315,6 +2315,90 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "foe", "hardcover", "preorder"
+		]
+	}
+		,{
+		"id": 79,
+		"title": "Message in a Bottle",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/jipe-1491037399-368986-medium",
+		"rating": "T",
+		"dateAdded": "2019/02/14",
+		"expiry": "2019/03/01",
+		"authors":[
+			{
+				"name": "Starscribe",
+				"url": "https://www.fimfiction.net/user/173490/Starscribe"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/368986/message-in-a-bottle",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.indiegogo.com/projects/message-in-a-bottle-print-run#/",
+				"title": "Hardcover (Indiegogo)"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "limited run"
+		]
+	}
+		,{
+		"id": 80,
+		"title": "Fallout: Equestria",
+		"edition": "4",
+		"img": "https://cdn-img.fimfiction.net/story/fuca-1432496101-119190-full",
+		"rating": "M",
+		"dateAdded": "2019/02/14",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Kkat",
+				"url": "https://www.fimfiction.net/user/10369/Kkat"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/119190/fallout-equestria",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://goo.gl/GZw21f",
+				"title": "Hardcover w/ Dust Cover, Reserve List"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "foe", "reserve"
+		]
+	}
+		,{
+		"id": 81,
+		"title": "Fallout: Equestria - Murky Number Seven",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/rgi2-1432445486-47300-full",
+		"rating": "M",
+		"dateAdded": "2019/02/14",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "FuzzyVeeVee",
+				"url": "https://www.fimfiction.net/user/56707/FuzzyVeeVee"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/47300/fallout-equestria-murky-number-seven",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://goo.gl/87Wnja",
+				"title": "Hardcover w/ Dust Cover, Reserve List"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "foe", "reserve"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
