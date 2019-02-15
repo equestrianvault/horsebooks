@@ -1,10 +1,12 @@
 
 	<div class="w3-card-4 book-card">
-		<div class="w3-container title w3-blue-grey"><h4>{{ book.title }}</h4></div>
-		<div class="w3-container image">
-			<img src="{{ book.img }}"/>
-		</div>
-		<table class="w3-table w3-striped w3-bordered" style="width: 90%; margin: 0 auto">
+		<a routerLink="/book/{{book.id}}" routerLinkActive="active">
+			<div class="w3-container title w3-blue-grey"><h4>{{ book.title }}</h4></div>
+			<div class="w3-container image">
+				<img src="{{ book.img }}"/>
+			</div>
+		</a>
+		<!-- <table class="w3-table w3-striped w3-bordered" style="width: 90%; margin: 0 auto">
 			<tbody>
 				<tr class="authors">
 					<th class="w3-white">Authors</th>
@@ -46,5 +48,5 @@
 					</td>
 				</tr>
 			</tbody>
-		</table>
+		</table> -->
 	</div>

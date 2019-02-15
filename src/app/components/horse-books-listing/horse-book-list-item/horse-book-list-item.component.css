@@ -1,5 +1,5 @@
 div.book-card{
-	height: 575px;
+	height: 350px;
 	overflow: hidden;
 }
 div.title{
@@ -17,11 +17,11 @@ div.title span{
 
 div.image{
 	 text-align: center;
-	 height: 150px
+	 height: 250px
 }
 
 div.image img{
-	 max-height: 150px;
+	 max-height: 250px;
 	 max-width: 100%
 }
 

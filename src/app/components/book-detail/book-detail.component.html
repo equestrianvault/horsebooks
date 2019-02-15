@@ -1,3 +1,45 @@
-<h1>Book Detail</h1>
-<p>{{ id }}</p>
-<p>{{ book.title }}</p>
+<h1>{{ book.title }}</h1>
+<img src="{{book.img}}" style="max-height: 300px;"/>
+<table style="margin: 5px auto; min-width: 500px; border: 1px solid black;">
+	<tbody>
+		<tr>
+			<th>Rating</th>
+			<td>{{ book.rating }}</td>
+		</tr>
+		<tr *ngIf='book.edition !== null && book.edition !== ""'>
+			<th>Edition</th>
+			<td>{{book.edition}}</td>
+		</tr>
+		<tr>
+			<th>Authors</th>
+			<td>
+				<ul *ngFor='let author of book.authors'><li><a href="{{author.url}}">{{author.name}}</a></li></ul>
+			</td>
+		</tr>
+		<tr>
+			<th>Links</th>
+			<td>
+				<ul *ngFor='let link of book.links'><li><a href="{{link.url}}">{{link.title}}</a></li></ul>
+			</td>
+		</tr>
+		<tr>
+			<th>Tags</th>
+			<td>
+				<ul *ngFor='let tag of book.tags'><li>{{tag}}</li></ul>
+			</td>
+		</tr>
+		<tr>
+			<th>Date Added</th>
+			<td>{{book.dateAdded}}</td>
+		</tr>
+		<tr>
+			<th>Expiry</th>
+			<td *ngIf="book.expiry !== null && book.expiry !== ''">{{book.expiry}}</td>
+			<td *ngIf="book.expiry === null || book.expiry === ''">-</td>
+		</tr>
+		<tr>
+			<th>ID</th>
+			<td>{{book.id}}</td>
+		</tr>
+	</tbody>
+</table>
