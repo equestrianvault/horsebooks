@@ -1,0 +1,26 @@
+div{
+	padding: 5px;
+}
+table{
+	min-width: 300px;
+	max-width: 500px;
+	margin: 5px auto;
+}
+.image-row, .image-row th, .image-row td, .image-row tr{
+	text-align: center;
+}
+tbody th {
+	vertical-align: top;
+	text-align: right;
+	width: 25%;
+}
+tbody td {
+	text-align: left;
+}
+thead th{
+	text-align: center;
+}
+.w3-ul li{
+	margin: 0;
+	padding: 0;
+}
