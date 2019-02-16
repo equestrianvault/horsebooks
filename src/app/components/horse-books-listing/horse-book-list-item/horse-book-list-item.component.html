@@ -1,52 +1,8 @@
-
-	<div class="w3-card-4 book-card">
-		<a routerLink="/book/{{book.id}}" routerLinkActive="active">
-			<div class="w3-container title w3-blue-grey"><h4>{{ book.title }}</h4></div>
-			<div class="w3-container image">
-				<img src="{{ book.img }}"/>
-			</div>
-		</a>
-		<!-- <table class="w3-table w3-striped w3-bordered" style="width: 90%; margin: 0 auto">
-			<tbody>
-				<tr class="authors">
-					<th class="w3-white">Authors</th>
-					<td class="w3-white">
-						<ng-container *ngIf = "book.authors.length > 3">
-							<ul class="w3-ul w3-hoverable">
-								<li>Many</li>
-							</ul>
-						</ng-container>
-						<ng-container *ngIf = "book.authors.length <= 3">
-							<ul *ngFor = "let author of book.authors" class="w3-ul w3-hoverable">
-								<li *ngIf = "author.url != undefined && author.url != null && author.url != ''">
-									<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>
-								</li>
-								<li *ngIf = "author.url == undefined || author.url == null || author.url == ''">
-									{{ author.name }}
-								</li>
-							</ul>
-						</ng-container>
-					</td>
-				</tr>
-				<tr>
-					<th class="w3-white">Rating</th><td class="w3-white">{{ book.rating }}</td>
-				</tr>
-				<tr>
-					<th class="w3-white">Edition</th><td class="w3-white">{{ book.edition }}</td>
-				</tr>
-				<tr>
-					<th class="w3-white">Links</th>
-					<td class="w3-white">
-						<ul *ngFor = "let link of book.links" class="w3-ul w3-hoverable">
-							<li *ngIf = "link.url != undefined && link.url != null && link.url != ''">
-								<a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
-							</li>
-							<li *ngIf = "link.url == undefined || link.url == null || link.url == ''">
-								{{ link.title }}
-							</li>
-						</ul>
-					</td>
-				</tr>
-			</tbody>
-		</table> -->
-	</div>
+<div class="w3-card-4 book-card">
+	<a routerLink="/book/{{book.id}}" routerLinkActive="active">
+		<div class="w3-container title w3-blue-grey"><h4>{{ book.title }}</h4></div>
+		<div class="w3-container image">
+			<img src="{{ book.img }}"/>
+		</div>
+	</a>
+</div>
