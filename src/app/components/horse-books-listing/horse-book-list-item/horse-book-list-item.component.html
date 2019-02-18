@@ -1,8 +1,6 @@
-<div class="w3-card-4 book-card">
-	<a routerLink="/book/{{book.id}}" routerLinkActive="active">
-		<div class="w3-container title w3-blue-grey"><h4>{{ book.title }}</h4></div>
-		<div class="w3-container image">
-			<img src="{{ book.img }}"/>
-		</div>
-	</a>
-</div>
+<a routerLink="/book/{{book.id}}" routerLinkActive="active">
+	<mat-card>
+		<mat-card-title>{{ book.title }}</mat-card-title>>
+		<img mat-card-image src="{{ book.img }}"/>
+	</mat-card>
+</a>

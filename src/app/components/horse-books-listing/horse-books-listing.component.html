@@ -1,20 +1,22 @@
 <div class="search">
-	<div class="w3-card">
-		<ul class="w3-ul">
+	<div>
+		<ul>
 			<li>
 				<input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' />
 			</li>
-			<li class="w3-row-padding">
-				<div class="w3-half">
+			<li>
+				<div>
 					<input type="checkbox" name="expired" id="expired" [(ngModel)]="showExpired" /><label for="expired">Show Expired</label>
 				</div>
-				<div class="w3-half">
+				<div>
 					<input type="checkbox" name="mature" [(ngModel)]="showMature"/><label for="mature">Show Mature</label>
 				</div>
 			</li>
 		</ul>
 	</div>
 </div>
-<div class="w3-row-padding" >
-	<horse-book-list-item class="w3-third" *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [book]=book></horse-book-list-item>
-</div>
+<mat-grid-list cols="4" rowHeight="550">
+	<mat-grid-tile *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [style.background]="primary">
+		<horse-book-list-item [book]=book></horse-book-list-item>
+	</mat-grid-tile>
+</mat-grid-list>

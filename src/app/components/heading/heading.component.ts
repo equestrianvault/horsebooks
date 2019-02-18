@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatMenuModule } from '@angular/material/menu';
+
 
 @Component({
   selector: 'heading',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class Heading {
   title = 'Crystal Archives';
+  subtitle = 'FIND YOUR FAVORITE MLP FANFICS IN PRINT';
 }

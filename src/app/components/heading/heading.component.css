@@ -1,39 +1,23 @@
-#links, #mobilelinks{
-	height: 40px;
-	overflow-y: hidden;
-	text-align: middle;
-	vertical-align: middle;
+.fill-remaining-space {
+	flex: 1 1 auto;
 }
-
-#links a, #mobilelinks a{
-	height: 100%;
-	font-size: 20px;
-	padding: 0 5px;
+mat-toolbar-row{
+	margin-top: 10px;
 }
-#links a i, #mobilelinks a i{
-	font-size: 25px;
-	text-align: 5px;
-	padding-top: 5px;
+.nav-text{
+	padding-bottom: 10px;
 }
-
-#links a img, #mobilelinks a img{
-	margin: 0;
-}
-
-#github, #discord{
-	padding: 0;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
 #discord img{
-	height: 40px;
+	height: 30px;
 }
-
 #github img{
-	height: 32px;
-	text-align: middle;
-	padding-top: 5px;
+	height: 30px;
+}
+mat-toolbar-row a{
+	margin-right: 4px;
+}
+mat-toolbar-row a:last-child{
+	margin-right: 0px;
 }
 
 @media screen and (min-width: 601px){
@@ -42,7 +26,7 @@
 	}
 }
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 600px){
 	.desktop-only{
 		display: none;
 	}

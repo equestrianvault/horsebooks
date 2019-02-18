@@ -1,8 +1,8 @@
 <div>
-	<table class="w3-table-all w3-card-4">
+	<table>
 		<thead>
 			<tr>
-				<th colspan="2" class="w3-blue-grey"><h1>{{ book.title }}</h1></th>
+				<th colspan="2"><h1>{{ book.title }}</h1></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -20,19 +20,19 @@
 			<tr>
 				<th>Authors</th>
 				<td>
-					<ul *ngFor='let author of book.authors' class="w3-ul w3-hoverable"><li><a href="{{author.url}}">{{author.name}}</a></li></ul>
+					<ul *ngFor='let author of book.authors'><li><a href="{{author.url}}">{{author.name}}</a></li></ul>
 				</td>
 			</tr>
 			<tr>
 				<th>Links</th>
 				<td>
-					<ul *ngFor='let link of book.links' class="w3-ul w3-hoverable"><li><a href="{{link.url}}">{{link.title}}</a></li></ul>
+					<ul *ngFor='let link of book.links'><li><a href="{{link.url}}">{{link.title}}</a></li></ul>
 				</td>
 			</tr>
 			<tr>
 				<th>Tags</th>
 				<td>
-					<ul *ngFor='let tag of book.tags' class="w3-ul w3-hoverable"><li>{{tag}}</li></ul>
+					<ul *ngFor='let tag of book.tags'><li>{{tag}}</li></ul>
 				</td>
 			</tr>
 			<tr>
@@ -41,8 +41,8 @@
 			</tr>
 			<tr>
 				<th>Expiry</th>
-				<td *ngIf="book.expiry !== null && book.expiry !== ''" class="w3-ul w3-hoverable">{{book.expiry}}</td>
-				<td *ngIf="book.expiry === null || book.expiry === ''" class="w3-ul w3-hoverable">-</td>
+				<td *ngIf="book.expiry !== null && book.expiry !== ''">{{book.expiry}}</td>
+				<td *ngIf="book.expiry === null || book.expiry === ''">-</td>
 			</tr>
 			<tr>
 				<th>ID</th>
