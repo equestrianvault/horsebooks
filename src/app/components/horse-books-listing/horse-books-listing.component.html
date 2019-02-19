@@ -15,8 +15,10 @@
 		</ul>
 	</div>
 </div>
-<mat-grid-list cols="4" rowHeight="550">
-	<mat-grid-tile *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [style.background]="primary">
-		<horse-book-list-item [book]=book></horse-book-list-item>
-	</mat-grid-tile>
-</mat-grid-list>
+<!-- <mat-grid-list cols="4" rowHeight="550"> -->
+	<!-- <mat-grid-tile  [style.background]="primary"> -->
+<div id="list-wrapper">
+	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [book]=book></horse-book-list-item>
+</div>
+	<!-- </mat-grid-tile> -->
+<!-- </mat-grid-list> -->

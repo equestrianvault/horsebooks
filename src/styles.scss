@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import './custom-theme';
+
+.mat-primary a, .mat-primary a:hover, .mat-primary a:visited, .mat-primary a:link{
+	text-decoration: none;
+	color: white;
+}
+body{
+	margin: 0;
+}

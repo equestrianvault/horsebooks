@@ -5,7 +5,7 @@ import { SearchPipe } from '../../search.pipe';
 @Component({
   selector: 'horse-books-listing',
   templateUrl: './horse-books-listing.component.html',
-  styleUrls: ['./horse-books-listing.component.css'],
+  styleUrls: ['./horse-books-listing.component.scss'],
   providers: [HorseBooksService]
 })
 export class HorseBooksListing{

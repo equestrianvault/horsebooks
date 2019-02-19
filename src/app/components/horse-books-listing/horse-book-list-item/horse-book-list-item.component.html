@@ -1,6 +1,8 @@
 <a routerLink="/book/{{book.id}}" routerLinkActive="active">
 	<mat-card>
-		<mat-card-title>{{ book.title }}</mat-card-title>>
-		<img mat-card-image src="{{ book.img }}"/>
+		<div class="title">{{ book.title }}</div>
+		<div class="image">
+			<img mat-card-image src="{{ book.img }}"/>
+		</div>
 	</mat-card>
 </a>
