@@ -8,6 +8,8 @@ import { MatButtonModule, MatCheckboxModule, MatToolbarModule } from '@angular/m
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material';
 
 
 import { SearchPipe } from './search.pipe';
@@ -46,6 +48,8 @@ import { AppRoutingModule } from './app-routing.module';
     MatGridListModule,
     MatCardModule,
     MatListModule,
+    MatFormFieldModule,
+    MatInputModule,
     HttpClientModule,
     FormsModule,
     AppRoutingModule

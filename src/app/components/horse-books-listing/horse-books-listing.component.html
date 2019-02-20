@@ -1,20 +1,21 @@
-<div class="search">
-	<div>
-		<ul>
-			<li>
-				<input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' />
-			</li>
-			<li>
-				<div>
-					<input type="checkbox" name="expired" id="expired" [(ngModel)]="showExpired" /><label for="expired">Show Expired</label>
-				</div>
-				<div>
-					<input type="checkbox" name="mature" [(ngModel)]="showMature"/><label for="mature">Show Mature</label>
-				</div>
-			</li>
-		</ul>
-	</div>
-</div>
+<form class="search">
+	<mat-grid-list cols="2" rows="2" rowHeight="20px">
+		<mat-grid-tile rowspan=2 class="right-align">
+			<mat-form-field>
+				<input matInput type="text" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' [ngModelOptions]="{standalone: true}"/>
+			</mat-form-field>
+		</mat-grid-tile>
+		<mat-grid-tile class="left-align">
+			<mat-checkbox class="left-align" name="expired" id="expired" [(ngModel)]="showExpired" [ngModelOptions]="{standalone: true}">Show Expired</mat-checkbox>
+		</mat-grid-tile>
+		<mat-grid-tile class="left-align">
+			<mat-checkbox class="left-align" name="mature" [(ngModel)]="showMature" [ngModelOptions]="{standalone: true}">Show Mature</mat-checkbox>
+		</mat-grid-tile>
+	</mat-grid-list>
+	
+	
+	
+</form>
 <!-- <mat-grid-list cols="4" rowHeight="550"> -->
 	<!-- <mat-grid-tile  [style.background]="primary"> -->
 <div id="list-wrapper">

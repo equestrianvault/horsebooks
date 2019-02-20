@@ -1,16 +1,40 @@
 .search{
-	text-align: center;
+	background: white;
+	color: black;
 }
+
+.search input, .search label, .mat-focused input, .mat-focused label, .mat-form-field-label {
+	color: black !important;
+}
+
+.search mat-form-field{
+	display: flex;
+}
+
+.search mat-checkbox{
+	display: flex;
+}
+
 #list-wrapper{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
+form{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.left-align{
+	justify-content: left;
+}
+.right-align{
+	justify-content: right;
+}
 
 @media only screen and (max-width: 679px) {
 	horse-book-list-item{
-		// width: 100%;
 		height: inherit;
 	}
 }

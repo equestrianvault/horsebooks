@@ -6,6 +6,7 @@ body, body a, body a:hover, body a:visited, body a:link,
 footer a, footer a:hover, footer a:visited, footer a:link{
 	color: mat-color($mat-grey, A100) !important;
 }
+
 book-detail a, book-detail a:hover, book-detail a:visited, book-detail a:link,
 a, a:hover, a:visited, a:link
 {
@@ -19,4 +20,7 @@ book-detail a:hover, a:hover{
 body{
 	margin: 0;
 	background-color: mat-color($mat-grey, A700);
+}
+.mat-focused input{
+	color: mat-color($mat-grey, A100);
 }
