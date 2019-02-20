@@ -1,9 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 @import './custom-theme';
 
-.mat-primary a, .mat-primary a:hover, .mat-primary a:visited, .mat-primary a:link, body{
+.mat-primary a, .mat-primary a:hover, .mat-primary a:visited, .mat-primary a:link, 
+body, body a, body a:hover, body a:visited, body a:link,
+footer a, footer a:hover, footer a:visited, footer a:link{
+	color: mat-color($mat-grey, A100) !important;
+}
+book-detail a, book-detail a:hover, book-detail a:visited, book-detail a:link,
+a, a:hover, a:visited, a:link
+{
 	text-decoration: none;
-	color: mat-color($mat-grey, A100);
+}
+
+book-detail a:hover, a:hover{
+	text-decoration: underline;
 }
 
 body{
