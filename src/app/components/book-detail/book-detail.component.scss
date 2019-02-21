@@ -1,22 +1,25 @@
-div{
-	padding: 5px;
+#book{
+	min-width: 350px;
+	max-width: 436px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
 }
-table{
-	min-width: 300px;
-	max-width: 500px;
-	margin: 5px auto;
+
+#cover-image{
+	width: 318px;
+	margin: 0 auto;
 }
-.image-row, .image-row th, .image-row td, .image-row tr{
-	text-align: center;
-}
-tbody th {
-	vertical-align: top;
-	text-align: right;
-	width: 25%;
-}
-tbody td {
-	text-align: left;
-}
-thead th{
-	text-align: center;
+
+@media screen and (max-width: 350px){
+	#cover-image{
+		max-width: 500px !important;
+		width: 100% ;
+		margin: 0;
+		padding: 0;
+	}
 }

@@ -7,21 +7,48 @@ footer a, footer a:hover, footer a:visited, footer a:link{
 	color: mat-color($mat-grey, A100) !important;
 }
 
-book-detail a, book-detail a:hover, book-detail a:visited, book-detail a:link,
-a, a:hover, a:visited, a:link
+.mat-card a, .mat-card a:hover, .mat-card a:visited, .mat-card a:link{
+	color: mat-color($mat-grey, A700) !important;
+}
+
+a, a:visited, a:link
 {
 	text-decoration: none;
 }
 
-book-detail a:hover, a:hover{
+a:hover{
 	text-decoration: underline;
 }
 
 body{
 	min-width: 350px;
 	margin: 0;
+	padding: 0;
 	background-color: mat-color($mat-grey, A700);
 }
-.mat-focused input{
-	color: mat-color($mat-grey, A100);
+
+#book{
+	margin-top: 16px;
+}
+
+@media screen and (max-width: 468px){
+	book-detail{
+		margin: 0;
+		padding: 0;
+	}
+	#book{
+		max-width: 500px !important;
+		// width: inherit;
+		margin: 0 !important;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 350px){
+	#cover-image{
+		max-width: 500px !important;
+		width: 100%;
+		margin: 0 !important;
+		padding: 0;
+	}
+
 }
