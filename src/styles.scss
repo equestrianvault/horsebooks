@@ -18,6 +18,7 @@ book-detail a:hover, a:hover{
 }
 
 body{
+	min-width: 350px;
 	margin: 0;
 	background-color: mat-color($mat-grey, A700);
 }

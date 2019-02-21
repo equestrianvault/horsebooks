@@ -22,8 +22,17 @@
 	justify-content: center;
 }
 
+mat-checkbox{
+	width: 125px;
+}
+
+mat-grid-list{
+	width: 332px;
+	margin: 0 auto;
+}
 form{
-	padding: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 .left-align{
