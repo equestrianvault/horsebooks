@@ -1,0 +1,42 @@
+@import '../../../custom-theme';
+
+.search mat-form-field{
+	display: flex;
+}
+
+.search mat-checkbox{
+	display: flex;
+}
+
+#list-wrapper{
+	padding-top: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+mat-checkbox{
+	width: 125px;
+}
+
+mat-grid-list{
+	width: 332px;
+	margin: 0 auto;
+}
+form{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.left-align{
+	justify-content: left;
+}
+.right-align{
+	justify-content: right;
+}
+
+@media only screen and (max-width: 679px) {
+	horse-book-list-item{
+		height: inherit;
+	}
+}

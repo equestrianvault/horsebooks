@@ -1,20 +1,19 @@
-<div class="search">
-	<div class="w3-card">
-		<ul class="w3-ul">
-			<li>
-				<input type="textbox" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' />
-			</li>
-			<li class="w3-row-padding">
-				<div class="w3-half">
-					<input type="checkbox" name="expired" id="expired" [(ngModel)]="showExpired" /><label for="expired">Show Expired</label>
-				</div>
-				<div class="w3-half">
-					<input type="checkbox" name="mature" [(ngModel)]="showMature"/><label for="mature">Show Mature</label>
-				</div>
-			</li>
-		</ul>
-	</div>
-</div>
-<div class="w3-row-padding" >
-	<horse-book-list-item class="w3-third" *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [book]=book></horse-book-list-item>
+<form class="search">
+	<mat-grid-list cols="5" rows="2" rowHeight="20px">
+		<mat-grid-tile rowspan=2 colspan=3 class="right-align">
+			<mat-form-field>
+				<input matInput type="text" id="search" [(ngModel)]="searchVal" placeholder='{{ searchValPlaceholder }}' [ngModelOptions]="{standalone: true}"/>
+			</mat-form-field>
+		</mat-grid-tile>
+		<mat-grid-tile class="left-align" colspan=2>
+			<mat-checkbox class="left-align" name="expired" id="expired" [(ngModel)]="showExpired" [ngModelOptions]="{standalone: true}">Show Expired</mat-checkbox>
+		</mat-grid-tile>
+		<mat-grid-tile class="left-align" colspan=2>
+			<mat-checkbox class="left-align" name="mature" [(ngModel)]="showMature" [ngModelOptions]="{standalone: true}">Show Mature</mat-checkbox>
+		</mat-grid-tile>
+	</mat-grid-list>
+</form>
+
+<div id="list-wrapper">
+	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [book]=book></horse-book-list-item>
 </div>

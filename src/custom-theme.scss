@@ -1,0 +1,18 @@
+
+// @import '~@angular/material/prebuilt-themes/deeppurple-amber';
+// @import '~@angular/material/prebuilt-themes/indigo-pink';
+// @import '~@angular/material/prebuilt-themes/pink-bluegrey';
+// @import '~@angular/material/prebuilt-themes/purple-green';
+
+@import '~@angular/material/theming';
+
+// always include only once per project
+@include mat-core();
+
+$primary: mat-palette($mat-indigo, 500, 300, 800);
+$accent: mat-palette($mat-blue-grey, A200);
+$warn: mat-palette($mat-red, 800);
+
+$theme: mat-dark-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);

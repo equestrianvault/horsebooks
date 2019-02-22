@@ -1,0 +1,39 @@
+
+div.title{
+	display: flex;
+	justify-content: center;
+	height: 30px; 
+}
+
+mat-card{
+	vertical-align: text-top;
+	height: 400px;
+	width: 300px;
+	margin: 4px;
+	display: inline-block;
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.image{
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	text-align: middle;
+}
+.image img{
+	width: 292px;
+	max-height: 366px;
+}
+.title{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-flex;
+}
+
+
+@media only screen and (max-width: 679px) {
+	mat-card{
+		height: auto;
+	}
+}

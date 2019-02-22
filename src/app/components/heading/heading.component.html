@@ -1,12 +1,17 @@
-<header class="w3-container w3-theme w3-padding" id="myHeader">
-	<div id="links" class="w3-bar w3-theme">
-		<a class="w3-bar-item w3-button w3-left" href="#"><i class="fas fa-home"></i><span class="desktop-only">&nbsp;Home</span></a>
-		<a class="w3-bar-item w3-button w3-right" href="https://github.com/tsitra/horsebooks/issues" target="_blank"><i class="fas fa-bug"></i><span class="desktop-only">&nbsp;Report A Bug</span></a>
-		<a class="w3-bar-item w3-button w3-right" href="https://discord.gg/4Bh49Y8" target="_blank" id="discord"><img class="desktop-only" src="assets/Discord-Logo+Wordmark-White.png"/><img class="mobile-only" src="assets/Discord-Logo-White.png"/></a>
-		<a class="w3-bar-item w3-button w3-right" href="https://github.com/tsitra/horsebooks" target="_blank" id="github"><img src="assets/GitHub-Mark-Light-120px-plus.png"/><img class="desktop-only" src="assets/GitHub_Logo_White.png"/></a>
-	</div>
-  	<div class="w3-center">
-		<h1 class="w3-xxxlarge w3-animate-bottom">{{ title }}</h1>
-		<h4>FIND YOUR FAVORITE MLP FANFICS IN PRINT</h4>
-  	</div>
-</header>
+<mat-toolbar color="primary">
+	<mat-toolbar-row>
+			<a mat-list-item class="nav-text" routerLink="/">{{title}}</a>
+			<span class="fill-remaining-space"></span>
+			<a mat-list-item class="nav-text" href="https://github.com/tsitra/horsebooks/issues/new/choose" target="_blank">
+				<i class="fas fa-bug"></i><span class="desktop-only">&nbsp;Report A Bug</span>
+			</a>
+			<a mat-list-item href="https://github.com/tsitra/horsebooks" target="_blank" id="github">
+				<img class="mobile-only" src="assets/GitHub-Mark-Light-120px-plus.png"/>
+				<img class="desktop-only" src="assets/GitHub_Logo_White.png"/>
+			</a>
+			<a mat-list-item href="https://discord.gg/4Bh49Y8" target="_blank" id="discord">
+				<img class="desktop-only" src="assets/Discord-Logo+Wordmark-White.png"/>
+				<img class="mobile-only" src="assets/Discord-Logo-White.png"/>
+			</a>
+	</mat-toolbar-row>
+</mat-toolbar>
