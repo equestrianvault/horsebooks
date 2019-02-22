@@ -1,3 +1,5 @@
+@import '../../../custom-theme';
+
 #book{
 	min-width: 350px;
 	max-width: 436px;
@@ -8,11 +10,58 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 16px;
+	padding-bottom: 16px;
 }
 
 #cover-image{
 	width: 318px;
 	margin: 0 auto;
+}
+
+#booktable{
+	margin-right: auto;
+	margin-left: auto;
+	width: 318px;
+}
+#booktable th{
+	width: 40%;
+	text-align: right;
+	vertical-align: top;
+}
+#booktable td{
+	text-align: left;
+}
+
+#booktable ul{
+	list-style: none;
+    list-style-position:inside;
+    margin:0;
+    padding:0;
+}
+#booktable ul li{
+	text-indent: none;
+}
+
+mat-card-title{
+	padding: 16px;
+	background-color: mat-color($accent, 700);
+}
+
+
+#book{
+	margin-top: 16px;
+}
+
+@media screen and (max-width: 468px){
+	book-detail{
+		margin: 0;
+		padding: 0;
+	}
+	#book{
+		max-width: 500px !important;
+		margin: 0 !important;
+		padding: 0;
+	}
 }
 
 @media screen and (max-width: 350px){

@@ -1,11 +1,4 @@
-.search{
-	background: white;
-	color: black;
-}
-
-.search input, .search label, .mat-focused input, .mat-focused label, .mat-form-field-label {
-	color: black !important;
-}
+@import '../../../custom-theme';
 
 .search mat-form-field{
 	display: flex;

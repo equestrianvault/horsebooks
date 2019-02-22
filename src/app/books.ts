@@ -1070,7 +1070,7 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 38,
+		"id": 82,
 		"title": "Brony: The Unexpected Adult Fandom of \"My Little Pony, Friendship is Magic\"",
 		"edition": "1st",
 		"img": "http://bookshow.blurb.com/bookshow/cache/P6776240/md/cover_2.jpeg?access_key=ff14ccf932326520756ff32db2f8d6a2",
@@ -2373,7 +2373,7 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "foe", "reserve"
 		]
 	}
-		,{
+	,{
 		"id": 81,
 		"title": "Fallout: Equestria - Murky Number Seven",
 		"edition": "1",
