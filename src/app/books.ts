@@ -1046,30 +1046,6 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 38,
-		"title": "Mi álbum",
-		"edition": "1st",
-		"img": "https://static.lulu.com/browse/product_thumbnail.php?productId=22759210&resolution=320",
-		"rating": "E",
-		"dateAdded": "2018/12/30",
-		"expiry": null,
-		"authors":[
-			{
-				"name": "(Various)",
-				"url": ""
-			}
-		],
-		"links": [
-			{
-				"url": "https://www.lulu.com/shop/mi-%C3%A1lbum/hardcover/product-22759210.html",
-				"title": "Hardcover"
-			}
-		],
-		"tags": [
-			"on demand", "art", "hardcover"
-		]
-	}
-	,{
 		"id": 82,
 		"title": "Brony: The Unexpected Adult Fandom of \"My Little Pony, Friendship is Magic\"",
 		"edition": "1st",
