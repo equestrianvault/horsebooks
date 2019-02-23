@@ -1,8 +1,6 @@
-
 div.title{
-	display: flex;
 	justify-content: center;
-	height: 30px; 
+	height: 30px;
 }
 
 mat-card{
@@ -21,19 +19,28 @@ mat-card{
 	text-align: middle;
 }
 .image img{
+	padding-top: 10%;
 	width: 292px;
 	max-height: 366px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
 }
 .title{
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
-	display: inline-flex;
+	text-align: center;
 }
 
 
-@media only screen and (max-width: 679px) {
+@media only screen and (max-width: 696px) {
 	mat-card{
 		height: auto;
+	}
+	.image img{
+		position: inherit;
+        top: 0;
+        transform: none;
 	}
 }
