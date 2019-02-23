@@ -1,0 +1,6 @@
+# Because we use Netlify and a single page app; this fixes 404s on child pages
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
