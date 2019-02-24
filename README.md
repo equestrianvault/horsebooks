@@ -3,7 +3,7 @@
 
 ## Vision statement
 
-To provide a convenient place for people to quickly browse and locate their favorite My Little Pony fanfiction stories available in print.
+To provide a convenient place for people to quickly browse and locate their favorite My Little Pony fan-produced books.
 
 ## Contributing
 
