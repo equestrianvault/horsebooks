@@ -2401,6 +2401,38 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "foe", "reserve"
 		]
 	}
+	,{
+		"id": 83,
+		"title": "Secrets of a Royal Guard",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/v05q-1548110325-262566-medium",
+		"rating": "T",
+		"dateAdded": "2019/02/23",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Anzel",
+				"url": "https://www.fimfiction.net/user/210160/Anzel"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/262566/secrets-of-a-royal-guard",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "http://www.lulu.com/shop/anzel/secrets-of-a-royal-guard/hardcover/product-23980222.html",
+				"title": "Hardcover w/ Dust Cover"
+			},
+			{
+				"url": "https://quillnblade.com/print-run-order-form/",
+				"title": "Customizable Hard Cover Until Mar 1"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "custom"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
