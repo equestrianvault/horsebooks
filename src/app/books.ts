@@ -2401,6 +2401,34 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "foe", "reserve"
 		]
 	}
+	,{
+		"id": 83,
+		"title": "Recall the Time of No Return",
+		"edition": "1",
+		"img": "https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_fill,f_auto,h_460,w_695/v1519107626/ztkxjxjuvuz1ytutf8dy.jpg",
+		"rating": "T",
+		"dateAdded": "2019/02/23",
+		"expiry": "2018/04/20",
+		"authors":[
+			{
+				"name": "GashibokA",
+				"url": "https://www.deviantart.com/gashiboka"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.deviantart.com/gashiboka/art/Recall-the-Time-of-No-Return-page-link-library-541068613",
+				"title": "DeviantArt"
+			},
+			{
+				"url": "https://www.indiegogo.com/projects/recall-the-time-of-no-return-book",
+				"title": "Paper book (Indiegogo)"
+			}
+		],
+		"tags": [
+			"da", "comic", "paperback"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
