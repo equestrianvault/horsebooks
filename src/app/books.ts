@@ -168,7 +168,7 @@ export const BOOKS : Book[] = [
 		"id": 7,
 		"title": "The Stranger and Her Friend",
 		"edition": "?",
-		"img": "https://cdn-img.fimfiction.net/story/o50s-1432428591-20514-large",
+		"img": "https://cdn-img.fimfiction.net/story/av08-1551073366-20514-full",
 		"rating": "T",
 		"dateAdded": "2018/12/29",
 		"expiry": null,
