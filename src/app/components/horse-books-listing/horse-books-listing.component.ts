@@ -15,7 +15,7 @@ export class HorseBooksListing{
 	showExpired : Boolean = false;
 	showMature : Boolean = false;
 	
-	constructor(private bookService: HorseBooksService, private route: ActivatedRoute){
+	constructor(private bookService: HorseBooksService){
 		this.books = bookService.getBooks();
 	}
 }
