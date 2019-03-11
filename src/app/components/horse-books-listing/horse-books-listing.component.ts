@@ -14,7 +14,7 @@ export class HorseBooksListing{
 	searchValPlaceholder : string = "Search";
 	showExpired : Boolean = false;
 	showMature : Boolean = false;
-	
+
 	constructor(private bookService: HorseBooksService){
 		this.books = bookService.getBooks();
 	}
