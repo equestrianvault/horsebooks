@@ -15,6 +15,7 @@ import { MatInputModule } from '@angular/material';
 import { SearchPipe } from './search.pipe';
 import { ShowMaturePipe } from './mature.pipe';
 import { ShowExpiredPipe } from './expired.pipe';
+import { FanficOnlyPipe } from './fanfic.pipe';
 import { OrderBooksPipe } from './orderbooks.pipe';
 import { AppComponent } from './app.component';
 import { Heading } from './components/heading/heading.component';
@@ -37,6 +38,7 @@ import { AppRoutingModule } from './app-routing.module';
     SearchPipe,
     ShowExpiredPipe,
     ShowMaturePipe,
+	FanficOnlyPipe,
     OrderBooksPipe
   ],
   imports: [
@@ -58,6 +60,7 @@ import { AppRoutingModule } from './app-routing.module';
     SearchPipe,
     ShowExpiredPipe,
     ShowMaturePipe,
+	FanficOnlyPipe,
     OrderBooksPipe
   ],
   providers: [],

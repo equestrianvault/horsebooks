@@ -5,11 +5,12 @@ import { Book } from './services/books.service';
 	name: 'fanficOnly',
 	pure: false
 })
-export class ShowFanficOnly implements PipeTransform{
+export class FanficOnlyPipe implements PipeTransform{
 	transform(books : Book[], fanficOnly : Boolean) : Book[]{
-		let now = Date.now();
+		console.log(fanficOnly)
 		if(fanficOnly === true){
-			let result = books.filter(book.tags.includes("fimfic"));
+			console.log("OwO hewwo worwd")
+			let result = books.filter(book => book.tags.includes("fimfic"));
 			return result;
 		}
 		return books;
