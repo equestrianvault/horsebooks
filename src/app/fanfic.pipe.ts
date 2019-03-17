@@ -7,10 +7,8 @@ import { Book } from './services/books.service';
 })
 export class FanficOnlyPipe implements PipeTransform{
 	transform(books : Book[], fanficOnly : Boolean) : Book[]{
-		console.log(fanficOnly)
 		if(fanficOnly === true){
-			console.log("OwO hewwo worwd")
-			let result = books.filter(book => book.tags.includes("fimfic"));
+			let result = books.filter(book => false === (book.tags.includes("art") || book.tags.includes("comic") || book.tags.includes("artbook") || book.tags.includes("calendar") || book.tags.includes("coloring book")));
 			return result;
 		}
 		return books;

@@ -15,5 +15,5 @@
 </form>
 
 <div id="list-wrapper">
-	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | orderBooks)" [book]=book></horse-book-list-item>
+	<horse-book-list-item *ngFor = "let book of ( books | search : searchVal | showExpired : showExpired | showMature: showMature | fanficOnly: fanficOnly | orderBooks)" [book]=book></horse-book-list-item>
 </div>

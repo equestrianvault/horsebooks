@@ -970,7 +970,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"paperback", "on demand"
+			"paperback", "on demand", "comic"
 		]
 	}
 	,{
