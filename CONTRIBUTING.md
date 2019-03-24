@@ -6,7 +6,7 @@ This project uses the [Github flow](https://guides.github.com/introduction/flow/
 
 ## Issues / How can I contribute?
 
-Feel free to check out the list of issues [here](https://github.com/tsitra/horsebooks/issues) for items to work on. This is an open list, so feel free to contribute to it. All issues will go through a review process. Similarly, expect a review of issues and PRs when contributing before they are accepted.
+Feel free to check out the list of issues [here](https://github.com/equestrianvault/horsebooks/issues) for items to work on. This is an open list, so feel free to contribute to it. All issues will go through a review process. Similarly, expect a review of issues and PRs when contributing before they are accepted.
 
 ## Requirements
 
