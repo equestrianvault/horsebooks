@@ -8,6 +8,6 @@ import { MatMenuModule } from '@angular/material/menu';
   styleUrls: ['./heading.component.scss']
 })
 export class Heading {
-  title = 'Crystal Archives';
+  title = 'Equestrian Vault';
   subtitle = 'FIND YOUR FAVORITE MLP FANFICS IN PRINT';
 }

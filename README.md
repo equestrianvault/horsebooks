@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d3921466-cfc3-4402-8b5f-a0fc364eede0/deploy-status)](https://app.netlify.com/sites/crystal-archives/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/613057f0-3546-4b49-831a-409ddba0f2bc/deploy-status)](https://app.netlify.com/sites/equestrianvault/deploys)
 # Horsebooks
 
 ## Vision statement
@@ -7,7 +7,7 @@ To provide a convenient place for people to quickly browse and locate their favo
 
 ## Contributing
 
-If you've got an idea for the project and thinks it fits our vision but don't know how or have the time to code, feel free to check the past [issues](https://github.com/tsitra/horsebooks/issues) for anything similar, and if you don't find it, submit a new one for us to review!
+If you've got an idea for the project and thinks it fits our vision but don't know how or have the time to code, feel free to check the past [issues](https://github.com/equestrianvault/horsebooks/issues) for anything similar, and if you don't find it, submit a new one for us to review!
 
 Check out [CONTRIBUTING](CONTRIBUTING.md) if you're interested in helping maintain or add to the project on a code-basis. 
 
