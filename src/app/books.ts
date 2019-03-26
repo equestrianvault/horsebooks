@@ -2380,7 +2380,7 @@ export const BOOKS : Book[] = [
 		"img": "https://cdn-img.fimfiction.net/story/rgi2-1432445486-47300-full",
 		"rating": "M",
 		"dateAdded": "2019/02/14",
-		"expiry": null,
+		"expiry": "2019/03/24",
 		"authors":[
 			{
 				"name": "FuzzyVeeVee",
