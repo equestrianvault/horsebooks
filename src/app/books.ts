@@ -2218,6 +2218,50 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
+		"id": 76,
+		"title": "Two Sides of Melody",
+		"edition": "1st",
+		"img": "https://cdn-img.fimfiction.net/story/xql3-1432435522-31474-large",
+		"rating": "T",
+		"dateAdded": "2019/01/06",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "errant",
+				"url": "https://www.fimfiction.net/user/12443/errant"
+			},
+			{
+				"name": "Avensis Astari",
+				"url": "https://www.fimfiction.net/user/2168/Avensis+Astari"
+			},
+			{
+				"name": "Dennis the Menace",
+				"url": "https://www.fimfiction.net/user/6405/Dennis+the+Menace"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/31474/accidental-harmony",
+				"title": "Fimfiction.net (Accidental Harmony)"
+			},
+			{
+				"url": "https://www.fimfiction.net/story/2365/allegrezza",
+				"title": "Fimfiction.net (Allegrezza)"
+			},
+			{
+				"url": "https://www.fimfiction.net/story/36388/my-roommate-is-a-vampire",
+				"title": "Fimfiction.net (My Roommate is a Vampire)"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/two-sides-of-melody",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "Accidental Harmony", "Allegrezza", "My Roommate is a Vampire"
+		]
+	}
+	,{
 		"id": 77,
 		"title": "Fallout Equestria - Dead Tree",
 		"edition": "1",
