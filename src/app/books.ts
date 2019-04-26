@@ -2217,7 +2217,7 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "foe"
 		]
 	}
-	,{
+/*	,{
 		"id": 76,
 		"title": "Two Sides of Melody",
 		"edition": "1st",
@@ -2244,7 +2244,7 @@ export const BOOKS : Book[] = [
 		"tags": [
 			"fimfic", "hardcover", "anthology", "Accidental Harmony", "Allegrezza", "My Roommate is a Vampire"
 		]
-	}
+	}*/
 	,{
 		"id": 77,
 		"title": "Fallout Equestria - Dead Tree",
@@ -2425,7 +2425,7 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "custom"
 		]
 	}
-	,{
+/*	,{
 		"id": 84,
 		"title": "Equestrian Stories",
 		"edition": "1",
@@ -2452,7 +2452,7 @@ export const BOOKS : Book[] = [
 		"tags": [
 			"fimfic", "hardcover", "limited run", "anthology", "That Changeling's a Pony!", "Voyage's End", "The Star In Yellow", "First Contact is Magic", "Dash Tries to Win Your Heart", "Evil is Easy, Governing is Harder", "Raven", "The Incredibly Dense Mind of Rainbow Dash", "Best Hell Ever", "Princess Celestia Gets Mugged", "The Mare at the End of Forever", "Derplicity", "Sunny Skies All Day Long", "Whom the Princesses Would Destroy...", "The Keepers of Discord", "My Little Dashie"
 		]
-	}
+	}*/
 	,{
 		"id": 85,
 		"title": "Off The Mark",
@@ -2537,7 +2537,7 @@ export const BOOKS : Book[] = [
 			"fimfic", "hardcover", "signup"
 		]
 	}
-	,{
+/*	,{
 		"id": 88,
 		"title": "Tales of the Sun",
 		"edition": "1",
@@ -2592,7 +2592,7 @@ export const BOOKS : Book[] = [
 		"tags": [
 			"fimfic", "hardcover", "anthology", "Her Soldiers, We", "Luna, Princess of Space", "Lunangrad", "Music for the Mare in the Moon", "Que Sera, Sera", "Quiet Boy and Moon Horse", "Tenebrae", "The Nightmare Omen", "Thou Goddess"
 		]
-	}
+	}*/
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
