@@ -2179,7 +2179,7 @@ export const BOOKS : Book[] = [
 			{
 				"url": "https://forms.gle/JRbnp3q5Nnp3kmfXA",
 				"title": "Signup Form"
-			}
+			},
 			{
 				"url": "https://www.ministryofimage.net/product-page/background-pony",
 				"title": "Hardcover"
