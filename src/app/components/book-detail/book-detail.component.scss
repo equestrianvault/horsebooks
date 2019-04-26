@@ -19,9 +19,13 @@
 }
 
 #booktable{
+	padding-top: 6px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 318px;
+}
+#booktable tr{
+	height: 26px;
 }
 #booktable th{
 	width: 40%;
@@ -30,6 +34,7 @@
 }
 #booktable td{
 	text-align: left;
+	vertical-align: top;
 }
 
 #booktable ul{
