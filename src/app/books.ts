@@ -2177,12 +2177,16 @@ export const BOOKS : Book[] = [
 				"title": "Fimfiction.net"
 			},
 			{
+				"url": "https://forms.gle/JRbnp3q5Nnp3kmfXA",
+				"title": "Signup Form"
+			}
+			{
 				"url": "https://www.ministryofimage.net/product-page/background-pony",
 				"title": "Hardcover"
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover"
+			"fimfic", "hardcover", "signup"
 		]
 	}
 	,{
@@ -2479,34 +2483,6 @@ export const BOOKS : Book[] = [
 	}
 	,{
 		"id": 86,
-		"title": "Background Pony",
-		"edition": "3",
-		"img": "https://cdn-img.fimfiction.net/story/zhml-1432427782-19198-medium",
-		"rating": "T",
-		"dateAdded": "2019/04/24",
-		"expiry": null,
-		"authors":[
-			{
-				"name": "shortskirtsandexplosions",
-				"url": "https://www.fimfiction.net/user/1491/shortskirtsandexplosions"
-			}
-		],
-		"links": [
-			{
-				"url": "https://www.fimfiction.net/story/19198/Background-Pony",
-				"title": "Fimfiction.net"
-			},
-			{
-				"url": "https://forms.gle/JRbnp3q5Nnp3kmfXA",
-				"title": "Signup Form"
-			}
-		],
-		"tags": [
-			"fimfic", "hardcover", "signup"
-		]
-	}
-	,{
-		"id": 87,
 		"title": "Hard Reset",
 		"edition": "3",
 		"img": "https://cdn-img.fimfiction.net/story/gmtr-1432458620-67362-medium",
@@ -2534,7 +2510,7 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 88,
+		"id": 87,
 		"title": "Stardust",
 		"edition": "2",
 		"img": "https://cdn-img.fimfiction.net/story/ddv4-1432482453-100455-medium",
@@ -2562,7 +2538,7 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 89,
+		"id": 88,
 		"title": "Tales of the Sun",
 		"edition": "1",
 		"img": "https://static.wixstatic.com/media/45d896_4da7b378c7b049479da6e5f7cc74bacf~mv2_d_4335_2941_s_4_2.jpg/v1/fill/w_1125,h_717,al_c,q_85,usm_0.66_1.00_0.01/45d896_4da7b378c7b049479da6e5f7cc74bacf~mv2_d_4335_2941_s_4_2.webp",
@@ -2590,7 +2566,7 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 90,
+		"id": 89,
 		"title": "Tales of the Moon",
 		"edition": "1",
 		"img": "https://static.wixstatic.com/media/45d896_93527fce20e04eb9b7541454131bb344~mv2_d_4311_2941_s_4_2.jpg/v1/fill/w_1125,h_717,al_c,q_85,usm_0.66_1.00_0.01/45d896_93527fce20e04eb9b7541454131bb344~mv2_d_4311_2941_s_4_2.webp",
