@@ -2268,7 +2268,7 @@ export const BOOKS : Book[] = [
 		"img": "https://cdn-img.fimfiction.net/story/n0js-1522006881-393681-medium",
 		"rating": "M",
 		"dateAdded": "2019/01/13",
-		"expiry": "2019/03/06",
+		"expiry": null,
 		"authors":[
 			{
 				"name": "Fiaura",
@@ -2282,11 +2282,11 @@ export const BOOKS : Book[] = [
 			},
 			{
 				"url": "https://rena-miller.squarespace.com/shop/fallout-equestria-dead-tree-volume-1",
-				"title": "Hardcover (Volume 1, Preorder)"
+				"title": "Hardcover (Volume 1)"
 			}
 		],
 		"tags": [
-			"fimfic", "hardcover", "foe", "preorder"
+			"fimfic", "hardcover", "foe"
 		]
 	}
 	,{
