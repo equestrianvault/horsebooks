@@ -2561,6 +2561,38 @@ export const BOOKS : Book[] = [
 			"fimfic", "paperback"
 		]
 	}
+	,{
+		"id": 89,
+		"title": "The Life and Times of a Winning Pony",
+		"edition": "3",
+		"img": "https://cdn-img.fimfiction.net/story/e4fy-1432433497-28239-medium",
+		"rating": "T",
+		"dateAdded": "2019/05/21",
+		"expiry": "2019/05/27",
+		"authors":[
+			{
+				"name": "Chengar Qordath",
+				"url": "https://www.fimfiction.net/user/10885/Chengar+Qordath"
+			}
+		],
+		"links": [
+			{
+				"url": "Fimfiction Story Link",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/blog/854779/the-life-and-times-of-a-winning-pony-print-project-mk-iii",
+				"title": "Print Details"
+			},
+			{
+				"url": "https://www.fimfiction.net/blog/854899/print-run-mk-iii-order-form",
+				"title": "Preorder"
+			}
+		],
+		"tags": [
+			"fimfic", "preorder", "limited"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
