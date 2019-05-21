@@ -2593,6 +2593,38 @@ export const BOOKS : Book[] = [
 			"fimfic", "preorder", "limited"
 		]
 	}
+	,{
+		"id": 90,
+		"title": "The Education of Clover the Clever",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/mc14-1550009332-117214-medium",
+		"rating": "E",
+		"dateAdded": "2019/05/21",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Daedalus Aegle",
+				"url": "https://www.fimfiction.net/user/112079/Daedalus+Aegle"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/117214/the-education-of-clover-the-clever",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "http://www.lulu.com/shop/daedalus-aegle/the-education-of-clover-the-clever/hardcover/product-24093950.html",
+				"title": "Hardcover"
+			},
+			{
+				"url": "http://www.lulu.com/shop/daedalus-aegle/the-education-of-clover-the-clever-pb/paperback/product-24093939.html",
+				"title": "Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback", "hardcover"
+		]
+	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
 	,{
 		"id": ###,
