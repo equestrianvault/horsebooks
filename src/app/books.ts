@@ -2318,11 +2318,11 @@ export const BOOKS : Book[] = [
 			},
 			{
 				"url": "https://www.ministryofimage.net/product-page/fallout-equestria-project-horizons-part-3",
-				"title": "Hardcover (Volume 3, Preorder)"
+				"title": "Hardcover (Volume 3)"
 			}
 		],
 		"tags": [
-			"fimfic", "foe", "hardcover", "preorder"
+			"fimfic", "foe", "hardcover"
 		]
 	}
 		,{
