@@ -2526,42 +2526,6 @@ export const BOOKS : Book[] = [
 		]
 	}
 	,{
-		"id": 88,
-		"title": "Off The Mark",
-		"edition": "1",
-		"img": "https://cdn-img.fimfiction.net/story/ckkw-1534612975-415985-medium",
-		"rating": "T",
-		"dateAdded": "2019/05/21",
-		"expiry": null,
-		"authors":[
-			{
-				"name": "Goldfur",
-				"url": "https://www.fimfiction.net/user/84240/Goldfur"
-			}
-			,{
-				"name": "Bernard Doove",
-				"url": null
-			}
-			,{
-				"name": "Jeff Hartt",
-				"url": null
-			}
-		],
-		"links": [
-			{
-				"url": "https://www.fimfiction.net/story/415985/off-the-mark",
-				"title": "Fimfiction.net"
-			},
-			{
-				"url": "https://smile.amazon.com/dp/1797620347/",
-				"title": "Paperback"
-			}
-		],	
-		"tags": [
-			"fimfic", "paperback"
-		]
-	}
-	,{
 		"id": 89,
 		"title": "The Life and Times of a Winning Pony",
 		"edition": "3",
