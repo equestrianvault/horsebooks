@@ -796,6 +796,10 @@ export const BOOKS : Book[] = [
 			{
 				"name": "Humanity",
 				"url": "https://www.fimfiction.net/user/57410/Humanity"
+			},
+			{
+				"name": "Ashton Crimson",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1452280"
 			}
 		],
 		"links": [
@@ -2587,6 +2591,38 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "paperback", "hardcover"
+		]
+	}
+	,{
+		"id": 91,
+		"title": "Before Time Began to Flow",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/i4m9-1555787857-80921-medium",
+		"rating": "T",
+		"dateAdded": "2019/05/21",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Humanity",
+				"url": "https://www.fimfiction.net/user/57410/Humanity"
+			},
+			{
+				"name": "Ashton Crimson",
+				"url": "http://www.lulu.com/shop/search.ep?contributorId=1452280"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/80921/before-time-began-to-flow",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "http://www.lulu.com/shop/ashton-crimson/before-time-began-to-flow/paperback/product-24082567.html",
+				"title": "Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
