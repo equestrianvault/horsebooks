@@ -2597,7 +2597,7 @@ export const BOOKS : Book[] = [
 		"id": 91,
 		"title": "Before Time Began to Flow",
 		"edition": "1",
-		"img": "(if using fimfiction, use a -medium link)",
+		"img": "https://cdn-img.fimfiction.net/story/i4m9-1555787857-80921-medium",
 		"rating": "T",
 		"dateAdded": "2019/05/21",
 		"expiry": null,
