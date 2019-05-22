@@ -2318,11 +2318,11 @@ export const BOOKS : Book[] = [
 			},
 			{
 				"url": "https://www.ministryofimage.net/product-page/fallout-equestria-project-horizons-part-3",
-				"title": "Hardcover (Volume 3, Preorder)"
+				"title": "Hardcover (Volume 3)"
 			}
 		],
 		"tags": [
-			"fimfic", "foe", "hardcover", "preorder"
+			"fimfic", "foe", "hardcover"
 		]
 	}
 		,{
@@ -2523,6 +2523,70 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "hardcover", "signup"
+		]
+	}
+	,{
+		"id": 89,
+		"title": "The Life and Times of a Winning Pony",
+		"edition": "3",
+		"img": "https://cdn-img.fimfiction.net/story/e4fy-1432433497-28239-medium",
+		"rating": "T",
+		"dateAdded": "2019/05/21",
+		"expiry": "2019/05/27",
+		"authors":[
+			{
+				"name": "Chengar Qordath",
+				"url": "https://www.fimfiction.net/user/10885/Chengar+Qordath"
+			}
+		],
+		"links": [
+			{
+				"url": "Fimfiction Story Link",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.fimfiction.net/blog/854779/the-life-and-times-of-a-winning-pony-print-project-mk-iii",
+				"title": "Print Details"
+			},
+			{
+				"url": "https://www.fimfiction.net/blog/854899/print-run-mk-iii-order-form",
+				"title": "Preorder"
+			}
+		],
+		"tags": [
+			"fimfic", "preorder", "limited"
+		]
+	}
+	,{
+		"id": 90,
+		"title": "The Education of Clover the Clever",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/mc14-1550009332-117214-medium",
+		"rating": "E",
+		"dateAdded": "2019/05/21",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Daedalus Aegle",
+				"url": "https://www.fimfiction.net/user/112079/Daedalus+Aegle"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/117214/the-education-of-clover-the-clever",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "http://www.lulu.com/shop/daedalus-aegle/the-education-of-clover-the-clever/hardcover/product-24093950.html",
+				"title": "Hardcover"
+			},
+			{
+				"url": "http://www.lulu.com/shop/daedalus-aegle/the-education-of-clover-the-clever-pb/paperback/product-24093939.html",
+				"title": "Paperback"
+			}
+		],
+		"tags": [
+			"fimfic", "paperback", "hardcover"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
