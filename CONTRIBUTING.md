@@ -49,7 +49,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Check out the official websites for [Node.js](https://nodejs.org/), [NPM](https://www.npmjs.com/get-npm), [Angular](https://angular.io/), and [Angular Material](https://material.angular.io/) for more information.
 
 For questions and discussion specific to this project, check out the [Discord server](https://discord.gg/4Bh49Y8).
-
-## Financing / Donations
-
-We presently don't have a way to accept donations; there is some legal air needed to be cleared with the project owner and his place of employment before we're comfortable moving forward with that. This is volunteer basis and a passion project for now. Similarly, some of the technology decisions are based around what is available for free, even if we have plans in the future on how to run with a strategic financial investment.
