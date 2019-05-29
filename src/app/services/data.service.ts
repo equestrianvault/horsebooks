@@ -34,7 +34,7 @@ export class Story{
 	image : string = null;
 	authorIds : number[];
 	rating : string = null;
-	sourceLinkIds = number[];
+	sourceLinkIds : number[];
 }
 
 export class Author{
@@ -71,7 +71,7 @@ export class Collection{
 	title : string;
 	description : string = null;
 	imageUrl : string = null;
-	collectionEntryId = number[];
+	collectionEntryId : number[];
 }
 
 export class CollectionEntry{
