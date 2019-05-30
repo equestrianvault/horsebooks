@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { STORIES, AUTHORS, BOOKS, LINKS, PUBLICATIONS, COLLECTIONS, COLLECTION_ENTRIES } from '../../app/data';
+import { STORIES, AUTHORS, BOOKS, PUBLICATIONS } from '../../app/data';
 
 @Injectable()
 export class HorseBooksDataService {
@@ -12,19 +12,9 @@ export class HorseBooksDataService {
 	getBooks() : Book[]{
 		return BOOKS;
 	}
-	getLinks() : Link[]{
-		return LINKS;
-	}
 	getPublications() : Publication[]{
 		return PUBLICATIONS;
 	}
-	getCollections() : Collection[]{
-		return COLLECTIONS;
-	}
-	getCollectionEntries() : CollectionEntry[]{
-		return COLLECTION_ENTRIES;
-	}
-
 }
 
 export class Story{
@@ -34,7 +24,8 @@ export class Story{
 	image : string = null;
 	authorIds : number[];
 	rating : string = null;
-	sourceLinkIds : number[];
+	sourceLinks : Link[];
+	tags : string[];
 }
 
 export class Author{
@@ -52,9 +43,11 @@ export class Book{
 }
 
 export class Link{
-	id : number;
 	title : string;
 	url : string;
+}
+
+export class ExpiringLink extends Link{
 	startDate : string;
 	expiry : string = null;
 }
@@ -63,20 +56,5 @@ export class Publication{
 	id : number;
 	bookId : number;
 	edition : string;
-	purchaseLinkIds : number[];
-}
-
-export class Collection{
-	id : number;
-	title : string;
-	description : string = null;
-	imageUrl : string = null;
-	collectionEntryId : number[];
-}
-
-export class CollectionEntry{
-	id : number;
-	bookId : number;
-	collectionId : number;
-	order : number;
+	purchaseLinks : ExpiringLink[];
 }

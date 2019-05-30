@@ -2,58 +2,6 @@ import { Book } from './services/books.service';
 
 export const BOOKS : Book[] = [
 	{
-		"id": 1,
-		"title": "Twilight's List",
-		"edition": "3rd",
-		"img": "https://cdn-img.fimfiction.net/story/p0ne-1432429218-21583-medium",
-		"rating": "T",
-		"dateAdded": "2018/12/28",
-		"expiry": "2016/06/31",
-		"authors": [
-			{
-				"name" : "Kittyhawk Contrail / kits",
-				"url": "https://www.fimfiction.net/user/283/kits"
-			}
-		],
-		"links": [
-			{
-				"url": "https://www.fimfiction.net/story/21583/twilights-list",
-				"title": "Fimfiction.net"
-			},
-			{
-				"url": "https://www.deviantart.com/kittyhawk-contrail/art/Twilight-s-List-Third-Edition-PDF-for-print-601163537",
-				"title": "PDF"
-			}
-		],
-		"tags": [
-			"ongoing", "unconfirmed", "fimfic", "PDF"
-		]
-	}
-	,{
-		"id": 2,
-		"title": "Inner Glory",
-		"edition": "6th",
-		"img": "https://cdn-img.fimfiction.net/story/51kf-1432425685-15353-medium",
-		"rating": "T",
-		"dateAdded": "2018/12/28",
-		"expiry": "2018/12/28",
-		"authors":[
-			{
-				"name": "Erindor / Kirk Hamilton",
-				"url": "https://www.fimfiction.net/user/17890/Erindor"
-			}
-		],
-		"links": [
-			{
-				"url": "https://www.fimfiction.net/story/15353/inner-glory",
-				"title": "Fimfiction.net"
-			}
-		],
-		"tags": [
-			"ongoing", "unconfirmed", "fimfic", "hardcover"
-		]
-	}
-	,{
 		"id": 3,
 		"title": "I'll Always Be Here For You",
 		"edition": "?",
