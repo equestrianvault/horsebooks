@@ -2739,9 +2739,9 @@ export const BOOKS : Book[] = [
 	}
 	,{
 		"id": 96,
-		"title": "A Display of Passion",
+		"title": "Display of Passion",
 		"edition": "1",
-		"img": "https://derpicdn.net/img/2019/5/12/2037117/small.png",
+		"img": "https://derpicdn.net/img/2019/5/12/2037117/medium.png",
 		"rating": "M",
 		"dateAdded": "2019/07/11",
 		"expiry": null,
