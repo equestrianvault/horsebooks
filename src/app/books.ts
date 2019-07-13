@@ -2558,7 +2558,7 @@ export const BOOKS : Book[] = [
 			}
 		],
 		"tags": [
-			"fimfic", "preorder", "limited"
+			"fimfic", "preorder", "limited run"
 		]
 	}
 	,{
@@ -2623,6 +2623,150 @@ export const BOOKS : Book[] = [
 		],
 		"tags": [
 			"fimfic", "paperback"
+		]
+	}
+	,{
+		"id": 92,
+		"title": "Stardust",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/ddv4-1432482453-100455-medium",
+		"rating": "T",
+		"dateAdded": "2019/07/11",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Arad",
+				"url": "https://www.fimfiction.net/user/45831/Arad"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/100455/stardust",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.ministryofimage.net/product-page/stardust",
+				"title": "Hardcover"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover"
+		]
+	}
+	,{
+		"id": 93,
+		"title": "Five Score, Divided by Four",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/1x9t-1432504564-130808-medium",
+		"rating": "M",
+		"dateAdded": "2019/07/11",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "TwistedSpectrum",
+				"url": "https://www.fimfiction.net/user/102945/TwistedSpectrum"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/130808/five-score-divided-by-four---matureversion",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://forms.gle/kTcWJFnTby1UQqkBA",
+				"title": "Signup Form"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "signup"
+		]
+	}
+	,{
+		"id": 94,
+		"title": "Around the World in 81 Days (And Other Problems Caused by Leap Years)",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/guwl-1470612455-341625-medium",
+		"rating": "E",
+		"dateAdded": "2019/07/11",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "GaPJaxie",
+				"url": "https://www.fimfiction.net/user/18619/GaPJaxie"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/341625/around-the-world-in-81-days-and-other-problems-caused-by-leap-years",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://jaxies-books.square.site/product/around-the-world-in-81-days/4",
+				"title": "Preorder"
+			}
+		],
+		"tags": [
+			"preorder"
+		]
+	}
+	,{
+		"id": 95,
+		"title": "The Last Pony on Earth",
+		"edition": "1",
+		"img": "https://cdn-img.fimfiction.net/story/2yc8-1432519245-265629-medium",
+		"rating": "T",
+		"dateAdded": "2019/07/11",
+		"expiry": "11/08/19",
+		"authors":[
+			{
+				"name": "Starscribe",
+				"url": "https://www.fimfiction.net/user/173490/Starscribe"
+			}
+		],
+		"links": [
+			{
+				"url": "https://www.fimfiction.net/story/265629/the-last-pony-on-earth",
+				"title": "Fimfiction.net"
+			},
+			{
+				"url": "https://www.indiegogo.com/projects/last-pony-on-earth-hardcover-print#/",
+				"title": "Hardcover (Indiegogo)"
+			}
+		],
+		"tags": [
+			"fimfic", "hardcover", "limited run"
+		]
+	}
+	,{
+		"id": 96,
+		"title": "Display of Passion",
+		"edition": "1",
+		"img": "https://derpicdn.net/img/2019/5/12/2037117/medium.png",
+		"rating": "M",
+		"dateAdded": "2019/07/11",
+		"expiry": null,
+		"authors":[
+			{
+				"name": "Alcor",
+				"url": "https://derpibooru.org/tags/artist-colon-alcor"
+			}
+		],
+		"links": [
+			{
+				"url": "https://derpibooru.org/tags/comic-colon-display+of+passion",
+				"title": "Derpibooru.org"
+			},
+			{
+				"url": "https://www.e-junkie.com/i/yjmi?card",
+				"title": "Perfect-Bound Paperback (US/Can/Mex)"
+			},
+			{
+				"url": "https://www.e-junkie.com/i/yjmh?card",
+				"title": "Perfect-Bound Paperback (International)"
+			}
+		],
+		"tags": [
+			"paperback", "limited run", "comic"
 		]
 	}
 	/* THIS IS  A SAMPLE TO COPY FROM; DO NOT DELETE
