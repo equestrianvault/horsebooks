@@ -22,7 +22,7 @@ export class BookDetail {
     this.sub = this.route.params.subscribe(params => {
        this.id = + params['id']; // (+) converts string 'id' to a number
 
-       this.bookService.getBooks().subscribe((data: Books[]) =>{
+       this.bookService.getBooks().subscribe((data: Book[]) =>{
          this.book = data.find(book => book.id == this.id);
        });
     });
