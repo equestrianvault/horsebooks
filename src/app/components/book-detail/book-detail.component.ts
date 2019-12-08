@@ -20,9 +20,11 @@ export class BookDetail {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
-       this.id = +params['id']; // (+) converts string 'id' to a number
-       this.book = this.bookService.getBooks().find(book => book.id == this.id);
-       // In a real app: dispatch action to load the details here.
+       this.id = + params['id']; // (+) converts string 'id' to a number
+
+       this.bookService.getBooks().subscribe((data: Books[]) =>{
+         this.book = data.find(book => book.id == this.id);
+       });
     });
   }
 

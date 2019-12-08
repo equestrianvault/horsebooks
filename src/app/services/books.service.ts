@@ -1,10 +1,17 @@
 import { Injectable } from '@angular/core';
-import { BOOKS } from '../../app/books';
+import { HttpClient, HttpResponse } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
+import { catchError, retry } from 'rxjs/operators';
 
 @Injectable()
 export class HorseBooksService {
-	getBooks() : Book[]{
-		return BOOKS;
+
+	constructor(private http: HttpClient) { }
+
+	getBooks() {
+		return this
+		.http
+		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/master/data/books.json");
 	}
 }
 

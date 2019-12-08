@@ -18,6 +18,8 @@ export class HorseBooksListing implements OnInit{
 	showExpired : Boolean = false;
 	
 	ngOnInit() {
+		this.bookService.getBooks().subscribe((data: Book[]) => this.books = data);
+
 		this.route.queryParams.subscribe(params => {
 		    if(Object.prototype.hasOwnProperty.call(params, "showExpired")){
 				this.showExpired = !!params.showExpired;
@@ -27,6 +29,6 @@ export class HorseBooksListing implements OnInit{
 
 	
 	constructor(private bookService: HorseBooksService, private route: ActivatedRoute){
-		this.books = bookService.getBooks();
+		
 	}
 }
