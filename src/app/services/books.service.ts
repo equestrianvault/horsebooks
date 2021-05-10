@@ -11,7 +11,7 @@ export class HorseBooksService {
 	getBooks() {
 		return this
 		.http
-		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/master/data/books.json");
+		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/main/data/books.json");
 	}
 }
 
