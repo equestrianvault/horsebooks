@@ -6,12 +6,23 @@ import { catchError, retry } from 'rxjs/operators';
 @Injectable()
 export class HorseBooksService {
 
-	constructor(private http: HttpClient) { }
+  private branch: string;
+  
+	constructor(private http: HttpClient) { 
+    this.branch = "blob/feature-anthologies";
+  }
 
 	getBooks() {
-		return this
+		return 
+    
+    this
 		.http
-		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/blob/feature-anthologies/data/books.json");
+		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json")
+    +
+    this
+		.http
+		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
+    ;
 	}
 }
 
