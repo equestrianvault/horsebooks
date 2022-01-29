@@ -13,8 +13,8 @@ export class HorseBooksService {
   }
 
 	getBooks() {
-//     const books = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json");
-//     const anthologies = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
+    const books = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json");
+    const anthologies = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
 
 //     return merge(books, anthologies);
     return anthologies;
