@@ -9,7 +9,7 @@ export class HorseBooksService {
   private branch: string;
   
 	constructor(private http: HttpClient) { 
-    this.branch = "blob/feature-anthologies";
+    this.branch = "feature-anthologies";
   }
 
 	getBooks() {
