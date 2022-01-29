@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpResponse } from '@angular/common/http';
-import { Observable, throwError } from 'rxjs';
+import { Observable, throwError, merge } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 
 @Injectable()
@@ -14,15 +14,14 @@ export class HorseBooksService {
 
 	getBooks() {
 		return 
-    
-    this
-		.http
-		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json")
-    +
-    this
-		.http
-		.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
-    ;
+    merge(
+      this
+        .http
+        .get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
+      this
+		    .http
+		    .get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
+    );
 	}
 }
 
