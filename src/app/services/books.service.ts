@@ -7,17 +7,16 @@ import { catchError, retry } from 'rxjs/operators';
 export class HorseBooksService {
 
   private branch: string;
+  private books;
   
 	constructor(private http: HttpClient) { 
     this.branch = "feature-anthologies";
   }
 
 	getBooks() {
-    const books = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json");
-    const anthologies = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
-
-//     return merge(books, anthologies);
-    return anthologies;
+    this.books = this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json");
+    this.books = merge(this.books, this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json"));
+    return this.books;
 	}
 }
 
