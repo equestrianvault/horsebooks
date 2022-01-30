@@ -1,19 +1,23 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Observable, throwError, merge } from 'rxjs';
+import { ajax } from 'rxjs/ajax';
 import { catchError, retry } from 'rxjs/operators';
 
 @Injectable()
 export class HorseBooksService {
+  private http2: HttpClient;
+  private branch: string;
+  private books: Observable<Book[]>;
 
-	constructor(private http1: HttpClient, private http2: HttpClient, private branch: string, private books) { 
+	constructor(private http: HttpClient) { 
     this.branch = "feature-anthologies";
   }
 
 	getBooks() {
     this.books = merge(
-      this.http1.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
-      this.http2.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
+      ajax("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
+      ajax("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
     );
     return this.books;
 	}
