@@ -6,17 +6,14 @@ import { catchError, retry } from 'rxjs/operators';
 @Injectable()
 export class HorseBooksService {
 
-  private branch: string;
-  private books;
-  
-	constructor(private http: HttpClient) { 
+	constructor(private http1: HttpClient, private http2: HttpClient, private branch: string, private books) { 
     this.branch = "feature-anthologies";
   }
 
 	getBooks() {
     this.books = merge(
-      this.http.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
-      this.http.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
+      this.http1.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
+      this.http2.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
     );
     return this.books;
 	}
