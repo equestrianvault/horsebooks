@@ -8,7 +8,7 @@ import { catchError, retry } from 'rxjs/operators';
 export class HorseBooksService {
   private http2: HttpClient;
   private branch: string;
-  private books: Observable<Book[]>;
+  private books;
 
 	constructor(private http: HttpClient) { 
     this.branch = "feature-anthologies";
