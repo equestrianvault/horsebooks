@@ -15,8 +15,8 @@ export class HorseBooksService {
 
 	getBooks() {
     this.books = merge(
-      this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
-      this.http.get("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
+      this.http.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/books.json"),
+      this.http.get<Book[]>("https://raw.githubusercontent.com/equestrianvault/horsebooks-data/" + this.branch + "/data/anthologies.json")
     );
     return this.books;
 	}
