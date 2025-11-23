@@ -1,9 +1,23 @@
+"use client";
+import { AppBar, Stack, Typography } from "@mui/material";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+        <AppBar sx={{backgroundColor: "rgb(63, 81, 181)"}} >
+          <Stack direction={"row"} py={{md:3, sm: 1}} px={{md:2, sm:1}} spacing={2}>
+            <Typography fontSize={"20px"} >Equestrian Vault</Typography>
+            <Stack direction={"row"} alignContent={"flex-end"}>
+              <Image width={20} height={30} src={"file.svg"} alt={"file icon"}/>
+              <Image width={20} height={30} src={"globe.svg"} alt={"globe icon"}/>
+              <Image width={20} height={30} src={"next.svg"} alt={"next icon"}/>
+              <Image width={20} height={30} src={"vercel.svg"} alt={"vercel icon"}/>
+              <Image width={20} height={30} src={"window.svg"} alt={"window icon"}/>
+            </Stack>
+          </Stack>
+        </AppBar>
         <Image
           className="dark:invert"
           src="/next.svg"
