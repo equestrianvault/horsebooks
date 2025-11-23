@@ -1,24 +1,36 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/613057f0-3546-4b49-831a-409ddba0f2bc/deploy-status)](https://app.netlify.com/sites/equestrianvault/deploys)
-# Horsebooks
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Vision statement
+## Getting Started
 
-To provide a convenient place for people to quickly browse and locate their favorite My Little Pony fan-produced books.
+First, run the development server:
 
-## Contributing
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-If you've got an idea for the project and thinks it fits our vision but don't know how or have the time to code, feel free to check the past [issues](https://github.com/equestrianvault/horsebooks/issues) for anything similar, and if you don't find it, submit a new one for us to review!
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Check out [CONTRIBUTING](CONTRIBUTING.md) if you're interested in helping maintain or add to the project on a code-basis. 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Our Process
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-All new issues and PRs need to be reviewed before they will be accepted. This is to ensure that the changes fit the vision, aren't duplicated, and are prioritized appropriately. Open communication is key, both on Github and in [Discord](https://discord.gg/4Bh49Y8).
+## Learn More
 
-## Contact Us
+To learn more about Next.js, take a look at the following resources:
 
-Feel free to communicate on Github, or joining the [Discord server](https://discord.gg/4Bh49Y8).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Credits
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
