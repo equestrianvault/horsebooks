@@ -4,38 +4,10 @@ import { AppBar, Card, CardContent, CardHeader, CardMedia, Grid, List, ListItem,
 import Image from "next/image";
 import { useEffect, useState } from 'react';
 import useSWR from 'swr';
+import type { IAuthor, IBook } from '@/model/book';
 
 const BOOK_DATA_URL = "/.netlify/functions/books";
-const fetcher = (...args) => fetch(...args).then(res => res.json());
-
-interface IBook{
-  id : number;
-	title : string;
-	edition : string;
-	img : string;
-	dateAdded? : string;
-	authors : Array<IAuthor>;
-	links : Array<IBookLink>;
-	tags? : Array<string>;
-	rating? : string;
-	expiry? : string;
-}
-
-interface IBookLink{
-	title : string;
-	url : string;
-}
-
-interface IAuthor{
-	name : string;
-	url? : string;
-}
-
-interface FetchResponseProps {
-  onReturned?: Response,
-  onRejected?: any
-}
-
+const fetcher = (arg: any, ...args: any[] ) => fetch(arg, ...args).then(res => res.json());
 
 export default function Home() {
   const { data, error, isLoading } = useSWR(BOOK_DATA_URL, fetcher);
@@ -60,10 +32,10 @@ export default function Home() {
           container 
 
           columns={{
-            xl: 8,
-            lg: 6,
-            md: 4,
-            sm: 3,
+            xl: 5,
+            lg: 4,
+            md: 3,
+            sm: 2,
             xs: 1
           }} 
 
@@ -93,7 +65,7 @@ export default function Home() {
 
           marginX="auto"
         >
-          {data.books.map((book: IBook, index) =>(
+          {data.map((book: IBook, index: any) =>(
             <Grid key={index} size={1} height={1}>
               <Card sx={{height: "100%", width: "100%", overflow: "clip"}}>
                 <CardHeader disableTypography={false} title={book.title} slotProps={{title: {
@@ -112,9 +84,9 @@ export default function Home() {
                 </CardContent>
                 <CardMedia>
                   <Image 
-                    src={"window.svg"}
-                    width={1}
-                    height={1}
+                    src={book.img}
+                    width={512}
+                    height={515}
                     style={{
                       width: "100%",
                       height: "auto"
