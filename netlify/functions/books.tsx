@@ -1,11 +1,13 @@
-const handler = async (request, context) => {
+import type { Context, HandlerEvent } from "@netlify/functions";
+
+const handler = async (request: HandlerEvent, context: Context) => {
   const queryStringParameters = request.queryStringParameters;
   const DEFAULT_PAGE_NUM = 1;
   const DEFAULT_PAGE_SIZE = 20;
   const MAX_PAGE_SIZE = 100;
   
-  let actualPageNum = queryStringParameters.pageNum || DEFAULT_PAGE_NUM;
-  let actualPageSize = queryStringParameters.pageSize || DEFAULT_PAGE_SIZE;
+  let actualPageNum = Number(queryStringParameters?.pageNum) || DEFAULT_PAGE_NUM;
+  let actualPageSize = Number(queryStringParameters?.pageSize) || DEFAULT_PAGE_SIZE;
   if (actualPageSize > MAX_PAGE_SIZE) return ({
     statusCode: 400,
     body: JSON.stringify({message: "Maximum page size is " + MAX_PAGE_SIZE})
