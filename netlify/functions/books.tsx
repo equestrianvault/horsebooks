@@ -1,40 +1,51 @@
-import type { Context, HandlerEvent } from "@netlify/functions";
+import type { Context } from "@netlify/functions";
+import { neon } from '@netlify/neon';
 
-const handler = async (request: HandlerEvent, context: Context) => {
-  const queryStringParameters = request.queryStringParameters;
+const handler = async (request: Request, context: Context) => {
+  
+  const queryStringParameters = new URL(request.url).searchParams;
   const DEFAULT_PAGE_NUM = 1;
   const DEFAULT_PAGE_SIZE = 20;
+  const MIN_PAGE_SIZE = 1;
   const MAX_PAGE_SIZE = 100;
+  console.debug("RequestUrl:", request.url);
+  console.debug("QueryStringParameters", queryStringParameters);
   
-  let actualPageNum = Number(queryStringParameters?.pageNum) || DEFAULT_PAGE_NUM;
-  let actualPageSize = Number(queryStringParameters?.pageSize) || DEFAULT_PAGE_SIZE;
-  if (actualPageSize > MAX_PAGE_SIZE) return ({
-    statusCode: 400,
-    body: JSON.stringify({message: "Maximum page size is " + MAX_PAGE_SIZE})
-  });
-  
-  let beginningNum = (actualPageNum - 1) * actualPageSize;
-  if(beginningNum > books.length){
-    return ({
-      statusCode: 400,
-      body: JSON.stringify({message: "Pagination out of range"}),
-    });
+  try{
+    const sql = neon(); // automatically uses env NETLIFY_DATABASE_URL
+    // const posts = await sql`SELECT * FROM posts`;
+    const dbresult = await sql`SELECT *
+FROM pg_catalog.pg_tables
+WHERE schemaname != 'pg_catalog' AND
+    schemaname != 'information_schema';`;
+    console.log(dbresult);
+    // console.log(posts);
+  }catch(error){
+    console.log(error);
   }
-  let endNum = (actualPageNum) * actualPageSize - 1;
-  if (endNum >= books.length) endNum = books.length - 1;
 
+  let requestPageSize = Number(queryStringParameters.get("pageSize"));
+  console.log("Page Size String:", queryStringParameters.get("pageSize"));
+  console.log("Page Size:", requestPageSize);
+  if(queryStringParameters.get("pageSize") === null || requestPageSize === undefined || requestPageSize === null || Number.isNaN(requestPageSize)) requestPageSize = DEFAULT_PAGE_SIZE;
+
+  if (requestPageSize < MIN_PAGE_SIZE) return (new Response(JSON.stringify({message: "Minimum page size is " + MIN_PAGE_SIZE}), {status:400, headers: [["Content-Type", "application/json"],]}));
+  if (requestPageSize > MAX_PAGE_SIZE) return (new Response(JSON.stringify({message: "Maximum page size is " + MAX_PAGE_SIZE}), {status:400, headers: [["Content-Type", "application/json"],]}));
+  
+  let requestPageNum = Number(queryStringParameters.get("pageNum"));
+  if(queryStringParameters.get("pageNum") === null || requestPageNum === undefined || requestPageNum === null || Number.isNaN(requestPageNum)) requestPageNum = DEFAULT_PAGE_NUM;
+  let beginningNum = (requestPageNum - 1) * requestPageSize;
+  if (beginningNum > books.length || beginningNum < 0) return (new Response(JSON.stringify({message: "Pagination out of range"}), {status:400, headers: [["Content-Type", "application/json"],]}));
+  
+  let endNum = (requestPageNum) * requestPageSize;
+  if (endNum >= books.length) endNum = books.length;
   const subset = books.slice(
     beginningNum,
     endNum
   );
-  console.debug("Request: ", request);
-  console.debug("Context: ", context);
-  console.debug("Total Book Count: ", books.length);
-  console.debug("Quantity books returned: ", subset.length);
-  return ({
-    statusCode: 200, 
-    body: JSON.stringify(subset, null, 2),
-  });
+
+  let response : Response = new Response(JSON.stringify(subset, null, 2), {status:200, headers: [["Content-Type", "application/json"],]} );
+  return (response);
 
 };
 
@@ -4146,5 +4157,4 @@ const books = [
   }
 ];
 
-export { handler };
 export default handler;

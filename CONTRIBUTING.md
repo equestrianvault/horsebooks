@@ -12,13 +12,10 @@ Feel free to check out the list of issues [here](https://github.com/equestrianva
 
 * [Node](https://nodejs.org/en/)
 * [NPM](https://www.npmjs.com/)
-* [Angular-cli](https://cli.angular.io/)
 * [Git](https://git-scm.com/downloads) - obviously you'll need some client to download the source code
 * [Github Account](https://github.com/) - only needed to contribute
 
 ## Running
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
