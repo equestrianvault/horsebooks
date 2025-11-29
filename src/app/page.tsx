@@ -44,8 +44,8 @@ export default function Home() {
         <Stack direction={"column"}>
           <Menu pageChange={changePage} currentPage={currentPage} maxPage={data.maxPage}/>
           <Books books={data.books}/>
-      </Stack>
-      <Footer/>
+        </Stack>
+        <Footer/>
       </main>
     </div>
   );

@@ -33,7 +33,6 @@ export default function Books({books} : {books: Array<IBook>} ) {
         xs: 1
         }}
         marginX="auto"
-        boxShadow={5}
         >
         {books.map((book: IBook, index: any) =>(
           <Grid key={index} size={1} minHeight={1}>

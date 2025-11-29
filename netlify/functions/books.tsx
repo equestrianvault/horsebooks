@@ -13,6 +13,9 @@ const handler = async (request: Request, context: Context) => {
   console.debug("RequestUrl:", request.url);
   console.debug("QueryStringParameters", queryStringParameters);
   
+  let allowMature = false;
+  let actualBooks = books;
+ 
   try{
     const sql = neon(); // automatically uses env NETLIFY_DATABASE_URL
     // const posts = await sql`SELECT * FROM posts`;
@@ -26,6 +29,16 @@ WHERE schemaname != 'pg_catalog' AND
     console.log(error);
   }
 
+  allowMature = queryStringParameters.get("mature")?.toLowerCase() === "true";
+  
+  console.log("AllowMature:", allowMature)
+  
+  if(!allowMature){
+    actualBooks = books.filter((book, index) => {
+      return book.rating?.toLowerCase() !=  "m";
+    });
+  }
+  
   let requestPageSize = Number(queryStringParameters.get("pageSize"));
   if(queryStringParameters.get("pageSize") === null || requestPageSize === undefined || requestPageSize === null || Number.isNaN(requestPageSize)) requestPageSize = DEFAULT_PAGE_SIZE;
 
@@ -35,16 +48,16 @@ WHERE schemaname != 'pg_catalog' AND
   let requestPageNum = Number(queryStringParameters.get("pageNum"));
   if(queryStringParameters.get("pageNum") === null || requestPageNum === undefined || requestPageNum === null || Number.isNaN(requestPageNum)) requestPageNum = DEFAULT_PAGE_NUM;
   let beginningNum = (requestPageNum - 1) * requestPageSize;
-  if (beginningNum > books.length || beginningNum < 0) return (new Response(JSON.stringify({message: "Pagination out of range"}), {status:400, headers: [["Content-Type", "application/json"],]}));
+  if (beginningNum > actualBooks.length || beginningNum < 0) return (new Response(JSON.stringify({message: "Pagination out of range"}), {status:400, headers: [["Content-Type", "application/json"],]}));
   
   let endNum = (requestPageNum) * requestPageSize;
-  if (endNum >= books.length) endNum = books.length;
-  const subset = books.slice(
+  if (endNum >= actualBooks.length) endNum = actualBooks.length;
+  const subset = actualBooks.slice(
     beginningNum,
     endNum
   );
 
-  let lastPage = Math.ceil(books.length / requestPageSize);
+  let lastPage = Math.ceil(actualBooks.length / requestPageSize);
 
   let responseBody : PaginatedBooksResponse = {
     books: subset,
