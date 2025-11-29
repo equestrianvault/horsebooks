@@ -1,33 +1,61 @@
 "use client";
 
-import { AppBar, Card, CardContent, CardHeader, CardMedia, Grid, List, ListItem, Stack, Typography } from "@mui/material";
+import { AppBar, Card, CardContent, CardHeader, CardMedia, Grid, List, ListItem, Pagination, Stack, Typography } from "@mui/material";
 import Image from "next/image";
-import { useEffect, useState } from 'react';
-import useSWR from 'swr';
+import { useState } from 'react';
 import type { IAuthor, IBook } from '@/model/book';
-
+import axios from "axios";
+let defaultPage = 1;
 const BOOK_DATA_URL = "/.netlify/functions/books";
-const fetcher = (arg: any, ...args: any[] ) => fetch(arg, ...args).then(res => res.json());
 
 export default function Home() {
-  const { data, error, isLoading } = useSWR(BOOK_DATA_URL, fetcher);
-  if (error) return <Typography>{error}</Typography>
+  const [currentPage, setCurrrentPage] = useState(defaultPage);
+  const [data, setData] = useState({books:[], currentPage: defaultPage, maxPage: defaultPage, pageSize:1});
+  const [isLoading, setLoading] = useState(false);
+  const [freshLoad, setFreshLoad] = useState(true);
+
+  const fetchData = async (pageNumber : Number) => {
+    setLoading(true);
+    try{
+      const response = await axios.get(`${BOOK_DATA_URL}?pageNum=${pageNumber}`);
+      setCurrrentPage(response.data.currentPage);
+      setData(response.data);
+    } catch( thrownError ) {
+      console.log(thrownError)
+    } finally{
+      setLoading(false);
+    }
+  }
+
+  function changePage(event: React.ChangeEvent<unknown>, pageNumber: Number) : void {
+    console.debug(event);
+    fetchData(pageNumber);
+  };
+
+  if(freshLoad){
+    setFreshLoad(false);
+    fetchData(1);
+  }
+
   if (isLoading) return <Typography>Loading...</Typography>;  
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex min-h-screen w-full max-w-12xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <AppBar sx={{backgroundColor: "rgb(63, 81, 181)"}} >
-          <Stack direction={"row"} py={{md:3, sm: 1}} px={{md:2, sm:1}} spacing={2}>
-            <Typography fontSize={"20px"} >Equestrian Vault</Typography>
-            <Stack direction={"row"} alignContent={"flex-end"}>
-              <Image width={20} height={30} src={"file.svg"} alt={"file icon"}/>
-              <Image width={20} height={30} src={"globe.svg"} alt={"globe icon"}/>
-              <Image width={20} height={30} src={"next.svg"} alt={"next icon"}/>
-              <Image width={20} height={30} src={"vercel.svg"} alt={"vercel icon"}/>
-              <Image width={20} height={30} src={"window.svg"} alt={"window icon"}/>
+          <Stack direction={"column"}>
+            <Stack direction={"row"} py={{md:3, sm: 1}} px={{md:2, sm:1}} spacing={2}>
+              <Typography fontSize={"20px"} >Equestrian Vault</Typography>
+              <Stack direction={"row"} alignContent={"flex-end"}>
+                <Image width={20} height={30} src={"file.svg"} alt={"file icon"}/>
+                <Image width={20} height={30} src={"globe.svg"} alt={"globe icon"}/>
+                <Image width={20} height={30} src={"next.svg"} alt={"next icon"}/>
+                <Image width={20} height={30} src={"vercel.svg"} alt={"vercel icon"}/>
+                <Image width={20} height={30} src={"window.svg"} alt={"window icon"}/>
+              </Stack>
             </Stack>
+            <Pagination onChange={changePage} page={currentPage} count={data.maxPage} color="primary" variant="outlined" sx={{mx: "auto"}}/>
           </Stack>
-        </AppBar>        
+        </AppBar>
         <Grid 
           container 
 
@@ -65,7 +93,7 @@ export default function Home() {
 
           marginX="auto"
         >
-          {data.map((book: IBook, index: any) =>(
+          {data.books.map((book: IBook, index: any) =>(
             <Grid key={index} size={1} height={1}>
               <Card sx={{height: "100%", width: "100%", overflow: "clip"}}>
                 <CardHeader disableTypography={false} title={book.title} slotProps={{title: {

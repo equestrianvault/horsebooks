@@ -1,3 +1,5 @@
+import type { IBook } from "@/model/book";
+import type { PaginatedBooksResponse } from "@/model/paginatedBooksResponse";
 import type { Context } from "@netlify/functions";
 import { neon } from '@netlify/neon';
 
@@ -25,8 +27,6 @@ WHERE schemaname != 'pg_catalog' AND
   }
 
   let requestPageSize = Number(queryStringParameters.get("pageSize"));
-  console.log("Page Size String:", queryStringParameters.get("pageSize"));
-  console.log("Page Size:", requestPageSize);
   if(queryStringParameters.get("pageSize") === null || requestPageSize === undefined || requestPageSize === null || Number.isNaN(requestPageSize)) requestPageSize = DEFAULT_PAGE_SIZE;
 
   if (requestPageSize < MIN_PAGE_SIZE) return (new Response(JSON.stringify({message: "Minimum page size is " + MIN_PAGE_SIZE}), {status:400, headers: [["Content-Type", "application/json"],]}));
@@ -44,12 +44,23 @@ WHERE schemaname != 'pg_catalog' AND
     endNum
   );
 
-  let response : Response = new Response(JSON.stringify(subset, null, 2), {status:200, headers: [["Content-Type", "application/json"],]} );
+  let lastPage = Math.ceil(books.length / requestPageSize);
+
+  let responseBody : PaginatedBooksResponse = {
+    books: subset,
+    currentPage: requestPageNum,
+    maxPage: lastPage,
+    pageSize: requestPageSize
+  };
+
+  responseBody.books = subset;
+
+  let response : Response = new Response(JSON.stringify(responseBody, null, 2), {status:200, headers: [["Content-Type", "application/json"],]} );
   return (response);
 
 };
 
-const books = [
+const books : Array<IBook> = [
   {
     "id": 1,
     "title": "Twilight's List",
