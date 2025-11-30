@@ -1,5 +1,6 @@
-import { Grid, Typography, Card, CardContent, CardHeader, CardMedia, Container } from "@mui/material"
-import type { IBook } from '@/model/book';
+"use client";
+import { Grid, Typography, Card, CardContent, CardHeader, CardMedia, Container, CardActions, Button, Stack, List, ListItem, Link, Accordion, AccordionSummary, AccordionDetails } from "@mui/material"
+import type { IAuthor, IBook, IBookLink } from '@/model/book';
 import type { PaginatedBooksResponse } from "@/model/paginatedBooksResponse";
 
 export default function Books({books} : {books: Array<IBook>} ) {
@@ -15,47 +16,48 @@ export default function Books({books} : {books: Array<IBook>} ) {
         <Grid 
           container 
           columns={{
-            // xl: 5,
+            xl: 5,
             lg: 4,
             md: 3,
-            sm: 2,
-            xs: 1
+            sm: 2
           }} 
           spacing={2} 
-          height={410}
+          height={{sm:"100%"}}
           width={{
             xl: 1436, 
             lg: 1100, 
             md: 800, 
-            sm: 500,
-            xs: 1
+            sm: 500
           }}
           marginX="auto"
         >
         {books.map((book: IBook, index: any) =>(
-          <Grid key={index} size={1} minHeight={1}>
-            <Card sx={{height: "100%", width: "100%", overflow: "clip"}}>
+          <Grid key={index} size={1} >
+            <Card sx={{height: "100%", width: "100%", overflow: "clip", p: 4}}>
+              <CardMedia component="img" src={book.img} alt={book.title} sx={{marginX: "auto", width: "auto", maxHeight: "150px"}}/>
               <CardHeader disableTypography={false} title={book.title} slotProps={{
                 title: {
                   fontWeight: "bold",
-                  fontStyle: "italic",
                   fontSize: 14,
                   textAlign: "center",
                   textOverflow: "ellipsis",
-                  whiteSpace: "nowrap",
                   marginX: "auto",
+                  width: "auto",
+                  padding: 0,
+                  
                 }}}
+                sx={{
+                  p: 0,
+                  textDecoration: "underline"
+                }}
               />
-              <CardMedia>
-                <img 
-                  src={book.img}
-                  style={{
-                    maxWidth: "80%",
-                    maxHeight: "100%",
-                    margin: "auto",
-                  }}
-                  alt={book.title} />
-              </CardMedia>
+              <List>
+              {book.links.map((link: IBookLink, index: number) => (
+                <ListItem>
+                  <Link sx={{width: "100%" }} target="_blank" href={link.url}>{link.title}</Link>
+                </ListItem>
+              ))}
+              </List>
             </Card>
           </Grid>
         ))}

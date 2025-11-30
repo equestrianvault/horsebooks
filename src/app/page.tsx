@@ -1,11 +1,12 @@
 "use client";
 
-import { Container, Stack } from "@mui/material";
+import { CssBaseline, Divider, Stack } from "@mui/material";
 import { useState } from 'react';
 import Footer from "./footer";
 import Books from "./books";
 import axios from "axios";
 import { Menu } from "./menu";
+import AppTheme from "./appTheme";
 
 export default function Home() {
   let defaultPage = 1;
@@ -39,21 +40,14 @@ export default function Home() {
   }
 
   return (
-    // <div className="flex min-h-screen items-center justify-center font-sans transparent">
-    //   <main className="flex min-h-screen w-full max-w-12xl flex-col items-center justify-between py-32 px-16 sm:items-start transparent">
-      <Container>
-        <Stack direction={"column"}>
-          <Stack>
-            <Menu pageChange={changePage} currentPage={currentPage} maxPage={data.maxPage}/>
-          </Stack>
-          <Stack>
-            <Books books={data.books}/>
-
-          </Stack>
-          <Footer/>
-        </Stack>
-      </Container>
-      // </main>
-    // </div>
+    <AppTheme disableCustomTheme={true}>
+      <CssBaseline />
+      <Stack flexGrow={1} flexDirection={"column"} sx={{pt: 6}}>
+        <Menu pageChange={changePage} currentPage={currentPage} maxPage={data.maxPage}/>
+        <Books books={data.books}/>
+        <Divider/>
+        <Footer/>
+      </Stack>
+    </AppTheme>
   );
 }
