@@ -1,6 +1,6 @@
 "use client";
 
-import { Stack } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 import { useState } from 'react';
 import Footer from "./footer";
 import Books from "./books";
@@ -39,14 +39,21 @@ export default function Home() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans transparent">
-      <main className="flex min-h-screen w-full max-w-12xl flex-col items-center justify-between py-32 px-16 sm:items-start transparent">
+    // <div className="flex min-h-screen items-center justify-center font-sans transparent">
+    //   <main className="flex min-h-screen w-full max-w-12xl flex-col items-center justify-between py-32 px-16 sm:items-start transparent">
+      <Container>
         <Stack direction={"column"}>
-          <Menu pageChange={changePage} currentPage={currentPage} maxPage={data.maxPage}/>
-          <Books books={data.books}/>
+          <Stack>
+            <Menu pageChange={changePage} currentPage={currentPage} maxPage={data.maxPage}/>
+          </Stack>
+          <Stack>
+            <Books books={data.books}/>
+
+          </Stack>
+          <Footer/>
         </Stack>
-        <Footer/>
-      </main>
-    </div>
+      </Container>
+      // </main>
+    // </div>
   );
 }
