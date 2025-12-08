@@ -8,6 +8,12 @@ import axios from "axios";
 import { Menu } from "./menu";
 import AppTheme from "./appTheme";
 
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://www.equestrianvault.com/' // Use relative path in production
+  : 'http://localhost:8888/';
+
+axios.defaults.baseURL = API_BASE_URL;
+
 export default function Home() {
   let defaultPage = 1;
   const BOOK_DATA_URL = "/.netlify/functions/books";
@@ -18,16 +24,19 @@ export default function Home() {
 
   const fetchData = async (pageNumber : Number) => {
     setLoading(true);
-    try{
-      const response = await axios.get(`${BOOK_DATA_URL}?pageNum=${pageNumber}`);
+    const response = await axios.get(`${BOOK_DATA_URL}`, {
+      params: {
+        pageNum: pageNumber
+      }
+    }).then((response) => {
       setCurrrentPage(response.data.currentPage);
       setData(response.data);
-    } catch( thrownError ) {
+    }).catch((thrownError) => {
       console.log(thrownError)
-    } finally{
+    }).finally(() => {
       setLoading(false);
-    }
-  }
+    });
+  };
 
   function changePage(event: React.ChangeEvent<unknown>, pageNumber: Number) : void {
     console.debug(event);

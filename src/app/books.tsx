@@ -53,7 +53,7 @@ export default function Books({books} : {books: Array<IBook>} ) {
               />
               <List>
               {book.links.map((link: IBookLink, index: number) => (
-                <ListItem>
+                <ListItem key={index}>
                   <Link sx={{width: "100%" }} target="_blank" href={link.url}>{link.title}</Link>
                 </ListItem>
               ))}
