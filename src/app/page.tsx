@@ -40,7 +40,7 @@ export default function Home() {
   }
 
   return (
-    <AppTheme disableCustomTheme={true}>
+    <AppTheme>
       <CssBaseline />
       <Stack flexGrow={1} flexDirection={"column"} sx={{pt: 6}}>
         <Menu pageChange={changePage} currentPage={currentPage} maxPage={data.maxPage}/>
