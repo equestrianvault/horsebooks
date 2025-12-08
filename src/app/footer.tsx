@@ -1,4 +1,4 @@
-import { Box, Container, Divider, Paper, Typography } from "@mui/material";
+import { Box, Container, Divider, Link, Paper, Typography } from "@mui/material";
 
 export default function Footer(){
   return(
@@ -15,6 +15,9 @@ export default function Footer(){
       <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1, textAlign: "center" }}>
         Hello
       </Typography>
+      <Link href="https://www.netlify.com">
+        <img height="50px" width="114px" src="https://www.netlify.com/assets/badges/netlify-badge-dark.svg" alt="Deploys by Netlify" />
+      </Link>
     </Container>        
   )
 }

@@ -2,6 +2,7 @@
   "name": "horsebooks",
   "version": "0.1.0",
   "private": true,
+  "description": "test",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,8 +20,8 @@
     "@netlify/functions": "^5.1.0",
     "@netlify/neon": "^0.1.0",
     "axios": "^1.13.2",
-    "drizzle-orm": "^0.44.7",
-    "next": "16.0.3",
+    "drizzle-orm": "^0.45.0",
+    "next": "^16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -30,10 +31,13 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
-    "drizzle-kit": "^0.31.7",
-    "eslint": "^9",
+    "drizzle-kit": "^0.31.8",
+    "esbuild": "^0.27.1",
+    "eslint": "^9.39.1",
     "eslint-config-next": "16.0.3",
+    "netlify-cli": "^23.12.3",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
