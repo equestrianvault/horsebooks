@@ -16,7 +16,7 @@ export default function Footer(){
         Hello
       </Typography>
       <Link href="https://www.netlify.com">
-        <img height="50px" width="114px" src="https://www.netlify.com/assets/badges/netlify-badge-dark.svg" alt="Deploys by Netlify" />
+        <img height="50px" width="114px" src="https://www.netlify.com/assets/badges/netlify-badge-light.svg" alt="Deploys by Netlify" />
       </Link>
     </Container>        
   )
